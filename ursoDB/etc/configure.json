@@ -2,7 +2,7 @@
   "test_client_ip": "192.168.N.N",
   "RP": {
     "host": "localhost",
-    "port": 4000,
+    "port": 3000,
     "name": "rp"
   },
   "DNs": [
@@ -13,19 +13,19 @@
         {
           "id": 0,
           "host": "localhost",
-          "port": 3000,
+          "port": 3100,
           "name": "N0s0"
         },
         {
           "id": 1,
           "host": "localhost",
-          "port": 3010,
+          "port": 3101,
           "name": "N0s1"
         },
         {
           "id": 2,
           "host": "localhost",
-          "port": 3020,
+          "port": 3102,
           "name": "N0s2"
         }
       ]
@@ -37,19 +37,19 @@
         {
           "id": 0,
           "host": "localhost",
-          "port": 3100,
+          "port": 3200,
           "name": "N1s0"
         },
         {
           "id": 1,
           "host": "localhost",
-          "port": 3110,
+          "port": 3201,
           "name": "N1s1"
         },
         {
           "id": 2,
           "host": "localhost",
-          "port": 3120,
+          "port": 3202,
           "name": "N1s2"
         }
       ]
@@ -61,19 +61,19 @@
         {
           "id": 0,
           "host": "localhost",
-          "port": 3200,
+          "port": 3300,
           "name": "N2s0"
         },
         {
           "id": 1,
           "host": "localhost",
-          "port": 3210,
+          "port": 3301,
           "name": "N2s1"
         },
         {
           "id": 2,
           "host": "localhost",
-          "port": 3220,
+          "port": 3302,
           "name": "N2s2"
         }
       ]
