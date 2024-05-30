@@ -1,0 +1,132 @@
+I - The DB system  architecture
+
+  1 - A reverse proxy server (RP), the ursoDB public entry point
+
+
+  2 - A group of logical data nodes (DN),that receives data according to
+      a established data sharding protocol, which are physically made of a
+      pre-defined number of servers.
+      Each DN has a master, elected using an election algorithm.
+      On the start of a specific DN, an election must be executed after which the master tells
+      RP its identity.
+      The election must be logged in trace mode, and all phases of election
+      must be added to the log in order to see and understand the election process.
+
+  3 - The system architecture is defined by file configure.json, residing in
+      subdirectory ursoDB/etc and is shared by all http servers.
+
+II - Requirements
+
+1 - nodejs ecosystem with :
+  a) express
+  b) winston module to provide logging to the system
+      i- errors are normalized according to fs, module standard
+     ii- error codes must have a normalized code reflecting in its name the system
+         that it belongs to
+  c) axios module to execute http requests between servers excluding, of course, the
+  requests that are handled to the current master of a specific DN, sent via RP
+  pass-through functions provided by the RP code.
+
+2 - the system start/stop/restart must be done via ursoDB command
+
+3 - RP must be kept alive via forever
+
+4 - The routes 
+    a) common to ALL servers are:
+
+      Route             Method  Rest Description
+      /status   get             pub  to return the system status
+                                     (connect to each one of the DN masters
+                                     and ask for the DN Status and then
+                                     presents all the sentities status: the
+                                     start time and the living time)
+      /stats    get             pub  return the stats associated to the service:
+                                     no each one of the CRUD operations from
+                                     the current start of the DB service.
+      /admin            -       -    the admin root route
+      /admin/loglevel   get     prv  used to change the server dbglevel
+      /db               -       -    the DB root route
+      /db/c             post    pub  to Create a DB pair key:value
+      /db/r             get     pub  to Read and return DB value associated to a key
+      /db/u             post    pub  to Update a DB pair key:value; just send
+                                     members of the object to be updated; new
+                                     members can be added, as members can be
+                                     deleted ( "member_name": "--delete--"
+                                     or "member_name": "\-\-delete\-\-"
+                                     if need to update or create to the
+                                     value "--delete--" )
+      /db/d             get     pub  to Delete  a DB pair key:value identified
+                                     by the key
+      /stop             get     RPt  To stop the node
+
+    b) RP specific
+
+      Route             Method  Rest Description
+      /set_master       get     DNp  to be used by the elected master of a DN
+
+
+    c) DN specific
+
+      Route             Method  Rest Description
+      /election         get     DNp  to exchange needed information to
+                                     establish the master of the DN
+      /maintenance      get     DNp  to exchange data to do all needed actions
+                                     needed to make all data correctly 
+                                     synchronized in each one of the DN servers.
+      /any-other-needed ???     DNp  to perform any specific action that were
+                                     not logically associated to the 2 previous
+                                     pre-defined routes
+
+      LEGEND:
+             Rest - restriction of ORIGIN in the route
+             RPo - (RPonly) - accept requests only from RP
+             RPt - (RPtest) - accept requests only from RP.
+                              BUT during presentation can receive request from
+                              another host defined in configure.json in the 
+                              member test_client_ip
+             prv - private route to be used only if origin is the same server 
+                   as the server that controls the route
+             DNp - private route to be used only by any member of a DN
+
+        NOTES: 
+             1 - the routes db/[crud] are public in case of the RP, but for each 
+                 server in a DN they are in fact RPt type,  
+             2 - some restrictions can be redefined if needed to overcome any
+                 detected ambiguity or imprecision .
+
+5 - the normalized response for all servers
+All response is an object with the following architecture:
+
+ a) object has two mandatory members: "data" and "error".
+ b) Object in an error situation ("data" member is 0 (zero) ):
+
+      {
+        "data": 0,
+        "error": {
+          "code": "eRPMD023W",
+          "errno": 10,
+          "message": "the IP origin of the anouncing master has not the same IP"
+        }
+      }
+
+ c) Object in an success situation ( "error" member is 0 (zero) ):
+      {
+        "data": {
+          "DB_key": "bc9947a5071805493e7253c2af5d88c8",
+          "DN_id": 0,
+          "tuple": {
+            "key": "mail@what.ever.com",
+            "value": {
+              "a": 123,
+              "b": "text"
+            }
+          }
+        },
+        "error": 0
+      }
+
+6 - FS structure
+    . see file tree.txt (FS of a ursoDB in a particular time)
+
+7 - The configuration file is configure.json
+    . see ursoDB/etc/configure.json, a possible configuration file

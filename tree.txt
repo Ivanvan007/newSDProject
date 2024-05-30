@@ -1,0 +1,95 @@
+.
+├── bin
+│   └── ursoDB
+├── DB-data
+│   ├── dn00
+│   │   ├── s00
+│   │   │   ├── 35174695d5eb9a9d2329b386aa2a4451
+│   │   │   ├── 4216abe1323ea01261c1e2a815488219
+│   │   │   ├── b1c07406c43e54f9e7d6cf1a5de74af6
+│   │   │   └── e8b9dd6db90ec0dc1ba8c8f98f771b73
+│   │   ├── s01
+│   │   │   ├── 35174695d5eb9a9d2329b386aa2a4451
+│   │   │   ├── 4216abe1323ea01261c1e2a815488219
+│   │   │   ├── b1c07406c43e54f9e7d6cf1a5de74af6
+│   │   │   └── e8b9dd6db90ec0dc1ba8c8f98f771b73
+│   │   ├── s02
+│   │   │   ├── 35174695d5eb9a9d2329b386aa2a4451
+│   │   │   ├── 4216abe1323ea01261c1e2a815488219
+│   │   │   ├── b1c07406c43e54f9e7d6cf1a5de74af6
+│   │   │   └── e8b9dd6db90ec0dc1ba8c8f98f771b73
+│   │   └── s03
+│   │       ├── 35174695d5eb9a9d2329b386aa2a4451
+│   │       ├── 4216abe1323ea01261c1e2a815488219
+│   │       ├── b1c07406c43e54f9e7d6cf1a5de74af6
+│   │       └── e8b9dd6db90ec0dc1ba8c8f98f771b73
+│   ├── dn01
+│   │   ├── s00
+│   │   │   ├── 485681b2a57eafac4bedcf382eaf659a
+│   │   │   ├── a9c3ab62fc4e5024c64ad814d91be40c
+│   │   │   └── d9226ea94b364941a54805806ba871e7
+│   │   ├── s01
+│   │   │   ├── 485681b2a57eafac4bedcf382eaf659a
+│   │   │   ├── a9c3ab62fc4e5024c64ad814d91be40c
+│   │   │   └── d9226ea94b364941a54805806ba871e7
+│   │   ├── s02
+│   │   │   ├── 485681b2a57eafac4bedcf382eaf659a
+│   │   │   ├── a9c3ab62fc4e5024c64ad814d91be40c
+│   │   │   └── d9226ea94b364941a54805806ba871e7
+│   │   └── s03
+│   │       ├── 485681b2a57eafac4bedcf382eaf659a
+│   │       ├── a9c3ab62fc4e5024c64ad814d91be40c
+│   │       └── d9226ea94b364941a54805806ba871e7
+│   ├── dn02
+│   │   ├── s00
+│   │   │   ├── 6f8d0644be66e2e1b5a735eaf9683cc4
+│   │   │   ├── 76f2c0ab18aee5971935b12ecec4daa5
+│   │   │   ├── 8f1e634b2e8a38740eda2e0913ccaca8
+│   │   │   └── da60abd8dc343507de7df0176646f8d8
+│   │   ├── s01
+│   │   │   ├── 6f8d0644be66e2e1b5a735eaf9683cc4
+│   │   │   ├── 76f2c0ab18aee5971935b12ecec4daa5
+│   │   │   ├── 8f1e634b2e8a38740eda2e0913ccaca8
+│   │   │   └── da60abd8dc343507de7df0176646f8d8
+│   │   ├── s02
+│   │   │   ├── 6f8d0644be66e2e1b5a735eaf9683cc4
+│   │   │   ├── 76f2c0ab18aee5971935b12ecec4daa5
+│   │   │   ├── 8f1e634b2e8a38740eda2e0913ccaca8
+│   │   │   └── da60abd8dc343507de7df0176646f8d8
+│   │   └── s03
+│   │       ├── 6f8d0644be66e2e1b5a735eaf9683cc4
+│   │       ├── 76f2c0ab18aee5971935b12ecec4daa5
+│   │       ├── 8f1e634b2e8a38740eda2e0913ccaca8
+│   │       └── da60abd8dc343507de7df0176646f8d8
+│   └── dn03
+│       ├── s00
+│       │   ├── 5ae4306308abf4dfa101f21480ac86ef
+│       │   ├── 7457623d2f3dcb68c9667d2c56c375a9
+│       │   ├── 8a966ad40c9f15fe9775bb24fb49fbb1
+│       │   └── 8da9984d0b2f547384a4c6ec1be55eb3
+│       ├── s01
+│       │   ├── 5ae4306308abf4dfa101f21480ac86ef
+│       │   ├── 7457623d2f3dcb68c9667d2c56c375a9
+│       │   ├── 8a966ad40c9f15fe9775bb24fb49fbb1
+│       │   └── 8da9984d0b2f547384a4c6ec1be55eb3
+│       ├── s02
+│       │   ├── 5ae4306308abf4dfa101f21480ac86ef
+│       │   ├── 7457623d2f3dcb68c9667d2c56c375a9
+│       │   ├── 8a966ad40c9f15fe9775bb24fb49fbb1
+│       │   └── 8da9984d0b2f547384a4c6ec1be55eb3
+│       └── s03
+│           ├── 5ae4306308abf4dfa101f21480ac86ef
+│           ├── 7457623d2f3dcb68c9667d2c56c375a9
+│           ├── 8a966ad40c9f15fe9775bb24fb49fbb1
+│           └── 8da9984d0b2f547384a4c6ec1be55eb3
+├── etc
+│   └── configure.json
+├── log
+└── src
+    ├── DNs
+    ├── node_modules
+    │   ├── logger
+    │   └── utils
+    └── RP
+
+31 directories, 62 files
