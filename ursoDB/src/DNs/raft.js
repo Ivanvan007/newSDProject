@@ -18,7 +18,7 @@ class Raft {
     return this.leader;
   }
 
-  startElection() {
+  async startElection() {
     this.state = 'candidate';
     this.votesReceived = 1;
     const dn = this.DNs.find(dn => dn.servers.some(server => server.port === this.port));

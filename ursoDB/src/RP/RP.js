@@ -10,7 +10,7 @@ const servers = config.DNs.flatMap(dn => dn.servers.map(server => ({
   usage: 0
 })));
 
-function re_direct(req, resp, next) {
+async function re_direct(req, resp, next) {
   const id = req.query.id;
   const server = servers.find(s => s.id === id);
 
