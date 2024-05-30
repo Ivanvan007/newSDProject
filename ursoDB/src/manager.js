@@ -1,13 +1,17 @@
 "use strict";
 
 const { exec } = require('child_process');
+const path = require('path');
 const config = require('./../etc/configure.json');
+const foreverPath = path.join(__dirname, './node_modules/utils/node_modules/.bin/forever');
 
 const servers = config.DNs.flatMap(dn => dn.servers.map(server => `http://${server.host}:${server.port}`));
 
 function startServers() {
   servers.forEach(server => {
-    exec(`forever start src/DNs/server.js ${server}`, (err, stdout, stderr) => {
+    exec(`${foreverPath} start ./DNs/server.js ${server}`,
+    { env: { PATH: `${process.env.PATH}:${path.join(__dirname, './node_modules/utils/node_modules/.bin')}` } },
+    (err, stdout, stderr) => {
       if (err) {
         console.error(`Error starting server ${server}: ${stderr}`);
       } else {
@@ -19,7 +23,9 @@ function startServers() {
 
 function stopServers() {
   servers.forEach(server => {
-    exec(`forever stop src/DNs/server.js ${server}`, (err, stdout, stderr) => {
+    exec(`${foreverPath} stop ./DNs/server.js ${server}`,
+    { env: { PATH: `${process.env.PATH}:${path.join(__dirname, './node_modules/utils/node_modules/.bin')}` } },
+    (err, stdout, stderr) => {
       if (err) {
         console.error(`Error stopping server ${server}: ${stderr}`);
       } else {
@@ -43,5 +49,5 @@ if (action === 'start') {
 } else if (action === 'restart') {
   restartServers();
 } else {
-  console.log('Usage: ursoDB <start|stop|restart>');
+  console.log('Usage: manager.js <start|stop|restart>');
 }

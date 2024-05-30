@@ -5,11 +5,11 @@ const path = require('path');
 const Raft = require('./raft');
 const config = require('../../etc/configure.json');
 
-const port = parseInt(process.argv[2].split(':')[2], 10);
+let port = parseInt(process.argv[2].split(':')[2], 10);
 
-const raft = new Raft(port, config.DNs);
-const dnName = `dn${Math.floor(port / 1000) - 3}`;
-const dataDir = path.join(__dirname, '../../DB-data', dnName, `s${port % 100}`);
+let raft = new Raft(port, config.DNs);
+let dnName = `dn${Math.floor(port / 1000) - 3}`;
+let dataDir = path.join(__dirname, '../../DB-data', dnName, `s${port % 100}`);
 
 const routes = [
   {

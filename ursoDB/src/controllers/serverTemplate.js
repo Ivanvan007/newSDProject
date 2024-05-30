@@ -2,8 +2,8 @@ const express = require('express');
 const createLogger = require('../node_modules/logger/logger');
 
 function createServer(port, routes) {
-  const app = express();
-  const logger = createLogger(port);
+  let app = express();
+  let logger = createLogger(port);
 
   app.use(express.json());
 
