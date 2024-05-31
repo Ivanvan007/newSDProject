@@ -7,6 +7,7 @@ const config = require('../../etc/configure.json');
 const Raft = require('./raft');
 //const loggerTemp = require('../node_modules/logger/logger');
 const loggerTemp = require('../node_modules/logger/logger');
+const { error } = require('console');
 
 class Server {
   constructor(port) {
@@ -17,6 +18,7 @@ class Server {
     this.dnName = `dn${Math.floor(port / 1000) - 3}`;
     this.dataDir = path.join(__dirname, '../../DB-data/', this.dnName, `/s${port % 100}`);
     this.setupRoutes();
+    this.initiateElection();
   }
 
   setupRoutes() {
@@ -28,7 +30,16 @@ class Server {
     this.app.get('/election', this.electionHandler.bind(this));
     this.app.post('/db/c', this.createHandler.bind(this));
     this.app.post('/db/u', this.updateHandler.bind(this));
+    this.app.get('/stop', this.stopHandler.bind(this));
+    this.app.get('/maintenance', this.maintenanceHandler.bind(this));
   }
+
+  /*
+   (req, res) => {
+      res.json({ data: { message: 'Stopping RP' }, error: 0 });
+      process.exit(0);
+    });
+  */
 
   statusHandler(req, res) {
     res.send({
@@ -77,6 +88,7 @@ class Server {
     if (fs.existsSync(filePath)) {
       fs.unlinkSync(filePath);
       res.send({ success: true });
+      this.logger.info(`Data ${hash} on Server on port ${this.port} delete successfully`);
     } else {
       res.status(404).send({ error: 'Key not found' });
     }
@@ -85,36 +97,53 @@ class Server {
   electionHandler(req, res) {
     this.raft.startElection();
     res.send({ status: 'Election started' });
+    this.logger.info(`Data on Server on port ${this.port} vote for election`);
   }
 
   createHandler(req, res) {
     /*if (!this.raft.isLeader()) {
       return res.status(403).send({ error: 'Not the leader' });
+      this.logger.error(`Data on Server on port ${this.port} cannot be created ${this.error}: 'Not the leader'}`);
     }*/
     const key = req.body.key;
     const value = req.body.value;
     const hash = crypto.createHash('md5').update(key).digest('hex');
     fs.writeFileSync(path.join(this.dataDir, hash), JSON.stringify({ key, value }));
     res.send({ success: true });
+    this.logger.info(`Data ${hash} on Server on port ${this.port} created`);
   }
 
   updateHandler(req, res) {
     if (!this.raft.isLeader()) {
       return res.status(403).send({ error: 'Not the leader' });
+      //this.logger.error(`Data on Server on port ${this.port} cannot be created ${this.error}: 'Not the leader'`);
     }
     const key = req.body.key;
     const value = req.body.value;
-    const filename = generateMD5Hash(key) +".json";
-    const filePath = path.join(this.dataDir, filename);
+    const hash = generateMD5Hash(key) +".json";
+    const filePath = path.join(this.dataDir, hash);
     if (fs.existsSync(filePath)) {
       const data = JSON.parse(fs.readFileSync(filePath));
       Object.assign(data.value, value);
       fs.writeFileSync(filePath, JSON.stringify(data));
       res.send({ success: true });
+      this.logger.info(`Data ${hash} on Server on port ${this.port} updated`);
     } else {
       res.status(404).send({ error: 'Key not found' });
+      this.logger.error(`Data ${hash} on Server on port ${this.port} cannot be updated ${this.error}`);
     }
   }
+
+  stopHandler(req, res){
+    this.logger.info(`Server on port ${this.port} stopped`);
+    process.exit(0);
+  };
+
+  maintenanceHandler(req, res){
+    res.json({ data: { message: 'Maintenance not implemented yet' }, error: 0 });
+    this.logger.info(`Server on port ${this.port} did maintenance`);
+  };
+
 
   start() {
     this.app.listen(this.port, () => {
@@ -126,6 +155,15 @@ class Server {
 function generateMD5Hash(input) {
   return crypto.createHash('md5').update(input).digest('hex');
 }
+
+async function initiateElection(){
+  try {
+    const rpConfig = config.RP;
+    await axios.get(`http://${rpConfig.host}:${rpConfig.port}/set_master`);
+  } catch (error) {
+    logger.error(error.message);
+  }
+};
 
 const port = parseInt(process.argv[2].split(':')[2], 10);
 const server = new Server(port);

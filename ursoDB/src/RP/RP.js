@@ -1,14 +1,15 @@
 "use strict";
 //const serverTemplate = require('../controllers/serverTemplate');
-const loggerTemp = require('../node_modules/logger/logger');
 //const Raft = require('./raft');
+//const proxy = require('express-http-proxy');
+//const loggerTemp = require('../node_modules/logger/logger');
+const loggerTemp = require('../node_modules/logger/logger');
 const crypto = require('crypto');
 const fs = require('fs');
 const express = require('express');
-//const proxy = require('express-http-proxy');
 const path = require('path');
 const config = require('../../etc/configure.json');
-//const loggerTemp = require('../node_modules/logger/logger');
+
 
 /*const servers = config.DNs.flatMap(dn => dn.servers.map(server => ({
   id: `${dn.name}_${server.id}`,
@@ -36,6 +37,10 @@ class ReverseProxy {
     //this.app.get('/election', this.electionHandler.bind(this));
     this.app.post('/db/c', this.createHandler.bind(this));
     this.app.post('/db/u', this.updateHandler.bind(this));
+    this.app.get('/stop', this.stopHandler.bind(this));
+
+    //RP SPECIFIC
+    this.app.get('/set_master', this.set_masterHandler.bind(this));
   }
 
   statusHandler(req, res) {
@@ -129,6 +134,16 @@ class ReverseProxy {
       res.status(404).send({ error: 'Key not found' });
     }
   }
+
+  stopHandler (req, res){
+    this.logger.info(`Server on port ${this.port} stopped`);
+    process.exit(0);
+  };
+
+  set_masterHandler(req, res){
+    res.json({ data: { message: 'set_master not implemented yet' }, error: 0 });
+    this.logger.info(`Proxy on port ${this.port} set master as porto do novo master`);
+  };
 
   start() {
     this.app.listen(this.port, () => {
