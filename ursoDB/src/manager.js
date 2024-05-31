@@ -61,7 +61,7 @@ async function startServers() {
 }
 
 async function stopRP() {
-  const command = `${foreverPath} stop ${rpScriptPathNoContext}`;
+  const command = `${foreverPath} stop ${rpScriptPathNoContext} ${reverseProxy}`;
   console.log(`Executing: ${command}`);
   exec(command, { env: { PATH: `${process.env.PATH};${path.join(__dirname, '../node_modules/utils/node_modules/.bin')}` } }, (err, stdout, stderr) => {
     if (err) {
@@ -75,7 +75,7 @@ async function stopRP() {
 
 async function stopServers() {
   servers.forEach(server => {
-    const command = `pkill -f "node ${serverScriptPath} ${server}"`;
+    const command = `tasklist /FI "IMAGENAME eq node.exe" /FO LIST | findstr /I "${serverScriptPath}" | for /F "tokens=2 delims=: " %i in ('findstr /I "PID"') do taskkill /F /PID %i`;
     console.log(`Executing: ${command}`);
     exec(command, { env: { PATH: `${process.env.PATH};${path.join(__dirname, '../node_modules/utils/node_modules/.bin')}` } }, (err, stdout, stderr) => {
       if (err) {
@@ -97,7 +97,8 @@ const action = process.argv[2];
 if (action === 'start') {
   startRP();
 } else if (action === 'stop') {
-  stopRP();
+  stopServers()
+  //stopRP();
 } else if (action === 'restart') {
   restartServers();
 } else {

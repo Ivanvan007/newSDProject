@@ -88,9 +88,9 @@ class Server {
   }
 
   createHandler(req, res) {
-    if (!this.raft.isLeader()) {
+    /*if (!this.raft.isLeader()) {
       return res.status(403).send({ error: 'Not the leader' });
-    }
+    }*/
     const key = req.body.key;
     const value = req.body.value;
     const hash = crypto.createHash('md5').update(key).digest('hex');
@@ -104,8 +104,8 @@ class Server {
     }
     const key = req.body.key;
     const value = req.body.value;
-    const hash = crypto.createHash('md5').update(key).digest('hex');
-    const filePath = path.join(this.dataDir, hash);
+    const filename = generateMD5Hash(key) +".json";
+    const filePath = path.join(this.dataDir, filename);
     if (fs.existsSync(filePath)) {
       const data = JSON.parse(fs.readFileSync(filePath));
       Object.assign(data.value, value);
@@ -121,6 +121,10 @@ class Server {
       this.logger.info(`Server started on port ${this.port}`);
     });
   }
+}
+
+function generateMD5Hash(input) {
+  return crypto.createHash('md5').update(input).digest('hex');
 }
 
 const port = parseInt(process.argv[2].split(':')[2], 10);
