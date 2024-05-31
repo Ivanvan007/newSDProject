@@ -1,4 +1,4 @@
-const { createServer } = require('../controllers/serverTemplate');
+const serverTemplate = require('../controllers/serverTemplate');
 const proxy = require('express-http-proxy');
 const config = require('../../etc/configure.json');
 
@@ -49,4 +49,4 @@ const routes = [
   }
 ];
 
-createServer(config.RP.port, routes);
+serverTemplate.createServer(config.RP.port, routes);
