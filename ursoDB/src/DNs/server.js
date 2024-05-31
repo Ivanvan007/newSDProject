@@ -102,4 +102,4 @@ const routes = [
   }
 ];
 
-console.log("Is this exec? ",serverTemplate.createServer(port, routes));
+serverTemplate.createServer(port, routes);
