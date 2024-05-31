@@ -67,8 +67,8 @@ class Server {
   }
 
   readHandler(req, res) {
-    const key = req.query.key;
-    const hash = crypto.createHash('md5').update(key).digest('hex');
+    let key = req.query.key;
+    let hash = crypto.createHash('md5').update(key).digest('hex') +".json";
     const filePath = path.join(this.dataDir, hash);
     if (fs.existsSync(filePath)) {
       const data = JSON.parse(fs.readFileSync(filePath));
@@ -82,9 +82,9 @@ class Server {
     if (!this.raft.isLeader()) {
       return res.status(403).send({ error: 'Not the leader' });
     }
-    const key = req.query.key;
-    const hash = crypto.createHash('md5').update(key).digest('hex');
-    const filePath = path.join(this.dataDir, hash);
+    let key = req.query.key;
+    let hash = crypto.createHash('md5').update(key).digest('hex') + ".json";
+    let filePath = path.join(this.dataDir, hash);
     if (fs.existsSync(filePath)) {
       fs.unlinkSync(filePath);
       res.send({ success: true });
@@ -105,9 +105,9 @@ class Server {
       return res.status(403).send({ error: 'Not the leader' });
       this.logger.error(`Data on Server on port ${this.port} cannot be created ${this.error}: 'Not the leader'}`);
     }*/
-    const key = req.body.key;
-    const value = req.body.value;
-    const hash = crypto.createHash('md5').update(key).digest('hex');
+    let key = req.body.key;
+    let value = req.body.value;
+    let hash = crypto.createHash('md5').update(key).digest('hex') + ".json";
     fs.writeFileSync(path.join(this.dataDir, hash), JSON.stringify({ key, value }));
     res.send({ success: true });
     this.logger.info(`Data ${hash} on Server on port ${this.port} created`);
@@ -118,12 +118,12 @@ class Server {
       return res.status(403).send({ error: 'Not the leader' });
       //this.logger.error(`Data on Server on port ${this.port} cannot be created ${this.error}: 'Not the leader'`);
     }
-    const key = req.body.key;
-    const value = req.body.value;
-    const hash = generateMD5Hash(key) +".json";
-    const filePath = path.join(this.dataDir, hash);
+    let key = req.body.key;
+    let value = req.body.value;
+    let hash = crypto.createHash('md5').update(key).digest('hex') +".json";
+    let filePath = path.join(this.dataDir, hash);
     if (fs.existsSync(filePath)) {
-      const data = JSON.parse(fs.readFileSync(filePath));
+      let data = JSON.parse(fs.readFileSync(filePath));
       Object.assign(data.value, value);
       fs.writeFileSync(filePath, JSON.stringify(data));
       res.send({ success: true });
@@ -144,6 +144,16 @@ class Server {
     this.logger.info(`Server on port ${this.port} did maintenance`);
   };
 
+  async initiateElection(){
+    try {
+      const rpConfig = config.RP;
+      this.logger = logger;
+      await axios.get(`http://${rpConfig.host}:${rpConfig.port}/set_master`);
+    } catch (error) {
+      this.logger.error(error.message);
+    }
+  };
+
 
   start() {
     this.app.listen(this.port, () => {
@@ -155,15 +165,6 @@ class Server {
 function generateMD5Hash(input) {
   return crypto.createHash('md5').update(input).digest('hex');
 }
-
-async function initiateElection(){
-  try {
-    const rpConfig = config.RP;
-    await axios.get(`http://${rpConfig.host}:${rpConfig.port}/set_master`);
-  } catch (error) {
-    logger.error(error.message);
-  }
-};
 
 const port = parseInt(process.argv[2].split(':')[2], 10);
 const server = new Server(port);
