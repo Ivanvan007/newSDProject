@@ -1,11 +1,21 @@
+const loggerTemp = require('../node_modules/logger/logger');
+const Raft = require('./raft');
+
 const express = require('express');
-const {createLogger} = require('../node_modules/logger/logger');
+const proxy = require('express-http-proxy');
+
+const path = require('path');
+
+const crypto = require('crypto');
+const fs = require('fs');
+const config = require('../../etc/configure.json');
 
 let app = express();
 let logger;
 
 function createServer(port, routes) {
-    logger = createLogger(port)
+    logger = loggerTemp.createLogger(port)
+    loggerTemp.
     
     app.use(express.json());
     routes.forEach(route => {app[route.method](route.path, route.handler);
@@ -16,4 +26,4 @@ function createServer(port, routes) {
     return app;
 }
 
-module.exports = { createServer };
+module.exports = serverTemplate;

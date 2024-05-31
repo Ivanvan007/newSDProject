@@ -1,4 +1,4 @@
-const { createServer } = require('../controllers/serverTemplate');
+const serverTemplate = require('../controllers/serverTemplate');
 const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
@@ -9,7 +9,7 @@ let port = parseInt(process.argv[2].split(':')[2], 10);
 
 let raft = new Raft(port, config.DNs);
 let dnName = `dn${Math.floor(port / 1000) - 3}`;
-let dataDir = path.join(__dirname, '../../DB-data', dnName, `s${port % 100}`);
+let dataDir = path.join(__dirname, '../../DB-data/', dnName, `/s${port % 100}`);
 
 const routes = [
   {
@@ -102,4 +102,4 @@ const routes = [
   }
 ];
 
-createServer(port, routes);
+serverTemplate.createServer(port, routes);
