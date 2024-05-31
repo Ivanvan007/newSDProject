@@ -1,4 +1,4 @@
-const loggerTemp = require('../node_modules/logger/logger');
+/*const loggerTemp = require('../node_modules/logger/logger');
 const Raft = require('./raft');
 
 const express = require('express');
@@ -11,7 +11,7 @@ const fs = require('fs');
 const config = require('../../etc/configure.json');
 
 let app = express();
-let logger;
+let logg;
 
 function createServer(port, routes) {
     logger = loggerTemp.createLogger(port)
@@ -25,5 +25,6 @@ function createServer(port, routes) {
     });
     return app;
 }
+*/
 
 module.exports = serverTemplate;
