@@ -6,14 +6,35 @@ const config = require('./../etc/configure.json');
 
 const foreverPath = path.resolve(__dirname, './node_modules/utils/node_modules/.bin/forever');
 const rpScriptPath = path.resolve(__dirname, './RP/RP.js');
-const rpScriptPathNoContext = path.join("","/RP/RP.js")
+const rpScriptPathNoContext = path.join("","/RP/RP.js");
 const serverScriptPath = path.resolve(__dirname, './DNs/server.js');
-const serverScriptPathNoContext = path.join("","/DNs/server.js")
+const serverScriptPathNoContext = path.join("","/DNs/server.js");
 
 const servers = config.DNs.flatMap(dn => dn.servers.map(server => `http://${server.host}:${server.port}`));
+const rpserver = config.RP;
+const reverseProxy = ({
+  id: `${rpserver.name}_${rpserver.id}`,
+  host: `http://${rpserver.host}:${rpserver.port}`,
+  proxy: `http://${rpserver.host}:${rpserver.port}`,
+  usage: 0
+});
+
 
 async function startRP() {
-  const command = `${foreverPath} start --minUptime 1000 --spinSleepTime 1000 ${rpScriptPathNoContext}`;
+  /*
+  const command = `node ${rpScriptPath} ${reverseProxy}`;
+  console.log(`Executing: ${command}`);
+  console.log(`Executing: ${command}`);
+  exec(command, { env: { PATH: `${process.env.PATH};${path.join(__dirname, '../node_modules/utils/node_modules/.bin')}` } }, (err, stdout, stderr) => {
+    if (err) {
+      console.error(`Error starting reverse proxy: ${stderr}`);
+    } else {
+      console.log(`Reverse proxy started: ${stdout}`);
+      startServers();  // Start data node server after reverse proxy
+    }
+  });
+  */
+  const command = `${foreverPath} start --minUptime 1000 --spinSleepTime 1000 ${rpScriptPathNoContext} ${reverseProxy}`;
   console.log(`Executing: ${command}`);
   exec(command, { env: { PATH: `${process.env.PATH};${path.join(__dirname, '../node_modules/utils/node_modules/.bin')}` } }, (err, stdout, stderr) => {
     if (err) {
@@ -27,7 +48,7 @@ async function startRP() {
 
 async function startServers() {
   servers.forEach(server => {
-    const command = `${foreverPath} start --minUptime 1000 --spinSleepTime 1000 ${serverScriptPathNoContext} ${server}`;
+    const command = `node ${serverScriptPath} ${server}`;
     console.log(`Executing: ${command}`);
     exec(command, { env: { PATH: `${process.env.PATH};${path.join(__dirname, '../node_modules/utils/node_modules/.bin')}` } }, (err, stdout, stderr) => {
       if (err) {
@@ -54,7 +75,7 @@ async function stopRP() {
 
 async function stopServers() {
   servers.forEach(server => {
-    const command = `${foreverPath} stop ${serverScriptPathNoContext} ${server}`;
+    const command = `pkill -f "node ${serverScriptPath} ${server}"`;
     console.log(`Executing: ${command}`);
     exec(command, { env: { PATH: `${process.env.PATH};${path.join(__dirname, '../node_modules/utils/node_modules/.bin')}` } }, (err, stdout, stderr) => {
       if (err) {
@@ -82,3 +103,4 @@ if (action === 'start') {
 } else {
   console.log('Usage: manager.js <start|stop|restart>');
 }
+

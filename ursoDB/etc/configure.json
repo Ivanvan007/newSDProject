@@ -1,5 +1,5 @@
 {
-  "test_client_ip": "192.168.1.138",
+  "test_client_ip": "127.0.0.1",
   "RP": {
     "host": "localhost",
     "port": 3000,

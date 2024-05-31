@@ -1,124 +1,111 @@
-const serverTemplate = require('../controllers/serverTemplate');
-const loggerTemp = require('../node_modules/logger/logger');
-const Raft = require('./raft');
-
+"use strict";
 const express = require('express');
-const proxy = require('express-http-proxy');
-
-const path = require('path');
-
 const crypto = require('crypto');
 const fs = require('fs');
+const path = require('path');
 const config = require('../../etc/configure.json');
+const Raft = require('./raft');
+//const loggerTemp = require('../node_modules/logger/logger');
+const loggerTemp = require('../node_modules/logger/logger');
 
-let port = parseInt(process.argv[2].split(':')[2], 10);
+class Server {
+  constructor(port) {
+    this.port = port;
+    this.app = express();
+    this.logger = new loggerTemp(port);
+    this.raft = new Raft(port, config.DNs);
+    this.dnName = `dn${Math.floor(port / 1000) - 3}`;
+    this.dataDir = path.join(__dirname, '../../DB-data/', this.dnName, `/s${port % 100}`);
+    this.setupRoutes();
+  }
 
-let raft = new Raft(port, config.DNs);
-let dnName = `dn${Math.floor(port / 1000) - 3}`;
-let dataDir = path.join(__dirname, '../../DB-data/', dnName, `/s${port % 100}`);
+  setupRoutes() {
+    this.app.use(express.json());
+    this.app.get('/status', this.statusHandler.bind(this));
+    this.app.get('/stats', this.statsHandler.bind(this));
+    this.app.get('/db/r', this.readHandler.bind(this));
+    this.app.get('/db/d', this.deleteHandler.bind(this));
+    this.app.get('/election', this.electionHandler.bind(this));
+    this.app.post('/db/c', this.createHandler.bind(this));
+    this.app.post('/db/u', this.updateHandler.bind(this));
+  }
 
-let app = express();
-let logger;
-
-function setUpServer(port)
-{
-  logger = loggerTemp;
-  logger.createLogger(port);  
-  app.use(express.json());
-
-  //STATUS /status    get        pub  to return the system status(connect to each one of the DN masters
-                      //and ask for the DN Status and then
-                      //presents all the sentities status: the start time and the living time)
-  app.get('/status',(req, res)=> {
+  statusHandler(req, res) {
     res.send({
       status: 'ok',
-      master: raft.getLeader(),
-      start_time: raft.startTime.toISOString(),
-      living_time: `${Math.round((Date.now() - raft.startTime.getTime()) / 1000)}s`
+      master: this.raft.getLeader(),
+      start_time: this.raft.startTime.toISOString(),
+      living_time: `${Math.round((Date.now() - this.raft.startTime.getTime()) / 1000)}s`
     });
-  });
+  }
 
-  //STAT /stats       get         pub  return the stats associated to the service:
-                                  //no each one of the CRUD operations from the current start of the DB service.
-  app.get('/stats',(req, res)=> {
+  statsHandler(req, res) {
     const stat = servers.map(server => ({
       id: server.id,
       host: server.host,
       usage: server.usage
     }));
 
-    resp.status(200).send({
+    res.status(200).send({
       success: true,
       start_at: start_at.toISOString(),
       now: new Date().toISOString(),
       living_time_in_secs: Math.round((Date.now() - start_at.getTime()) / 1000),
       stat
     });
-  });
+  }
 
-  //GETS
-    // |  /db/r         get     pub  to Read and return DB value associated to a key
-  app.get('/db/r',(req, res)=> {
+  readHandler(req, res) {
     const key = req.query.key;
     const hash = crypto.createHash('md5').update(key).digest('hex');
-    const filePath = path.join(dataDir, hash);
-    if (fs.existsSync(filePath))
-    {
+    const filePath = path.join(this.dataDir, hash);
+    if (fs.existsSync(filePath)) {
       const data = JSON.parse(fs.readFileSync(filePath));
       res.send({ success: true, data });
-    } else 
-    {
+    } else {
       res.status(404).send({ error: 'Key not found' });
     }
-  });
-    // | /db/d          get     pub  to Delete  a DB pair key:value identified by the key
-  app.get('/db/d',(req, res)=> {
-    if (!raft.isLeader()) {
+  }
+
+  deleteHandler(req, res) {
+    if (!this.raft.isLeader()) {
       return res.status(403).send({ error: 'Not the leader' });
     }
     const key = req.query.key;
     const hash = crypto.createHash('md5').update(key).digest('hex');
-    const filePath = path.join(dataDir, hash);
+    const filePath = path.join(this.dataDir, hash);
     if (fs.existsSync(filePath)) {
       fs.unlinkSync(filePath);
       res.send({ success: true });
     } else {
       res.status(404).send({ error: 'Key not found' });
     }
-  });
+  }
 
-  //ELECTION
-    // | /election      get     DNp  to exchange needed information to establish the master of the DN
-  app.get('/election',(req, res)=> {
-    raft.startElection();
+  electionHandler(req, res) {
+    this.raft.startElection();
     res.send({ status: 'Election started' });
-  });
+  }
 
-  //POSTS
-    // | /db/c          post    pub  to Create a DB pair key:value
-  app.post('/db/c', (req, res) => {
-    if (!raft.isLeader()) {
+  createHandler(req, res) {
+    if (!this.raft.isLeader()) {
       return res.status(403).send({ error: 'Not the leader' });
     }
     const key = req.body.key;
     const value = req.body.value;
     const hash = crypto.createHash('md5').update(key).digest('hex');
-    fs.writeFileSync(path.join(dataDir, hash), JSON.stringify({ key, value }));
+    fs.writeFileSync(path.join(this.dataDir, hash), JSON.stringify({ key, value }));
     res.send({ success: true });
-  });
+  }
 
-    // | /db/u          post    pub  to Update a DB pair key:value; just send
-                        //members of the object to be updated; new members can be added,
-                        // as members can be deleted ( "member_name": "--delete--" or "member_name": "\-\-delete\-\-"
-                        // if need to update or create to the value "--delete--" )
-  app.post('/db/u', (req, res) => {
-    if (!raft.isLeader()) {
+  updateHandler(req, res) {
+    if (!this.raft.isLeader()) {
       return res.status(403).send({ error: 'Not the leader' });
     }
     const key = req.body.key;
     const value = req.body.value;
     const hash = crypto.createHash('md5').update(key).digest('hex');
-    const filePath = path.join(dataDir, hash);
+    const filePath = path.join(this.dataDir, hash);
     if (fs.existsSync(filePath)) {
       const data = JSON.parse(fs.readFileSync(filePath));
       Object.assign(data.value, value);
@@ -127,16 +114,16 @@ function setUpServer(port)
     } else {
       res.status(404).send({ error: 'Key not found' });
     }
-  });
-  
+  }
 
-
-  //SERVER START
-  app.listen(port, () => {
-      logger.info(`Server started on port ${port}`);
-  });
+  start() {
+    this.app.listen(this.port, () => {
+      this.logger.info(`Server started on port ${this.port}`);
+    });
+  }
 }
 
-//CALLING SERVER TO START
-setUpServer(port);
-//serverTemplate.createServer(port, routes);
+const port = parseInt(process.argv[2].split(':')[2], 10);
+const server = new Server(port);
+server.start();
+
