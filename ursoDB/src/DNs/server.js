@@ -102,4 +102,4 @@ const routes = [
   }
 ];
 
-console.log("Create: ", serverTemplate.createServer(port, routes));
+createServer(port, routes);
