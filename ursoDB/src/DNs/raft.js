@@ -1,4 +1,6 @@
 const axios = require('axios');
+const loggerTemp = require('../node_modules/logger/logger');
+const config = require('../../etc/configure.json');
 
 class Raft {
   constructor(port, DNs) {
@@ -6,6 +8,7 @@ class Raft {
     this.DNs = DNs;
     this.state = 'follower';
     this.votesReceived = 0;
+    this.logger = new loggerTemp(port);
     this.leader = null;
     this.startTime = new Date();
   }
@@ -31,6 +34,8 @@ class Raft {
               this.state = 'leader';
               this.leader = `http://${server.host}:${server.port}`;
               this.state = 'leader';
+              this.logger.info(`Server on port ${this.port} elected as leader`);
+              this.notifyRP();
             }
           }
         }).catch(error => {
@@ -39,6 +44,18 @@ class Raft {
       }
     });
   }
+
+  async notifyRP() {
+    try {
+      const rpConfig = new ReverseProxy(config.RP.port);
+      await axios.get(`http://${rpConfig.host}:${rpConfig.port}/set_master`);
+      this.logger.info(`RP notified of new leader on port ${this.port}`);
+    } catch (error) {
+      this.logger.error(`Error notifying RP: ${error.message}`);
+    }
+  }
 }
+
+
 
 module.exports = Raft;

@@ -10,7 +10,6 @@ const express = require('express');
 const path = require('path');
 const config = require('../../etc/configure.json');
 
-
 /*const servers = config.DNs.flatMap(dn => dn.servers.map(server => ({
   id: `${dn.name}_${server.id}`,
   host: `http://${server.host}:${server.port}`,
@@ -92,9 +91,6 @@ class ReverseProxy {
   }
 
   deleteHandler(req, res) {
-    if (!this.raft.isLeader()) {
-      return res.status(403).send({ error: 'Not the leader' });
-    }
     const key = req.query.key;
     const hash = crypto.createHash('md5').update(key).digest('hex');
     const filePath = path.join(this.dataDir, hash);
@@ -107,9 +103,6 @@ class ReverseProxy {
   }
 
   createHandler(req, res) {
-    if (!this.raft.isLeader()) {
-      return res.status(403).send({ error: 'Not the leader' });
-    }
     const key = req.body.key;
     const value = req.body.value;
     const hash = crypto.createHash('md5').update(key).digest('hex');
@@ -118,9 +111,6 @@ class ReverseProxy {
   }
 
   updateHandler(req, res) {
-    if (!this.raft.isLeader()) {
-      return res.status(403).send({ error: 'Not the leader' });
-    }
     const key = req.body.key;
     const value = req.body.value;
     const hash = crypto.createHash('md5').update(key).digest('hex');
@@ -136,13 +126,14 @@ class ReverseProxy {
   }
 
   stopHandler (req, res){
-    this.logger.info(`Server on port ${this.port} stopped`);
+    res.send({ data: { message: 'Stopping reverse proxy' }, error: 0 });
+    this.logger.info(`Reverse Proxy on port ${this.port} stopped`);
     process.exit(0);
   };
 
   set_masterHandler(req, res){
     res.json({ data: { message: 'set_master not implemented yet' }, error: 0 });
-    this.logger.info(`Proxy on port ${this.port} set master as porto do novo master`);
+    this.logger.info(`Reverse Proxy on port ${this.port} set master as porto do novo master`);
   };
 
   start() {
