@@ -8,3 +8,1692 @@
 2024-06-01T13:48:23.400Z [INFO] Server started on port 3202
 2024-06-01T15:08:38.000Z [ERROR] logger is not defined
 2024-06-01T15:08:38.012Z [INFO] Server started on port 3202
+2024-06-01T18:08:14.128Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:08:14.135Z [ERROR] Server on port 3202 didnt be able to sync from Master:getLeader() {
+    return this.leader;
+  } due to error:ReferenceError: axios is not defined
+2024-06-01T18:08:14.138Z [INFO] Server started on port 3202
+2024-06-01T18:09:22.571Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.585Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.585Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.588Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.588Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.593Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.594Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.597Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.598Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.601Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.602Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.604Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.605Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.607Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.608Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.612Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.613Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.616Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.617Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.620Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.621Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.624Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.625Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.627Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.628Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.629Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.630Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.633Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.634Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.636Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.636Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.641Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.642Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.645Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.645Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.647Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.648Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.651Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.652Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.655Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.656Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.660Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.661Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.662Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.663Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.668Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.668Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.670Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.672Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.675Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.676Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.678Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.679Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.680Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.681Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.684Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.684Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.686Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.687Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.692Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.692Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.698Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.700Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.701Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.703Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.705Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.706Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.708Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.708Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.711Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.712Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.714Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.715Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.716Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.717Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.718Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.719Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.720Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.721Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.722Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.723Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.725Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.726Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.727Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.728Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.730Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.730Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.732Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.733Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.734Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.735Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.737Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.738Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.740Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.741Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.742Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.744Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.745Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.746Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.747Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.749Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.752Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.752Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.753Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.754Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.755Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.756Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.758Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.758Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.760Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.761Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.771Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.772Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.773Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.774Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.775Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.775Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.777Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.777Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.780Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.781Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.783Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.784Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.786Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.786Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.788Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.788Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.790Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.790Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.792Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.795Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.798Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.799Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.802Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.803Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.805Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.806Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.809Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.809Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.815Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.815Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.818Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.818Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.825Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.826Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.829Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.830Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.837Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.837Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.839Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.840Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.842Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.843Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.844Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.845Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.847Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.848Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.849Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.850Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.851Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.851Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.852Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.853Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.855Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.856Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.857Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.858Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.860Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.860Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.862Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.862Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.864Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.864Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.865Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.866Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.868Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.868Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.869Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.870Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.871Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.872Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.874Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.875Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.876Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.878Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.881Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.881Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.883Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.883Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.885Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.885Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.886Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.887Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.888Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.889Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.890Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.891Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.893Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.893Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.894Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.895Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.896Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.897Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.898Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.898Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.900Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.900Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.902Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.903Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.905Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.906Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.907Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.908Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.909Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.909Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.910Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.911Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.912Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.913Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.914Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.914Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.916Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.916Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.918Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.918Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.919Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.920Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.921Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.922Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.923Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.924Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.926Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.927Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.930Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.930Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.932Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.933Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.935Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.936Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.937Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.938Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.940Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.940Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.941Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.942Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.944Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.944Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.945Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.946Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.948Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.949Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.953Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.956Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.958Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.958Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.979Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.980Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.981Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.982Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.986Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.987Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.992Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.993Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:22.996Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:22.998Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.000Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.001Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.004Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.005Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.007Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.012Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.019Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.029Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.030Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.034Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.038Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.039Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.041Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.042Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.046Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.048Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.050Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.050Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.053Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.054Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.058Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.058Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.060Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.061Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.062Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.064Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.065Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.066Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.069Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.075Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.077Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.084Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.085Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.089Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.091Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.096Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.102Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.106Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.112Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.112Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.114Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.115Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.119Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.119Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.121Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.122Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.123Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.124Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.125Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.126Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.127Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.127Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.130Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.130Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.132Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.132Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.137Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.138Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.139Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.140Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.142Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.142Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.145Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.146Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.158Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.159Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.160Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.161Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.162Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.163Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.166Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.166Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.167Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.168Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.169Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.170Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.171Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.173Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.174Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.174Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.176Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.176Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.179Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.180Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.181Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.182Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.184Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.185Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.186Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.188Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.190Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.190Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.192Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.192Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.193Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.194Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.195Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.196Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.197Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.197Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.198Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.199Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.201Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.202Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.203Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.204Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.205Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.206Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.209Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.210Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.211Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.211Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.214Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.214Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.216Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.216Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.218Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.220Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.223Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.224Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.225Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.226Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.227Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.227Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.229Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.230Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.231Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.231Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.232Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.233Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.234Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.234Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.237Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.238Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.239Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.239Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.240Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.241Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.242Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.242Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.243Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.244Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.246Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.247Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.249Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.249Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.251Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.251Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.253Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.253Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.254Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.255Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.256Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.257Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.259Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.261Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.263Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.264Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.265Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.266Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.267Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.268Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.271Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.272Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.273Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.273Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.275Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.276Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.277Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.278Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.279Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.279Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.281Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.281Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.282Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.283Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.284Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.285Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.286Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.287Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.288Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.289Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.290Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.290Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.291Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.292Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.293Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.294Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.295Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.296Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.297Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.297Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.299Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.299Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.300Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.300Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.301Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.301Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.303Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.303Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.305Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.306Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.307Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.307Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.308Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.309Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.310Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.310Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.312Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.312Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.313Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.314Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.317Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.317Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.318Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.319Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.320Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.320Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.321Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.322Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.323Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.324Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.325Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.325Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.326Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.327Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.328Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.328Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.330Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.330Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.332Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.332Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.333Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.334Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.335Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.337Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.338Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.339Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.340Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.341Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.342Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.342Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.344Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.344Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.345Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.346Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.347Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.348Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.349Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.350Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.352Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.353Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.354Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.355Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.359Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.360Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.360Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.361Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.363Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.363Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.364Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.365Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.366Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.367Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.368Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.368Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.369Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.370Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.372Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.374Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.375Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.376Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.379Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.379Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.381Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.381Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.383Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.383Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.384Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.385Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.386Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.386Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.387Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.388Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.389Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.390Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.391Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.393Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.394Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.394Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.395Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.396Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.397Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.398Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.399Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.400Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.426Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.426Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.427Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.428Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.429Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.430Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.430Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.431Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.432Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.433Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.434Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.435Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.436Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.436Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.438Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.439Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.440Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.441Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.443Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.443Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.445Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.446Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.449Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.449Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.451Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.452Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.453Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.454Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.455Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.456Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.457Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.458Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.459Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.459Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.460Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.461Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.462Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.463Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.463Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.465Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.466Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.466Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.467Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.468Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.470Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.470Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.471Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.472Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.473Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.474Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.475Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.476Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.477Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.478Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.479Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.480Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.481Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.482Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.486Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.487Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.488Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.488Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.490Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.490Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.493Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.493Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.494Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.495Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.496Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.497Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.499Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.499Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.501Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.502Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.503Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.504Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.505Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.506Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.507Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.508Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.510Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.510Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.511Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.512Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.513Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.514Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.515Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.516Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.517Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.519Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.520Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.520Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.521Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.522Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.523Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.523Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.525Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.526Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.527Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.527Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.528Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.529Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.530Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.530Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.532Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.532Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.534Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.534Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.535Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.536Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.538Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.539Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.540Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.540Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.541Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.542Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.543Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.544Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.545Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.546Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.547Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.548Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.551Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.551Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.555Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.555Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.557Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.557Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.558Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.559Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.560Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.561Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.562Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.563Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.565Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.565Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.567Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.568Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.569Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.569Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.571Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.571Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.572Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.573Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.574Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.574Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.575Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.576Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.576Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.577Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.578Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.578Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.582Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.582Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.583Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.584Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.586Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.586Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.588Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.588Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.589Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.590Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.592Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.593Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.595Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.596Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.597Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.598Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.599Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.600Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.601Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.602Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.603Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.604Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.609Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.610Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.611Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.611Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.612Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.613Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.614Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.614Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.615Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.616Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.617Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.617Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.618Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.618Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.619Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.619Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.620Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.621Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.622Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.622Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.623Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.624Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.625Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.625Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.626Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.628Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.629Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.629Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.644Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.645Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.646Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.647Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.648Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.648Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.650Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.650Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.652Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.652Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.653Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.654Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.655Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.655Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.656Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.657Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.658Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.659Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.660Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.661Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.662Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.662Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.664Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.665Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.670Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.670Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.671Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.672Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.677Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.678Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.679Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.679Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.681Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.682Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.683Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.684Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.685Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.686Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.687Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.688Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.689Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.689Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.691Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.692Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.693Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.694Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.695Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.696Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.698Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.698Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.700Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.700Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.701Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.703Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.704Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.704Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.706Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.707Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.708Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.708Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.709Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.710Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.711Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.711Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.712Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.713Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.714Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.715Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.716Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.717Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.718Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.719Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.720Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.721Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.722Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.723Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.724Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.724Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.725Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.726Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.727Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.728Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.730Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.730Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.732Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.732Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.733Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.734Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.735Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.736Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.737Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.738Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.739Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.739Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.740Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.741Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.742Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.743Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.744Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.744Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.745Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.746Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.747Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.748Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.749Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.749Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.751Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.751Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.753Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.753Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.755Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.755Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.757Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.758Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.759Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.760Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.762Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.763Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.764Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.764Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.766Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.766Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.767Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.768Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.770Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.771Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.772Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.772Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.774Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.774Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.776Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.776Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.778Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.778Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.779Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.780Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.781Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.781Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.783Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.783Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.785Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.785Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.787Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.787Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.788Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.789Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.790Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.790Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.791Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.792Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.793Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.793Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.795Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.795Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.796Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.797Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.798Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.798Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.800Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.800Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.802Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.802Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.803Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.804Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.805Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.806Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.808Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.808Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.809Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.810Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.811Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.811Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.813Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.814Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.816Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.817Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.818Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.818Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.820Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.820Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.821Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.822Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.823Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.824Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.825Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.825Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.826Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.827Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.828Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.828Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.830Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.830Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.831Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.832Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.833Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.834Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.835Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.835Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.838Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.838Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.840Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.840Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.841Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.842Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.843Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.844Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.845Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.845Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.847Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.848Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.849Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.850Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.851Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.852Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.853Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.854Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.855Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.855Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.856Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.857Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.858Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.859Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.860Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.861Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.862Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.863Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.865Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.866Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.867Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.868Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.869Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.870Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.871Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.872Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.873Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.874Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.875Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.876Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.877Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.878Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.905Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.906Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.911Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.912Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.913Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.913Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.915Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.915Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.916Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.917Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.918Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.918Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.919Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.920Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.921Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.922Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.923Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.923Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.924Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.925Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.926Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.927Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.928Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.928Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.929Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.930Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.931Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.931Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.932Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.933Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:09:23.938Z [ERROR] Server on port 3202 couldnot be elected as leader cause of ReferenceError: server is not defined
+2024-06-01T18:09:23.939Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:00.589Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:12:00.591Z [ERROR] Server on port 3202 didnt be able to sync from Master:getLeader() {
+    return this.leader;
+  } due to error:ReferenceError: axios is not defined
+2024-06-01T18:12:00.595Z [INFO] Server started on port 3202
+2024-06-01T18:12:15.459Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.466Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.470Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.483Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.487Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.490Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.493Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.497Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.501Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.505Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.509Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.512Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.514Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.516Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.518Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.521Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.525Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.527Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.529Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.530Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.533Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.535Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.538Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.541Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.547Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.551Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.553Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.555Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.557Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.559Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.561Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.562Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.564Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.566Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.570Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.571Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.573Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.574Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.577Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.580Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.584Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.586Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.590Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.592Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.600Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.602Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.603Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.605Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.606Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.608Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.610Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.611Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.613Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.615Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.617Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.618Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.620Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.622Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.623Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.625Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.627Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.628Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.629Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.631Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.632Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.634Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.638Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.640Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.641Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.642Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.656Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.658Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.659Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.661Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.662Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.664Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.665Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.668Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.670Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.677Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.679Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.680Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.681Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.683Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.684Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.688Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.691Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.694Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.696Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.697Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.699Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.701Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.705Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.706Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.709Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.711Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.714Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.716Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.718Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.720Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.722Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.724Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.726Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.728Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.730Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.732Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.734Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.736Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.738Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.739Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.741Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.743Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.744Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.745Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.747Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.749Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.751Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.754Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.755Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.756Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.758Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.759Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.760Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.762Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.763Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.765Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.766Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.772Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.783Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.785Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.787Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.788Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.791Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.793Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.794Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.795Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.797Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.799Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.801Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.803Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.804Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.805Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.807Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.808Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.810Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.811Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.812Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.814Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.816Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.818Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.819Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.820Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.821Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.822Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.823Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.824Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.825Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.826Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.827Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.829Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.830Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.831Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.832Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.836Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.838Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.839Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.840Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.842Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.843Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.845Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.847Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.859Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.860Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.873Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.875Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.876Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.878Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.879Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.881Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.882Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.884Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.885Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.886Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.887Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.888Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.889Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.890Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.892Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.893Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.895Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.896Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.898Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.899Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.901Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.902Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.904Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.906Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.911Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.912Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.914Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.915Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.917Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.919Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.920Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.922Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.924Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.926Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.927Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.929Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.930Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.931Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.933Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.934Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.936Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.937Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.938Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.939Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.941Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.942Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.944Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.945Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.946Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.948Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.949Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.951Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.953Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.955Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.956Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.958Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.959Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.961Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.962Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.963Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.964Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.967Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.968Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.970Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.971Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.972Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.978Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.990Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:15.998Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.002Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.004Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.005Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.006Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.007Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.008Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.013Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.018Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.019Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.020Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.025Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.029Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.031Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.034Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.039Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.040Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.041Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.042Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.043Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.047Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.053Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.054Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.056Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.057Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.058Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.083Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.085Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.087Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.088Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.091Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.092Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.093Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.095Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.097Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.098Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.100Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.101Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.102Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.104Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.105Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.107Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.109Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.110Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.112Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.113Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.115Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.116Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.118Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.119Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.121Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.122Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.125Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.126Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.128Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.129Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.130Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.134Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.135Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.137Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.141Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.143Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.144Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.145Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.147Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.149Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.152Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.154Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.155Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.157Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.158Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.160Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.162Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.163Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.165Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.168Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.169Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.171Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.172Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.174Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.175Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.177Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.179Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.181Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.182Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.184Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.185Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.187Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.188Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.190Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.191Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.192Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.194Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.195Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.196Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.198Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.200Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.202Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.204Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.205Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.207Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.212Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.213Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.215Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.216Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.217Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.219Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.222Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.223Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.224Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.225Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.227Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.228Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.229Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.230Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.232Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.233Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.234Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.236Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.237Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.238Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.239Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.241Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.242Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.243Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.244Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.245Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.248Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.249Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.250Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.251Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.252Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.253Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.254Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.255Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.256Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.257Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.264Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.266Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.269Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.271Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.273Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.274Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.275Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.276Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.295Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.297Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.299Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.301Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.302Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.307Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.308Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.312Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.313Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.315Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.316Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.317Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.323Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.326Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.328Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.330Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.333Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.335Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.337Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.339Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.341Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.343Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.344Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.345Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.347Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.351Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.353Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.356Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.358Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.360Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.361Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.363Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.364Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.365Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.367Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.368Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.370Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.371Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.373Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.374Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.376Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.378Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.380Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.382Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.383Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.385Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.386Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.387Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.389Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.390Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.394Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.396Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.399Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.401Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.402Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.404Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.404Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.406Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.408Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.409Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.410Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.411Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.412Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.413Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.414Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.416Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.417Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.419Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.420Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.421Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.422Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.428Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.429Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.430Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.432Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.433Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.434Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.435Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.436Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.438Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.442Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.444Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.451Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.452Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.453Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.455Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.456Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.457Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.458Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.459Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.460Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.461Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.463Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.464Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.465Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.466Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.467Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.468Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.470Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.471Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.475Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.477Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.478Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.479Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.492Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.494Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.499Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.503Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.504Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.506Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.508Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.510Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.512Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.514Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.515Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.516Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.518Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.519Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.521Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.523Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.525Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.536Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.540Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.551Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.562Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.569Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.573Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.576Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.579Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.580Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.582Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.584Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.586Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.587Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.589Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.590Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.624Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.626Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.628Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.629Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.631Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.632Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.634Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.635Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.636Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.639Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.640Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.643Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.645Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.647Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.649Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.650Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.655Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.657Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.658Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.659Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.663Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.667Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.668Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.670Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.671Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.672Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.673Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.675Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.678Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.679Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.681Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.682Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.683Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.685Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.686Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.687Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.688Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.689Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.690Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.697Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.698Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.699Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.700Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.702Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.705Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.706Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.707Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.708Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.710Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.713Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.715Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.717Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.718Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.719Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.720Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.722Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.724Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.725Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.726Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.728Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.729Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.731Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.732Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.733Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.735Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.736Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.737Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.738Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.739Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.741Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.743Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.744Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.745Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.746Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.752Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.753Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.755Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.757Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.758Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.759Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.761Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.762Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.763Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.764Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.765Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.769Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.771Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.775Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.778Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.779Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.781Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.782Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.784Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.786Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.788Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.789Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.790Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.791Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.793Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.794Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.795Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.796Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:12:16.798Z [INFO] Server on port 3202 vote for election
+2024-06-01T18:44:30.430Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:44:30.435Z [ERROR] Server on port 3202 didnt be able to sync from Master:null due to error:ReferenceError: axios is not defined
+2024-06-01T18:44:30.442Z [INFO] Server started on port 3202
+2024-06-01T18:47:19.473Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:47:19.477Z [ERROR] Server on port 3202 didnt be able to sync from Master:null due to error:ReferenceError: axios is not defined
+2024-06-01T18:47:19.483Z [INFO] Server started on port 3202
+2024-06-01T18:52:43.756Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:52:43.879Z [INFO] Server started on port 3202
+2024-06-01T18:59:44.774Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:59:44.836Z [INFO] Server started on port 3202
+2024-06-01T19:00:39.493Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T19:00:39.565Z [INFO] Server started on port 3202
+2024-06-01T19:02:10.549Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T19:02:10.636Z [INFO] Server started on port 3202
+2024-06-01T19:02:58.316Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T19:02:58.324Z [INFO] Server started on port 3202
+2024-06-01T19:06:04.084Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T19:06:04.089Z [ERROR] There is no Leader/Master on dn01 available for synchronization
+2024-06-01T19:06:04.096Z [INFO] Server started on port 3202

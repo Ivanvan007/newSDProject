@@ -8,3 +8,32 @@
 2024-06-01T13:48:23.416Z [INFO] Server started on port 3301
 2024-06-01T15:08:38.042Z [ERROR] logger is not defined
 2024-06-01T15:08:38.056Z [INFO] Server started on port 3301
+2024-06-01T18:08:14.141Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:08:14.146Z [ERROR] Server on port 3301 didnt be able to sync from Master:getLeader() {
+    return this.leader;
+  } due to error:ReferenceError: axios is not defined
+2024-06-01T18:08:14.148Z [INFO] Server started on port 3301
+2024-06-01T18:12:00.589Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:12:00.592Z [ERROR] Server on port 3301 didnt be able to sync from Master:getLeader() {
+    return this.leader;
+  } due to error:ReferenceError: axios is not defined
+2024-06-01T18:12:00.595Z [INFO] Server started on port 3301
+2024-06-01T18:44:30.491Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:44:30.498Z [ERROR] Server on port 3301 didnt be able to sync from Master:null due to error:ReferenceError: axios is not defined
+2024-06-01T18:44:30.506Z [INFO] Server started on port 3301
+2024-06-01T18:47:19.473Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:47:19.478Z [ERROR] Server on port 3301 didnt be able to sync from Master:null due to error:ReferenceError: axios is not defined
+2024-06-01T18:47:19.485Z [INFO] Server started on port 3301
+2024-06-01T18:52:43.785Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:52:43.886Z [INFO] Server started on port 3301
+2024-06-01T18:59:44.806Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:59:44.934Z [INFO] Server started on port 3301
+2024-06-01T19:00:39.528Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T19:00:39.626Z [INFO] Server started on port 3301
+2024-06-01T19:02:10.580Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T19:02:10.646Z [INFO] Server started on port 3301
+2024-06-01T19:02:58.323Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T19:02:58.332Z [INFO] Server started on port 3301
+2024-06-01T19:06:04.107Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T19:06:04.113Z [ERROR] There is no Leader/Master on dn02 available for synchronization
+2024-06-01T19:06:04.121Z [INFO] Server started on port 3301

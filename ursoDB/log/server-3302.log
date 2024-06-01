@@ -8,3 +8,32 @@
 2024-06-01T13:48:23.460Z [INFO] Server started on port 3302
 2024-06-01T15:08:38.065Z [ERROR] logger is not defined
 2024-06-01T15:08:38.078Z [INFO] Server started on port 3302
+2024-06-01T18:08:14.141Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:08:14.143Z [ERROR] Server on port 3302 didnt be able to sync from Master:getLeader() {
+    return this.leader;
+  } due to error:ReferenceError: axios is not defined
+2024-06-01T18:08:14.146Z [INFO] Server started on port 3302
+2024-06-01T18:12:00.589Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:12:00.594Z [ERROR] Server on port 3302 didnt be able to sync from Master:getLeader() {
+    return this.leader;
+  } due to error:ReferenceError: axios is not defined
+2024-06-01T18:12:00.598Z [INFO] Server started on port 3302
+2024-06-01T18:44:30.495Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:44:30.501Z [ERROR] Server on port 3302 didnt be able to sync from Master:null due to error:ReferenceError: axios is not defined
+2024-06-01T18:44:30.509Z [INFO] Server started on port 3302
+2024-06-01T18:47:19.490Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:47:19.496Z [ERROR] Server on port 3302 didnt be able to sync from Master:null due to error:ReferenceError: axios is not defined
+2024-06-01T18:47:19.504Z [INFO] Server started on port 3302
+2024-06-01T18:52:43.757Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:52:43.874Z [INFO] Server started on port 3302
+2024-06-01T18:59:44.842Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T18:59:44.942Z [INFO] Server started on port 3302
+2024-06-01T19:00:39.553Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T19:00:39.622Z [INFO] Server started on port 3302
+2024-06-01T19:02:10.575Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T19:02:10.638Z [INFO] Server started on port 3302
+2024-06-01T19:02:58.358Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T19:02:58.371Z [INFO] Server started on port 3302
+2024-06-01T19:06:04.132Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-01T19:06:04.138Z [ERROR] There is no Leader/Master on dn02 available for synchronization
+2024-06-01T19:06:04.145Z [INFO] Server started on port 3302

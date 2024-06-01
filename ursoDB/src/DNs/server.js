@@ -7,6 +7,7 @@ const config = require('../../etc/configure.json');
 const Raft = require('./raft');
 //const loggerTemp = require('../node_modules/logger/logger');
 const loggerTemp = require('../node_modules/logger/logger');
+const axios = require('axios');
 const { error } = require('console');
 
 class Server {
@@ -214,7 +215,7 @@ class Server {
     try
     {
       this.logger.info(`Server/Master on port${this.port} have just tried to start a sync`);
-      this.raft.syncDataToServers;
+      this.raft.syncDataToServers();
     }catch(error){
       this.logger.error(`Master Server on port ${this.port} cannot sync data with not servers on DN, error: ${error}`);
     }
@@ -223,10 +224,22 @@ class Server {
 
   async syncInciatedFromServers()
   {
-    let leader = this.raft.getLeader;
-    if (!leader) {
-      res.status(400).send({ error: 'No leader available for synchronization' });
-      this.logger.error(`There is no Leader/Master on ${this.dnName}`);
+    //Estas primeiras linhas devem ser comentadas mais para a frente
+    /*if((this.port%10) == 0)
+    {
+      try
+      {
+        this.raft.setLeader(this.port);
+      }
+      catch(error)
+      {
+        this.logger.error(`Server on ${this.port}, cannot be setted as Master due to, error:${error}`);
+      }
+    }
+    */
+    let leader = this.raft.getLeader();
+    if (!leader) {   
+      return this.logger.error(`There is no Leader/Master on ${this.dnName} available for synchronization`);
     }
     try
     {

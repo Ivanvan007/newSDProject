@@ -23,6 +23,11 @@ class Raft {
     return this.leader;
   }
 
+  setLeader(port)
+  {
+    this.leader = `http://localhost:${port}`;
+  }
+
   async startElection() {
     try
     {
