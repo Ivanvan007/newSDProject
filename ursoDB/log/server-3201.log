@@ -1,2 +1,15 @@
 2024-06-01T09:27:19.903Z [ERROR] logger is not defined
 2024-06-01T09:27:19.915Z [INFO] Server started on port 3201
+2024-06-01T10:20:12.834Z [ERROR] Data 24afda34e3f74e54b61a8e4cbe921650.json on Server on port 3201 not created, error: Error: ENOENT: no such file or directory, open 'C:\Users\Ivani\Desktop\Universidad\ProjetosEmGrupo\SD_GPT\ursoDB\DB-data\dn0\s1\24afda34e3f74e54b61a8e4cbe921650.json'
+2024-06-01T10:31:25.359Z [ERROR] logger is not defined
+2024-06-01T10:31:25.370Z [INFO] Server started on port 3201
+2024-06-01T10:31:30.675Z [ERROR] Data 24afda34e3f74e54b61a8e4cbe921650.json on Server on port 3201 not created, error: Error: ENOENT: no such file or directory, open 'C:\Users\Ivani\Desktop\Universidad\ProjetosEmGrupo\SD_GPT\ursoDB\DB-data\dn01\s1\24afda34e3f74e54b61a8e4cbe921650.json'
+2024-06-01T10:32:20.222Z [ERROR] logger is not defined
+2024-06-01T10:32:20.235Z [INFO] Server started on port 3201
+2024-06-01T10:32:48.266Z [INFO] Data 24afda34e3f74e54b61a8e4cbe921650.json on Server on port 3201 created
+2024-06-01T13:48:23.417Z [ERROR] logger is not defined
+2024-06-01T13:48:23.430Z [INFO] Server started on port 3201
+2024-06-01T13:48:31.326Z [INFO] Data 24afda34e3f74e54b61a8e4cbe921650.json on Server on port 3201 created
+2024-06-01T15:08:38.007Z [ERROR] logger is not defined
+2024-06-01T15:08:38.018Z [INFO] Server started on port 3201
+2024-06-01T15:08:43.868Z [INFO] Data 24afda34e3f74e54b61a8e4cbe921650.json on Server on port 3201 updated

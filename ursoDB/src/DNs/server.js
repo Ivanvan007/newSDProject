@@ -15,8 +15,8 @@ class Server {
     this.app = express();
     this.logger = new loggerTemp(port);
     this.raft = new Raft(port, config.DNs);
-    this.dnName = `dn${Math.floor(port / 1000) - 3}`;
-    this.dataDir = path.join(__dirname, '../../DB-data/', this.dnName, `/s${port % 100}`);
+    this.dnName = `dn0${Math.floor((port / 100) % 10)-1}`;
+    this.dataDir = path.join(__dirname, '../../DB-data/', this.dnName, `/s0${port % 100}`);
     this.setupRoutes();
     this.initiateElection();
   }
@@ -32,6 +32,7 @@ class Server {
     this.app.post('/db/u', this.updateHandler.bind(this));
     this.app.get('/stop', this.stopHandler.bind(this));
     this.app.get('/maintenance', this.maintenanceHandler.bind(this));
+    this.app.get('/sync', this.syncIniciatedFromMaster.bind(this));
   }
 
   /*
@@ -46,7 +47,8 @@ class Server {
       status: 'ok',
       master: this.raft.getLeader(),
       start_time: this.raft.startTime.toISOString(),
-      living_time: `${Math.round((Date.now() - this.raft.startTime.getTime()) / 1000)}s`
+      living_time: `${Math.round((Date.now() - this.raft.startTime.getTime()) / 1000)}s`,
+      dataDir: this.dataDir
     });
   }
 
@@ -62,6 +64,7 @@ class Server {
       start_at: start_at.toISOString(),
       now: new Date().toISOString(),
       living_time_in_secs: Math.round((Date.now() - this.raft.startTime.getTime()) / 1000),
+      dataDir: this.dataDir,
       stat
     });
   }
@@ -134,9 +137,10 @@ class Server {
     let hash = crypto.createHash('md5').update(key).digest('hex') + ".json";
     try
     {
-      fs.writeFileSync(path.join(this.dataDir, hash), JSON.stringify({ key, value }));
+      fs.writeFileSync(path.join(this.dataDir, hash), JSON.stringify({key, value }));
       res.send({ success: true });
       this.logger.info(`Data ${hash} on Server on port ${this.port} created`);
+      //this.syncIniciatedFromMaster;
     }catch(error2)
     {
       res.status(500).send({ error: `${error2}` });
@@ -146,10 +150,11 @@ class Server {
   }
 
   updateHandler(req, res) {
-    if (!this.raft.isLeader()) {
+    /*if (!this.raft.isLeader()) {
       return res.status(403).send({ error: 'Not the leader' });
       //this.logger.error(`Data on Server on port ${this.port} cannot be created ${this.error}: 'Not the leader'`);
     }
+    */
     let key = req.body.key;
     let value = req.body.value;
     let hash = crypto.createHash('md5').update(key).digest('hex') +".json";
@@ -162,6 +167,7 @@ class Server {
         fs.writeFileSync(filePath, JSON.stringify(data));
         res.send({ success: true });
         this.logger.info(`Data ${hash} on Server on port ${this.port} updated`);
+        //this.syncIniciatedFromMaster;
       } else {
       res.status(404).send({ error: 'Key not found' });
       this.logger.error(`Data ${hash} on Server on port ${this.port} cannot be updated ${this.error}`);
@@ -198,9 +204,38 @@ class Server {
       this.logger = logger;
       await axios.get(`http://${rpConfig.host}:${rpConfig.port}/set_master`);
     } catch (error) {
-      this.logger.error(error.message);
+      this.logger.error(`error:${error}`);
     }
   };
+
+  async syncIniciatedFromMaster()
+  {
+    try
+    {
+      this.raft.syncDataToServers;
+    }catch(error){
+      this.logger.error(`Master Server on port ${this.port} cannot sync data with not servers on DN, error: ${error}`);
+    }
+    
+  }
+
+  async syncInciatedFromServers()
+  {
+    let leader = this.raft.getLeader;
+    if (!leader) {
+      res.status(400).send({ error: 'No leader available for synchronization' });
+      this.logger.error(`There is no Leader/Master on ${this.dnName}`)
+    }
+    try
+    {
+      axios.get(leader,"/sync");
+    }catch(error)
+    {
+      this.logger.error(`Server on port ${this.port} didnt be able to sync from Master:${leader} due to error:${error}`)
+    }
+    
+
+  }
 
 
   start() {
