@@ -79,61 +79,123 @@ class ReverseProxy {
   }
 
   readHandler(req, res) {
-    const key = req.query.key;
-    const hash = crypto.createHash('md5').update(key).digest('hex');
-    const filePath = path.join(this.dataDir, hash);
-    if (fs.existsSync(filePath)) {
-      const data = JSON.parse(fs.readFileSync(filePath));
-      res.send({ success: true, data });
-    } else {
-      res.status(404).send({ error: 'Key not found' });
+    let key = req.query.key;
+    let hash = crypto.createHash('md5').update(key).digest('hex') +".json";
+    let filePath = path.join(this.dataDir, hash);
+
+    try
+    {
+      if (fs.existsSync(filePath)) {
+        const data = JSON.parse(fs.readFileSync(filePath));
+        res.send({ success: true, data });
+      } else {
+        res.status(404).send({ error: 'Key not found' });
+      }
+    }catch(error2)
+    {
+      res.status(500).send({ error: `${error2}` });
+      this.logger.error(`Data on Server on port ${this.port} cannot be read, error: ${error2}`);
     }
   }
 
   deleteHandler(req, res) {
-    const key = req.query.key;
-    const hash = crypto.createHash('md5').update(key).digest('hex');
-    const filePath = path.join(this.dataDir, hash);
-    if (fs.existsSync(filePath)) {
-      fs.unlinkSync(filePath);
-      res.send({ success: true });
-    } else {
-      res.status(404).send({ error: 'Key not found' });
+    if (!this.raft.isLeader()) {
+      return res.status(403).send({ error: 'Not the leader' });
     }
+    let key = req.query.key;
+    let hash = crypto.createHash('md5').update(key).digest('hex') + ".json";
+    let filePath = path.join(this.dataDir, hash);
+    try
+    {
+      if (fs.existsSync(filePath)) {
+        fs.unlinkSync(filePath);
+        res.send({ success: true });
+        this.logger.info(`Data ${hash} on Server on port ${this.port} delete successfully`);
+      } else {
+        res.status(404).send({ error: 'Key not found' });
+      }
+    }catch(error2)
+    {
+      res.status(500).send({ error: `${error2}` });
+      this.logger.error(`Data on Server on port ${this.port} cannot be deleted, error: ${error2}`);
+    }
+    
   }
 
   createHandler(req, res) {
-    const key = req.body.key;
-    const value = req.body.value;
-    const hash = crypto.createHash('md5').update(key).digest('hex');
-    fs.writeFileSync(path.join(this.dataDir, hash), JSON.stringify({ key, value }));
-    res.send({ success: true });
+    /*if (!this.raft.isLeader()) {
+      return res.status(403).send({ error: 'Not the leader' });
+      this.logger.error(`Data on Server on port ${this.port} cannot be created ${this.error}: 'Not the leader'}`);
+    }*/
+    let key = req.body.key;
+    let value = req.body.value;
+    let hash = crypto.createHash('md5').update(key).digest('hex') + ".json";
+    try
+    {
+      fs.writeFileSync(path.join(this.dataDir, hash), JSON.stringify({ key, value }));
+      res.send({ success: true });
+      this.logger.info(`Data ${hash} on Server on port ${this.port} created`);
+    }catch(error2)
+    {
+      res.status(500).send({ error: `${error2}` });
+      this.logger.error(`Data ${hash} on Server on port ${this.port} not created, error: ${error2}`);
+    }
+
   }
 
   updateHandler(req, res) {
-    const key = req.body.key;
-    const value = req.body.value;
-    const hash = crypto.createHash('md5').update(key).digest('hex');
-    const filePath = path.join(this.dataDir, hash);
-    if (fs.existsSync(filePath)) {
-      const data = JSON.parse(fs.readFileSync(filePath));
-      Object.assign(data.value, value);
-      fs.writeFileSync(filePath, JSON.stringify(data));
-      res.send({ success: true });
-    } else {
-      res.status(404).send({ error: 'Key not found' });
+    if (!this.raft.isLeader()) {
+      return res.status(403).send({ error: 'Not the leader' });
+      //this.logger.error(`Data on Server on port ${this.port} cannot be created ${this.error}: 'Not the leader'`);
     }
+    let key = req.body.key;
+    let value = req.body.value;
+    let hash = crypto.createHash('md5').update(key).digest('hex') +".json";
+    let filePath = path.join(this.dataDir, hash);
+    try
+    {
+      if (fs.existsSync(filePath)) {
+        let data = JSON.parse(fs.readFileSync(filePath));
+        Object.assign(data.value, value);
+        fs.writeFileSync(filePath, JSON.stringify(data));
+        res.send({ success: true });
+        this.logger.info(`Data ${hash} on Server on port ${this.port} updated`);
+      } else {
+      res.status(404).send({ error: 'Key not found' });
+      this.logger.error(`Data ${hash} on Server on port ${this.port} cannot be updated ${this.error}`);
+      }
+    }catch(error2)
+    {
+      res.status(500).send({ error: `${error2}` });
+      this.logger.error(`Data ${hash} on Server on port ${this.port} cannot be updated, error: ${error2}`);
+    }    
   }
 
-  stopHandler (req, res){
-    res.send({ data: { message: 'Stopping reverse proxy' }, error: 0 });
-    this.logger.info(`Reverse Proxy on port ${this.port} stopped`);
-    process.exit(0);
+  stopHandler(req, res){
+    try
+    {
+      res.send({ data: { message: 'Stopping reverse proxy' }, error: 0 });
+      this.logger.info(`Reverse Proxy on port ${this.port} stopped`);
+      process.exit(0);
+    }catch(error2)
+    {
+      res.status(500).send({ error: `${error2}` });
+      this.logger.error(`Reverse Proxy on port ${this.port} cannot be stopped, error: ${error2}`);
+    }
+    
   };
 
   set_masterHandler(req, res){
-    res.json({ data: { message: 'set_master not implemented yet' }, error: 0 });
-    this.logger.info(`Reverse Proxy on port ${this.port} set master as porto do novo master`);
+    try
+    {
+      res.json({ data: { message: 'set_master not implemented yet' }, error: 0 });
+      this.logger.info(`Reverse Proxy on port ${this.port} set master as porto do novo master`);
+    }catch(error2)
+    {
+      res.status(500).send({ error: `${error2}` });
+      this.logger.info(`Reverse Proxy on port ${this.port} cannot set master as porto do novo master, error: ${error2}`);
+    }
+    
   };
 
   start() {

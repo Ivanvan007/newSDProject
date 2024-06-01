@@ -61,7 +61,7 @@ class Server {
       success: true,
       start_at: start_at.toISOString(),
       now: new Date().toISOString(),
-      living_time_in_secs: Math.round((Date.now() - start_at.getTime()) / 1000),
+      living_time_in_secs: Math.round((Date.now() - this.raft.startTime.getTime()) / 1000),
       stat
     });
   }
@@ -69,12 +69,20 @@ class Server {
   readHandler(req, res) {
     let key = req.query.key;
     let hash = crypto.createHash('md5').update(key).digest('hex') +".json";
-    const filePath = path.join(this.dataDir, hash);
-    if (fs.existsSync(filePath)) {
-      const data = JSON.parse(fs.readFileSync(filePath));
-      res.send({ success: true, data });
-    } else {
-      res.status(404).send({ error: 'Key not found' });
+    let filePath = path.join(this.dataDir, hash);
+
+    try
+    {
+      if (fs.existsSync(filePath)) {
+        const data = JSON.parse(fs.readFileSync(filePath));
+        res.send({ success: true, data });
+      } else {
+        res.status(404).send({ error: 'Key not found' });
+      }
+    }catch(error2)
+    {
+      res.status(500).send({ error: `${error2}` });
+      this.logger.error(`Data on Server on port ${this.port} cannot be read, error: ${error2}`);
     }
   }
 
@@ -85,19 +93,35 @@ class Server {
     let key = req.query.key;
     let hash = crypto.createHash('md5').update(key).digest('hex') + ".json";
     let filePath = path.join(this.dataDir, hash);
-    if (fs.existsSync(filePath)) {
-      fs.unlinkSync(filePath);
-      res.send({ success: true });
-      this.logger.info(`Data ${hash} on Server on port ${this.port} delete successfully`);
-    } else {
-      res.status(404).send({ error: 'Key not found' });
+    try
+    {
+      if (fs.existsSync(filePath)) {
+        fs.unlinkSync(filePath);
+        res.send({ success: true });
+        this.logger.info(`Data ${hash} on Server on port ${this.port} delete successfully`);
+      } else {
+        res.status(404).send({ error: 'Key not found' });
+      }
+    }catch(error2)
+    {
+      res.status(500).send({ error: `${error2}` });
+      this.logger.error(`Data on Server on port ${this.port} cannot be deleted, error: ${error2}`);
     }
+    
   }
 
   electionHandler(req, res) {
-    this.raft.startElection();
-    res.send({ status: 'Election started' });
-    this.logger.info(`Data on Server on port ${this.port} vote for election`);
+    try
+    {
+      this.raft.startElection();
+      res.send({ status: 'Election started' });
+      this.logger.info(`Server on port ${this.port} vote for election`);
+    }catch(error2)
+    {
+      res.status(500).send({ error: `${error2}` });
+      this.logger.error(`Server on port ${this.port} cannot start election, error: ${error2}`);
+    }
+    
   }
 
   createHandler(req, res) {
@@ -108,9 +132,17 @@ class Server {
     let key = req.body.key;
     let value = req.body.value;
     let hash = crypto.createHash('md5').update(key).digest('hex') + ".json";
-    fs.writeFileSync(path.join(this.dataDir, hash), JSON.stringify({ key, value }));
-    res.send({ success: true });
-    this.logger.info(`Data ${hash} on Server on port ${this.port} created`);
+    try
+    {
+      fs.writeFileSync(path.join(this.dataDir, hash), JSON.stringify({ key, value }));
+      res.send({ success: true });
+      this.logger.info(`Data ${hash} on Server on port ${this.port} created`);
+    }catch(error2)
+    {
+      res.status(500).send({ error: `${error2}` });
+      this.logger.error(`Data ${hash} on Server on port ${this.port} not created, error: ${error2}`);
+    }
+
   }
 
   updateHandler(req, res) {
@@ -122,21 +154,37 @@ class Server {
     let value = req.body.value;
     let hash = crypto.createHash('md5').update(key).digest('hex') +".json";
     let filePath = path.join(this.dataDir, hash);
-    if (fs.existsSync(filePath)) {
-      let data = JSON.parse(fs.readFileSync(filePath));
-      Object.assign(data.value, value);
-      fs.writeFileSync(filePath, JSON.stringify(data));
-      res.send({ success: true });
-      this.logger.info(`Data ${hash} on Server on port ${this.port} updated`);
-    } else {
+    try
+    {
+      if (fs.existsSync(filePath)) {
+        let data = JSON.parse(fs.readFileSync(filePath));
+        Object.assign(data.value, value);
+        fs.writeFileSync(filePath, JSON.stringify(data));
+        res.send({ success: true });
+        this.logger.info(`Data ${hash} on Server on port ${this.port} updated`);
+      } else {
       res.status(404).send({ error: 'Key not found' });
       this.logger.error(`Data ${hash} on Server on port ${this.port} cannot be updated ${this.error}`);
-    }
+      }
+    }catch(error2)
+    {
+      res.status(500).send({ error: `${error2}` });
+      this.logger.error(`Data ${hash} on Server on port ${this.port} cannot be updated, error: ${error2}`);
+    }    
   }
 
   stopHandler(req, res){
-    this.logger.info(`Server on port ${this.port} stopped`);
-    process.exit(0);
+    try
+    {
+      res.send({success: true});
+      this.logger.info(`Server on port ${this.port} stopped`);
+      process.exit(0);
+    }catch(error2)
+    {
+      res.status(500).send({ error: `${error2}` });
+      this.logger.error(`Server on port ${this.port} cannot be stopped, error: ${error2}`);
+    }
+    
   };
 
   maintenanceHandler(req, res){

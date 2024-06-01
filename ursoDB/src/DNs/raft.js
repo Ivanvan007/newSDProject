@@ -23,26 +23,27 @@ class Raft {
 
   async startElection() {
     this.state = 'candidate';
-    this.votesReceived = 1;
+    this.votesReceived++;
     const dn = this.DNs.find(dn => dn.servers.some(server => server.port === this.port));
     dn.servers.forEach(server => {
       if (server.port !== this.port) {
         axios.get(`http://${server.host}:${server.port}/election`).then(response => {
           if (response.data.voteGranted) {
-            this.votesReceived++;
-            if (this.votesReceived > dn.servers.length / 2) {
-              this.state = 'leader';
-              this.leader = `http://${server.host}:${server.port}`;
-              this.state = 'leader';
-              this.logger.info(`Server on port ${this.port} elected as leader`);
-              this.notifyRP();
-            }
+            this.logger.info(`Server on ${this.port} has voted`)
+            //this.votesReceived++;
           }
         }).catch(error => {
-          console.error(`Election error: ${error}`);
+          logger.error(`Server on port ${this.port} election error: ${error}`);
         });
       }
     });
+    if (this.votesReceived > dn.servers.length / 2) {
+      this.state = 'leader';
+      this.leader = `http://${server.host}:${server.port}`;
+      this.state = 'leader';
+      this.logger.info(`Server on port ${this.port} elected as leader`);
+      this.notifyRP();
+    }
   }
 
   async notifyRP() {
@@ -51,7 +52,7 @@ class Raft {
       await axios.get(`http://${rpConfig.host}:${rpConfig.port}/set_master`);
       this.logger.info(`RP notified of new leader on port ${this.port}`);
     } catch (error) {
-      this.logger.error(`Error notifying RP: ${error.message}`);
+      this.logger.error(`Error notifying RP: ${error}`);
     }
   }
 }
