@@ -19,6 +19,7 @@ class Server {
     this.dataDir = path.join(__dirname, '../../DB-data/', this.dnName, `/s0${port % 100}`);
     this.setupRoutes();
     this.initiateElection();
+    this.syncInciatedFromServers();
   }
 
   setupRoutes() {
@@ -140,7 +141,7 @@ class Server {
       fs.writeFileSync(path.join(this.dataDir, hash), JSON.stringify({key, value }));
       res.send({ success: true });
       this.logger.info(`Data ${hash} on Server on port ${this.port} created`);
-      //this.syncIniciatedFromMaster;
+      //this.syncIniciatedFromMaster();
     }catch(error2)
     {
       res.status(500).send({ error: `${error2}` });
@@ -167,7 +168,7 @@ class Server {
         fs.writeFileSync(filePath, JSON.stringify(data));
         res.send({ success: true });
         this.logger.info(`Data ${hash} on Server on port ${this.port} updated`);
-        //this.syncIniciatedFromMaster;
+        //this.syncIniciatedFromMaster();
       } else {
       res.status(404).send({ error: 'Key not found' });
       this.logger.error(`Data ${hash} on Server on port ${this.port} cannot be updated ${this.error}`);
@@ -212,6 +213,7 @@ class Server {
   {
     try
     {
+      this.logger.info(`Server/Master on port${this.port} have just tried to start a sync`);
       this.raft.syncDataToServers;
     }catch(error){
       this.logger.error(`Master Server on port ${this.port} cannot sync data with not servers on DN, error: ${error}`);
@@ -224,16 +226,15 @@ class Server {
     let leader = this.raft.getLeader;
     if (!leader) {
       res.status(400).send({ error: 'No leader available for synchronization' });
-      this.logger.error(`There is no Leader/Master on ${this.dnName}`)
+      this.logger.error(`There is no Leader/Master on ${this.dnName}`);
     }
     try
     {
       axios.get(leader,"/sync");
     }catch(error)
     {
-      this.logger.error(`Server on port ${this.port} didnt be able to sync from Master:${leader} due to error:${error}`)
-    }
-    
+      this.logger.error(`Server on port ${this.port} didnt be able to sync from Master:${leader} due to error:${error}`);
+    }  
 
   }
 

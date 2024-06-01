@@ -57,7 +57,7 @@ class Raft {
   }
 
   async syncDataToServers() {
-    if (!this.isLeader){
+    if (!this.isLeader()){
       return;
     }
     
