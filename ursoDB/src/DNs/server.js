@@ -74,6 +74,7 @@ class Server {
   readHandler(req, res) {
     let key = req.query.key;
     let hash = crypto.createHash('md5').update(key).digest('hex') +".json";
+    //let hash = key + ".json";
     let filePath = path.join(this.dataDir, hash);
 
     try

@@ -11,7 +11,7 @@ class Raft {
     this.state = 'follower';
     this.votesReceived = 0;
     this.logger = new loggerTemp(port);
-    this.leader = null;
+    this.leader = undefined;
     this.startTime = new Date();
   }
 
@@ -43,14 +43,14 @@ class Raft {
               //this.votesReceived++;
             }
           }).catch(error => {
-            logger.error(`Server on port ${this.port} election error: ${error}`);
+            this.logger.error(`Server on port ${this.port} election error: ${error}`);
           });
         }
       });
       if (this.votesReceived > dn.servers.length / 2) {
         this.state = 'leader';
+        this.logger.info("host: ",server.host,"\n","port", server.port);
         this.leader = `http://${server.host}:${server.port}`;
-        this.state = 'leader';
         this.logger.info(`Server on port ${this.port} elected as leader`);
         this.notifyRP();
       }
