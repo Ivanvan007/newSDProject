@@ -1,0 +1,6 @@
+2024-06-02T19:09:08.521Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-02T19:09:08.529Z [ERROR] There is no Leader/Master on dn01 available for synchronization
+2024-06-02T19:09:08.538Z [INFO] Server started on port 3202
+2024-06-02T19:10:50.626Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-02T19:10:50.631Z [ERROR] There is no Leader/Master on dn01 available for synchronization
+2024-06-02T19:10:50.637Z [INFO] Server started on port 3202

@@ -28,6 +28,7 @@ class Raft {
     this.leader = `http://localhost:${port}`;
   }
 
+
   async startElection() {
     try
     {
@@ -60,13 +61,12 @@ class Raft {
     }
     
   }
+  
 
   async syncDataToServers() {
     if (!this.isLeader()){
       return;
     }
-    
-    const dn = this.DNs.find(dn => dn.servers.some(server => server.port === this.port));
     const dataDir = path.join(__dirname, '../../DB-data/', `dn0${Math.floor((this.port / 100) % 10)-1}`, `/s0${this.port % 100}`);
     let newdataDir;
     let filePath;

@@ -93,9 +93,11 @@ class Server {
   }
 
   deleteHandler(req, res) {
+    /*
     if (!this.raft.isLeader()) {
       return res.status(403).send({ error: 'Not the leader' });
     }
+    */
     let key = req.query.key;
     let hash = crypto.createHash('md5').update(key).digest('hex') + ".json";
     let filePath = path.join(this.dataDir, hash);
