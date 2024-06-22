@@ -6,3 +6,9 @@
 2024-06-02T19:10:50.599Z [INFO] Server started on port 3201
 2024-06-02T19:13:03.048Z [INFO] Data 24afda34e3f74e54b61a8e4cbe921650.json on Server on port 3201 delete successfully
 2024-06-02T19:15:58.614Z [INFO] Data 24afda34e3f74e54b61a8e4cbe921650.json on Server on port 3201 created
+2024-06-05T05:57:33.317Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-05T05:57:33.329Z [ERROR] There is no Leader/Master on dn01 available for synchronization
+2024-06-05T05:57:33.339Z [INFO] Server started on port 3201
+2024-06-05T13:15:13.320Z [ERROR] error:ReferenceError: logger is not defined
+2024-06-05T13:15:13.324Z [ERROR] There is no Leader/Master on dn01 available for synchronization
+2024-06-05T13:15:13.331Z [INFO] Server started on port 3201
