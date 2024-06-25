@@ -1,0 +1,19 @@
+2024-06-25T16:51:59.048Z [INFO] Server started on port 3100
+2024-06-25T16:53:04.063Z [ERROR] Server on port 3101 election error: AggregateError
+2024-06-25T16:53:04.065Z [ERROR] Server on port 3102 election error: AggregateError
+2024-06-25T16:53:04.065Z [INFO] Server on port 3100 did not receive enough votes
+2024-06-25T16:53:04.244Z [ERROR] Server on port 3101 election error: AggregateError
+2024-06-25T16:53:04.245Z [ERROR] Server on port 3102 election error: AggregateError
+2024-06-25T16:53:04.245Z [INFO] Server on port 3100 did not receive enough votes
+2024-06-25T16:53:04.432Z [ERROR] Server on port 3101 election error: AggregateError
+2024-06-25T16:53:04.434Z [ERROR] Server on port 3102 election error: AggregateError
+2024-06-25T16:53:04.434Z [INFO] Server on port 3100 did not receive enough votes
+2024-06-25T16:53:04.618Z [ERROR] Server on port 3101 election error: AggregateError
+2024-06-25T16:53:04.619Z [ERROR] Server on port 3102 election error: AggregateError
+2024-06-25T16:53:04.620Z [INFO] Server on port 3100 did not receive enough votes
+2024-06-25T16:53:04.886Z [ERROR] Server on port 3101 election error: AggregateError
+2024-06-25T16:53:04.887Z [ERROR] Server on port 3102 election error: AggregateError
+2024-06-25T16:53:04.888Z [INFO] Server on port 3100 did not receive enough votes
+2024-06-25T16:53:05.090Z [ERROR] Server on port 3101 election error: AggregateError
+2024-06-25T16:53:05.090Z [ERROR] Server on port 3102 election error: AggregateError
+2024-06-25T16:53:05.091Z [INFO] Server on port 3100 did not receive enough votes

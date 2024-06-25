@@ -25,13 +25,13 @@ class Raft {
     this.currentTerm = 0; // Initialize current term
     this.votedFor = null; // Initialize votedFor
     this.temp_DN;
-    this.findDatanode();
+    this.findDatanode(this.port, this.DNs);
     this.resetElectionTimeout();
   }
 
-  findDatanode()
+  findDatanode(port, DNs)
   {
-    this.temp_DN = this.DNs.find(temp_DN => temp_DN.servers.some(server => server.port == this.port));
+    this.temp_DN = DNs.find(dn => dn.servers.some(server => server.port == port));
   }
 
   resetElectionTimeout() {
@@ -60,7 +60,7 @@ class Raft {
 
   sendHeartbeat() {
     
-    temp_DN.servers.forEach(server => {
+    this.temp_DN.servers.forEach(server => {
       if (server.port != this.port) {
         axios.get(`http://${server.host}:${server.port}/heartbeat`)
           .then(response => {
