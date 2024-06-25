@@ -25,6 +25,10 @@ class Raft {
     this.currentTerm = 0; // Initialize current term
     this.votedFor = null; // Initialize votedFor
     this.temp_DN;
+    this.log = [];  // Initialize the log
+    this.nextIndex = 1; // Next log index to send
+    this.matchIndex = 0; // Highest log entry known to be replicated on server
+    this.commitIndex = 0; // Highest log entry known to be committed
     this.findDatanode(this.port, this.DNs);
     this.resetElectionTimeout();
   }
@@ -58,24 +62,61 @@ class Raft {
     }
   }
 
-  sendHeartbeat() {
+  heartbeatHandler(data) {
+    this.currentTerm = data.term; // Update term from leader's heartbeat
+    this.leader = data.leaderId; // Update leader information
+    this.resetElectionTimeout();
+  }
+
+  appendEntries(req, res) {
+    const { term, leaderId, prevLogIndex, prevLogTerm, entries, leaderCommit } = req.body;
+
+    if (term < this.currentTerm) {
+      return res.status(200).json({ term: this.currentTerm, success: false });
+    }
+
+    this.currentTerm = term;
+    this.leader = leaderId;
+    this.resetElectionTimeout();
+
+    // ... (Log consistency check, append new entries, etc.)
+    this.log.push(...entries);
     
+    if (leaderCommit > this.commitIndex) {
+      this.commitIndex = Math.min(leaderCommit, this.log.length - 1);
+    }
+
+    res.status(200).json({ term: this.currentTerm, success: true, matchIndex: this.log.length - 1 });
+  }
+
+  sendHeartbeat() {
+    const entriesToSend = this.log.slice(this.nextIndex);
     this.temp_DN.servers.forEach(server => {
-      if (server.port != this.port) {
-        axios.get(`http://${server.host}:${server.port}/heartbeat`)
-          .then(response => {
-            if (response.data.status === 'ok') {
-              this.logger.info(`Heartbeat acknowledged by server on port ${server.port}`);
-            }
-          }).catch(error => {
-            this.logger.error(`Heartbeat error to server on port ${server.port}: ${error.message || error}`);
-          });
+      if (server.port !== this.port) {
+        axios.post(`http://${server.host}:${server.port}/appendEntries`, {
+          term: this.currentTerm,
+          leaderId: this.port,
+          prevLogIndex: this.nextIndex - 1,
+          prevLogTerm: this.log[this.nextIndex - 2]?.term,
+          entries: entriesToSend,
+          leaderCommit: this.commitIndex,
+        }).then(response => {
+          if (response.status === 200 && response.data.success) {
+            this.nextIndex = response.data.matchIndex + 1;
+            this.matchIndex = response.data.matchIndex;
+            this.updateCommitIndex();
+          } else {
+            this.nextIndex--;
+          }
+        }).catch(error => {
+          // Handle errors (e.g., network issues)
+          this.logger.error(`Error sending heartbeat to ${server.port}: ${error.message}`);
+        });
       }
     });
   }
 
   async startElection() {
-
     dn_Name = `dn0${Math.floor((this.port / 100) % 10) - 1}`;
     try {
       if (this.state === 'leader') {
@@ -111,18 +152,16 @@ class Raft {
       }));
 
       if (this.votesReceived > this.temp_DN.servers.length / 2) {
+        this.stopHeartbeat();  // Force stop heartbeat first!!! 
+        this.state = 'leader'; // Then transition to leader
         this.leader = `http://localhost:${this.port}`;
         this.logger.info(`Server on port ${this.port} elected as leader`);
-        this.stopHeartbeat();
         this.startHeartbeat();
-        try
-        {
-          await this.notifyRP(dn_Name);
-          this.state = 'leader';
-
-        }catch(error)
-        {
-          this.logger.error(`Error into notifyRP function and leader setting: ${error.message || error}`);
+        
+        try {
+          await this.notifyRP(dn_Name); 
+        } catch (error) {
+          this.logger.error(`Error notifying RP: ${error.message || error}`);
         }        
        
       } else {
@@ -148,6 +187,19 @@ class Raft {
       this.logger.error(`Error notifying RP: ${error.message || error}`);
     }
   }
+
+  updateCommitIndex() {
+    // ... (Raft's commit index update logic)
+    let N = this.commitIndex + 1;
+    while (N <= this.log.length - 1) {
+      if (this.log[N].term === this.currentTerm && 
+          this.temp_DN.servers.filter(server => this.matchIndex[server.port] >= N).length > this.temp_DN.servers.length / 2) {
+        this.commitIndex = N;
+      }
+      N++;
+    }
+  }
+
 }
 
 module.exports = Raft;

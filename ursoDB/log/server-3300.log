@@ -1,0 +1,5 @@
+2024-06-25T18:09:56.514Z [INFO] Server started on port 3300
+2024-06-25T18:09:56.770Z [INFO] Server on 3300 has received a vote from 3301
+2024-06-25T18:09:56.773Z [INFO] Server on 3300 has received a vote from 3302
+2024-06-25T18:09:56.774Z [INFO] Server on port 3300 elected as leader
+2024-06-25T18:09:56.800Z [INFO] RP notified of new leader on port 3300 for dn02

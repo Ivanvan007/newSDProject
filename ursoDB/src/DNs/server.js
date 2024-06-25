@@ -33,6 +33,7 @@ class Server {
     this.app.get('/maintenance', this.maintenanceHandler.bind(this));
     this.app.get('/sync', this.syncIniciatedFromMaster.bind(this));
     this.app.get('/heartbeat', this.heartbeatHandler.bind(this));
+    this.app.post('/appendEntries', this.appendEntriesHandler.bind(this));
   }
 
   statusHandler(req, res) {
@@ -151,10 +152,15 @@ class Server {
     res.json({ data: { message: 'Maintenance not implemented yet' }, error: 0 });
     this.logger.info(`Server on port ${this.port} did maintenance`);
   }
-
+  
   heartbeatHandler(req, res) {
-    this.raft.resetElectionTimeout();
+    this.raft.heartbeatHandler(req.body);
     res.send({ status: 'ok' });
+  }
+
+  appendEntriesHandler(req, res)
+  {
+    this.raft.appendEntries(req,res);
   }
 
   async syncIniciatedFromMaster(req, res) {
