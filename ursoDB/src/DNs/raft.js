@@ -9,6 +9,8 @@ const ELECTION_TIMEOUT_MIN = 150; // In milliseconds
 const ELECTION_TIMEOUT_MAX = 300; // In milliseconds
 const HEARTBEAT_INTERVAL = 50; // In milliseconds
 
+var dn_Name = "";
+
 class Raft {
   constructor(port, DNs) {
     this.port = port;
@@ -22,7 +24,14 @@ class Raft {
     this.heartbeatInterval = null;
     this.currentTerm = 0; // Initialize current term
     this.votedFor = null; // Initialize votedFor
+    this.temp_DN;
+    this.findDatanode();
     this.resetElectionTimeout();
+  }
+
+  findDatanode()
+  {
+    this.temp_DN = this.DNs.find(temp_DN => temp_DN.servers.some(server => server.port == this.port));
   }
 
   resetElectionTimeout() {
@@ -50,8 +59,8 @@ class Raft {
   }
 
   sendHeartbeat() {
-    const dn = this.DNs.find(dn => dn.servers.some(server => server.port === this.port));
-    dn.servers.forEach(server => {
+    
+    temp_DN.servers.forEach(server => {
       if (server.port != this.port) {
         axios.get(`http://${server.host}:${server.port}/heartbeat`)
           .then(response => {
@@ -66,8 +75,11 @@ class Raft {
   }
 
   async startElection() {
+
+    dn_Name = `dn0${Math.floor((this.port / 100) % 10) - 1}`;
     try {
       if (this.state === 'leader') {
+        //this.notifyRP(dn_Name)
         return;
       }
 
@@ -75,9 +87,8 @@ class Raft {
       this.votesReceived = 1; // Start vote count with self-vote
       this.currentTerm++;
       this.votedFor = this.port; // Vote for self
-      const dn = this.DNs.find(dn => dn.servers.some(server => server.port === this.port));
 
-      await Promise.all(dn.servers.map(async (server) => {
+      await Promise.all(this.temp_DN.servers.map(async (server) => {
         if (server.port != this.port) {
           try {
             const response = await axios.get(`http://${server.host}:${server.port}/election`, {
@@ -99,13 +110,21 @@ class Raft {
         }
       }));
 
-      if (this.votesReceived > dn.servers.length / 2) {
-        this.state = 'leader';
+      if (this.votesReceived > this.temp_DN.servers.length / 2) {
         this.leader = `http://localhost:${this.port}`;
         this.logger.info(`Server on port ${this.port} elected as leader`);
         this.stopHeartbeat();
         this.startHeartbeat();
-        await this.notifyRP(dn.name);
+        try
+        {
+          await this.notifyRP(dn_Name);
+          this.state = 'leader';
+
+        }catch(error)
+        {
+          this.logger.error(`Error into notifyRP function and leader setting: ${error.message || error}`);
+        }        
+       
       } else {
         this.logger.info(`Server on port ${this.port} did not receive enough votes`);
         this.state = 'follower';
@@ -118,13 +137,13 @@ class Raft {
     }
   }
 
-  async notifyRP(dnName) {
+  async notifyRP(dn_Name) {
     try {
       const rpConfig = config.RP;
       await axios.get(`http://${rpConfig.host}:${rpConfig.port}/set_master`, {
-        params: { leader: this.port, dnName }
+        params: { leader: this.port, dn_Name }
       });
-      this.logger.info(`RP notified of new leader on port ${this.port} for ${dnName}`);
+      this.logger.info(`RP notified of new leader on port ${this.port} for ${dn_Name}`);
     } catch (error) {
       this.logger.error(`Error notifying RP: ${error.message || error}`);
     }
