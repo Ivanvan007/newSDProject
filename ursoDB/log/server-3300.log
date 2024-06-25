@@ -1,12 +1,660 @@
-2024-06-02T19:09:08.542Z [ERROR] error:ReferenceError: logger is not defined
-2024-06-02T19:09:08.550Z [ERROR] There is no Leader/Master on dn02 available for synchronization
-2024-06-02T19:09:08.561Z [INFO] Server started on port 3300
-2024-06-02T19:10:50.640Z [ERROR] error:ReferenceError: logger is not defined
-2024-06-02T19:10:50.646Z [ERROR] There is no Leader/Master on dn02 available for synchronization
-2024-06-02T19:10:50.654Z [INFO] Server started on port 3300
-2024-06-05T05:57:33.334Z [ERROR] error:ReferenceError: logger is not defined
-2024-06-05T05:57:33.342Z [ERROR] There is no Leader/Master on dn02 available for synchronization
-2024-06-05T05:57:33.348Z [INFO] Server started on port 3300
-2024-06-05T13:15:13.305Z [ERROR] error:ReferenceError: logger is not defined
-2024-06-05T13:15:13.311Z [ERROR] There is no Leader/Master on dn02 available for synchronization
-2024-06-05T13:15:13.316Z [INFO] Server started on port 3300
+2024-06-24T18:28:13.054Z [INFO] Server started on port 3300
+2024-06-24T18:28:13.395Z [INFO] Server on 3300 has received a vote from 3301
+2024-06-24T18:28:13.398Z [INFO] Server on port 3300 elected as leader
+2024-06-24T18:28:13.420Z [ERROR] Error notifying RP: AggregateError
+2024-06-24T18:28:13.467Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:13.469Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:13.528Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:13.530Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:13.591Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:13.595Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:13.654Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:13.657Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:13.715Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:13.717Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:13.777Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:13.778Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:13.839Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:13.840Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:13.902Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:13.904Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:13.966Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:13.967Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:14.027Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:14.029Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:14.090Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:14.092Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:14.153Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:14.155Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:14.213Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:14.215Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:14.277Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:14.278Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:14.338Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:14.340Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:14.401Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:14.403Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:14.466Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:14.467Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:14.528Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:14.529Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:14.590Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:14.592Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:14.653Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:14.654Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:14.717Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:14.719Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:14.780Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:14.781Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:14.842Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:14.843Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:14.904Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:14.905Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:14.967Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:14.968Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:15.029Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:15.030Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:15.090Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:15.092Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:15.154Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:15.155Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:15.218Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:15.219Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:15.280Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:15.281Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:15.341Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:15.342Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:15.406Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:15.407Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:15.467Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:15.468Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:15.528Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:15.530Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:15.589Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:15.590Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:15.651Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:15.653Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:15.714Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:15.716Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:15.776Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:15.778Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:15.840Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:15.841Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:15.902Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:15.904Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:15.965Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:15.966Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.028Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:16.029Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.091Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:16.093Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.155Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.156Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:16.217Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.218Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:16.279Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:16.281Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.342Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:16.343Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.404Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:16.405Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.466Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:16.468Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.529Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:16.530Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.589Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.591Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:16.651Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:16.653Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.715Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:16.717Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.774Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.775Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:16.836Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:16.837Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.897Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:16.898Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.960Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:16.961Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.022Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.023Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:17.086Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.088Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:17.148Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.149Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:17.210Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.211Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:17.272Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.273Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:17.334Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.335Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:17.398Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.399Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:17.460Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:17.462Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.525Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:17.526Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.586Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.587Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:17.648Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.650Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:17.711Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.713Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:17.773Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.774Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:17.836Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.837Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:17.897Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:17.898Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.959Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:17.960Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:18.022Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:18.023Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:18.083Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:18.085Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:18.145Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:18.147Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:18.207Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:18.208Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:18.272Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:18.274Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:18.334Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:18.335Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:18.396Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:18.397Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:18.457Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:18.459Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:18.519Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:18.521Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:18.585Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:18.586Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:18.646Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:18.647Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:18.709Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:18.710Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:18.771Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:18.773Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:18.834Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:18.835Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:18.895Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:18.896Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:18.957Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:18.958Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:19.020Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:19.021Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:19.085Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:19.086Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:19.148Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:19.149Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:19.210Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:19.211Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:19.272Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:19.273Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:19.334Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:19.336Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:19.395Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:19.397Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:19.457Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:19.458Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:19.521Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:19.522Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:19.585Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:19.586Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:19.646Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:19.647Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:19.709Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:19.710Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:19.771Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:19.772Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:19.833Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:19.834Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:19.896Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:19.897Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:19.958Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:19.959Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:20.022Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:20.023Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:20.085Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:20.086Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:20.147Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:20.148Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:20.210Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:20.211Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:20.273Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:20.275Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:20.334Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:20.335Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:20.395Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:20.397Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:20.458Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:20.460Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:20.521Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:20.523Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:20.585Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:20.586Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:20.648Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:20.649Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:20.710Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:20.711Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:20.772Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:20.774Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:20.836Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:20.837Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:20.897Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:20.898Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:20.959Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:20.961Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:21.024Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:21.025Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:21.087Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:21.088Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:21.151Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:21.152Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:21.214Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:21.216Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:21.278Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:21.280Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:21.341Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:21.343Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:21.404Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:21.406Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:21.467Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:21.468Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:21.531Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:21.532Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:21.593Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:21.595Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:21.658Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:21.659Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:21.720Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:21.721Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:21.782Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:21.784Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:21.845Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:21.846Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:21.908Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:21.909Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:21.971Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:21.973Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:22.032Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:22.033Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:22.096Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:22.097Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:22.159Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:22.161Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:22.222Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:22.223Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:22.285Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:22.287Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:22.349Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:22.350Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:22.411Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:22.412Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:22.475Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:22.476Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:22.537Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:22.538Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:22.600Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:22.601Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:22.664Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:22.665Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:22.726Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:22.727Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:22.777Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:22.778Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:22.836Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:22.837Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:22.899Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:22.900Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:22.962Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:22.963Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.026Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:23.027Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.086Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.087Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:23.149Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:23.149Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.211Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:23.212Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.275Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:23.276Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.336Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:23.337Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.394Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:23.396Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.446Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:23.447Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.508Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:23.509Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.571Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.572Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:23.634Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:23.635Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.694Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.696Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:23.758Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:23.759Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.821Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:23.823Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.884Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:23.885Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.946Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:23.947Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:24.011Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:24.012Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:24.073Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:24.074Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:24.135Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:24.137Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:24.197Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:24.198Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:24.259Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:24.261Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:24.324Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:24.325Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:24.386Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:24.387Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:24.449Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:24.451Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:24.514Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:24.515Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:24.576Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:24.577Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:24.638Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:24.639Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:24.701Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:24.702Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:24.762Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:24.763Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:24.824Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:24.825Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:24.887Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:24.888Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:24.949Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:24.951Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.011Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.012Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:25.074Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.076Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:25.136Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.137Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:25.198Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:25.200Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.261Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.263Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:25.325Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.326Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:25.386Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.388Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:25.451Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.452Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:25.513Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:25.514Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.575Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.576Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:25.640Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.642Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:25.701Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.703Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:25.764Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:25.766Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.826Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.828Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:25.888Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.889Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:25.952Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:25.953Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.017Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:26.019Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.080Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:26.081Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.144Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:26.145Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.207Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:26.207Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.269Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:26.270Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.330Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:26.331Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.395Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.396Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:26.456Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:26.458Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.520Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.521Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:26.581Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:26.583Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.645Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:26.647Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.707Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:26.709Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.771Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:26.773Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.833Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.834Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:26.897Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.899Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:26.959Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:26.961Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.022Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.024Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:27.085Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.086Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:27.148Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.149Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:27.210Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:27.211Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.274Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:27.276Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.336Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.338Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:27.398Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.400Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:27.460Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.462Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:27.524Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.526Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:27.586Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.587Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:27.649Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.651Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:27.712Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.714Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:27.774Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.775Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:27.837Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.838Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:27.898Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.900Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:27.962Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:27.963Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:28.025Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:28.026Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:28.088Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:28.089Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:28.149Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:28.151Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:28.213Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:28.215Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:28.275Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:28.277Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:28.337Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:28.339Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:28.399Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:28.400Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:28.460Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:28.462Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:28.523Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:28.525Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:28.586Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:28.587Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:28.650Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:28.651Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:28.715Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:28.716Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:28.778Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:28.779Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:28.841Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:28.842Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:28.905Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:28.906Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:28.966Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:28.968Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:29.031Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:29.032Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:29.093Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:29.094Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:29.157Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:29.158Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:29.218Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:29.219Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:29.281Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:29.283Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:29.344Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:29.345Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:29.406Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:29.407Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:29.469Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:29.470Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:29.531Z [INFO] Heartbeat acknowledged by server on port 3302
+2024-06-24T18:28:29.532Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:29.594Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:29.596Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:29.656Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:29.658Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:29.720Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:29.723Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:29.780Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:29.782Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:29.843Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:29.846Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:29.908Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:29.909Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:29.970Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:29.971Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:30.034Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:30.037Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:30.096Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:30.098Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:30.158Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:30.159Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:30.221Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:30.223Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:30.285Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:30.288Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:30.347Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:30.348Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:30.410Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:30.411Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:30.472Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:30.474Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:30.537Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:30.540Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:30.598Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:30.600Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:30.659Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:30.661Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:30.723Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:30.725Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:30.785Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:30.787Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:30.850Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:30.852Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:30.914Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:30.916Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:30.976Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:30.978Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:31.038Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:31.040Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:31.101Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:31.103Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:31.164Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:31.167Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:31.229Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:31.231Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:31.290Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:31.292Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:31.351Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:31.353Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:31.414Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:31.416Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:31.476Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:31.478Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:31.538Z [INFO] Heartbeat acknowledged by server on port 3301
+2024-06-24T18:28:31.540Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:31.592Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:31.595Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:31.649Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:31.650Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:31.713Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:31.715Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:31.776Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:31.778Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:31.841Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:31.842Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:31.907Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:31.908Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:31.968Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:31.969Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:32.030Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:32.033Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:32.093Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:32.094Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:32.152Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:32.155Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:32.215Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:32.218Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:32.277Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:32.278Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:32.343Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:32.344Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:32.404Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:32.406Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:32.467Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:32.469Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:32.529Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:32.531Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:32.593Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:32.595Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:32.656Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:32.658Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:32.718Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:32.722Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:32.782Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:32.785Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:32.844Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:32.845Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:32.904Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:32.908Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:32.969Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:32.971Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:33.029Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:33.031Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:33.093Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:33.094Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:33.155Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:33.156Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:33.219Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:33.221Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:33.279Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:33.281Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:33.343Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:33.345Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:33.405Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:33.406Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:33.469Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:33.471Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:33.533Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:33.535Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:33.596Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:33.599Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:33.658Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:33.659Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:33.721Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:33.722Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:33.783Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:33.785Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:33.845Z [ERROR] Heartbeat error to server on port 3302: AggregateError
+2024-06-24T18:28:33.847Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:33.909Z [ERROR] Heartbeat error to server on port 3301: AggregateError
+2024-06-24T18:28:33.911Z [ERROR] Heartbeat error to server on port 3302: AggregateError
