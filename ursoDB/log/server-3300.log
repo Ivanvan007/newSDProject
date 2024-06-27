@@ -1,5 +1,2126 @@
-2024-06-25T18:09:56.514Z [INFO] Server started on port 3300
-2024-06-25T18:09:56.770Z [INFO] Server on 3300 has received a vote from 3301
-2024-06-25T18:09:56.773Z [INFO] Server on 3300 has received a vote from 3302
-2024-06-25T18:09:56.774Z [INFO] Server on port 3300 elected as leader
-2024-06-25T18:09:56.800Z [INFO] RP notified of new leader on port 3300 for dn02
+2024-06-27T15:48:58.895Z [INFO] Server started on port 3300
+2024-06-27T15:49:09.732Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:09.733Z [ERROR] No response received from server 3301
+2024-06-27T15:49:09.735Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:09.735Z [ERROR] No response received from server 3302
+2024-06-27T15:49:09.736Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:10.047Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:10.048Z [ERROR] No response received from server 3301
+2024-06-27T15:49:10.051Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:10.052Z [ERROR] No response received from server 3302
+2024-06-27T15:49:10.053Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:10.295Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:10.296Z [ERROR] No response received from server 3301
+2024-06-27T15:49:10.297Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:10.298Z [ERROR] No response received from server 3302
+2024-06-27T15:49:10.299Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:10.544Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:10.544Z [ERROR] No response received from server 3301
+2024-06-27T15:49:10.546Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:10.546Z [ERROR] No response received from server 3302
+2024-06-27T15:49:10.547Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:10.795Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:10.796Z [ERROR] No response received from server 3301
+2024-06-27T15:49:10.798Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:10.798Z [ERROR] No response received from server 3302
+2024-06-27T15:49:10.799Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:11.089Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:11.090Z [ERROR] No response received from server 3301
+2024-06-27T15:49:11.091Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:11.092Z [ERROR] No response received from server 3302
+2024-06-27T15:49:11.092Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:11.261Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:11.262Z [ERROR] No response received from server 3301
+2024-06-27T15:49:11.263Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:11.264Z [ERROR] No response received from server 3302
+2024-06-27T15:49:11.264Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:11.543Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:11.544Z [ERROR] No response received from server 3301
+2024-06-27T15:49:11.545Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:11.546Z [ERROR] No response received from server 3302
+2024-06-27T15:49:11.547Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:11.777Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:11.778Z [ERROR] No response received from server 3301
+2024-06-27T15:49:11.779Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:11.780Z [ERROR] No response received from server 3302
+2024-06-27T15:49:11.780Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:11.960Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:11.961Z [ERROR] No response received from server 3301
+2024-06-27T15:49:11.962Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:11.962Z [ERROR] No response received from server 3302
+2024-06-27T15:49:11.962Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:12.150Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:12.152Z [ERROR] No response received from server 3301
+2024-06-27T15:49:12.153Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:12.154Z [ERROR] No response received from server 3302
+2024-06-27T15:49:12.154Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:12.387Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:12.388Z [ERROR] No response received from server 3301
+2024-06-27T15:49:12.389Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:12.390Z [ERROR] No response received from server 3302
+2024-06-27T15:49:12.390Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:12.607Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:12.608Z [ERROR] No response received from server 3301
+2024-06-27T15:49:12.610Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:12.611Z [ERROR] No response received from server 3302
+2024-06-27T15:49:12.612Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:12.859Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:12.859Z [ERROR] No response received from server 3301
+2024-06-27T15:49:12.860Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:12.861Z [ERROR] No response received from server 3302
+2024-06-27T15:49:12.861Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:13.045Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:13.047Z [ERROR] No response received from server 3301
+2024-06-27T15:49:13.048Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:13.049Z [ERROR] No response received from server 3302
+2024-06-27T15:49:13.050Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:13.220Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:13.221Z [ERROR] No response received from server 3301
+2024-06-27T15:49:13.222Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:13.223Z [ERROR] No response received from server 3302
+2024-06-27T15:49:13.223Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:13.533Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:13.534Z [ERROR] No response received from server 3301
+2024-06-27T15:49:13.535Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:13.536Z [ERROR] No response received from server 3302
+2024-06-27T15:49:13.537Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:13.769Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:13.770Z [ERROR] No response received from server 3301
+2024-06-27T15:49:13.772Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:13.773Z [ERROR] No response received from server 3302
+2024-06-27T15:49:13.774Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:14.066Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:14.067Z [ERROR] No response received from server 3301
+2024-06-27T15:49:14.069Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:14.070Z [ERROR] No response received from server 3302
+2024-06-27T15:49:14.071Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:14.364Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:14.365Z [ERROR] No response received from server 3301
+2024-06-27T15:49:14.366Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:14.367Z [ERROR] No response received from server 3302
+2024-06-27T15:49:14.369Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:14.647Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:14.648Z [ERROR] No response received from server 3301
+2024-06-27T15:49:14.649Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:14.651Z [ERROR] No response received from server 3302
+2024-06-27T15:49:14.652Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:14.945Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:14.946Z [ERROR] No response received from server 3301
+2024-06-27T15:49:14.948Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:14.948Z [ERROR] No response received from server 3302
+2024-06-27T15:49:14.950Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:15.165Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:15.166Z [ERROR] No response received from server 3301
+2024-06-27T15:49:15.168Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:15.169Z [ERROR] No response received from server 3302
+2024-06-27T15:49:15.169Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:15.451Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:15.452Z [ERROR] No response received from server 3301
+2024-06-27T15:49:15.453Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:15.453Z [ERROR] No response received from server 3302
+2024-06-27T15:49:15.454Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:15.623Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:15.624Z [ERROR] No response received from server 3301
+2024-06-27T15:49:15.626Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:15.627Z [ERROR] No response received from server 3302
+2024-06-27T15:49:15.628Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:15.856Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:15.856Z [ERROR] No response received from server 3301
+2024-06-27T15:49:15.858Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:15.859Z [ERROR] No response received from server 3302
+2024-06-27T15:49:15.859Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:16.122Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:16.123Z [ERROR] No response received from server 3301
+2024-06-27T15:49:16.125Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:16.126Z [ERROR] No response received from server 3302
+2024-06-27T15:49:16.126Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:16.324Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:16.325Z [ERROR] No response received from server 3301
+2024-06-27T15:49:16.327Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:16.328Z [ERROR] No response received from server 3302
+2024-06-27T15:49:16.328Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:16.495Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:16.496Z [ERROR] No response received from server 3301
+2024-06-27T15:49:16.496Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:16.496Z [ERROR] No response received from server 3302
+2024-06-27T15:49:16.497Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:16.795Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:16.796Z [ERROR] No response received from server 3301
+2024-06-27T15:49:16.797Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:16.798Z [ERROR] No response received from server 3302
+2024-06-27T15:49:16.799Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:16.983Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:16.985Z [ERROR] No response received from server 3301
+2024-06-27T15:49:16.987Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:16.988Z [ERROR] No response received from server 3302
+2024-06-27T15:49:16.988Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:17.201Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:17.202Z [ERROR] No response received from server 3301
+2024-06-27T15:49:17.204Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:17.205Z [ERROR] No response received from server 3302
+2024-06-27T15:49:17.205Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:17.436Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:17.437Z [ERROR] No response received from server 3301
+2024-06-27T15:49:17.438Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:17.439Z [ERROR] No response received from server 3302
+2024-06-27T15:49:17.440Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:17.682Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:17.682Z [ERROR] No response received from server 3301
+2024-06-27T15:49:17.684Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:17.685Z [ERROR] No response received from server 3302
+2024-06-27T15:49:17.685Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:17.888Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:17.890Z [ERROR] No response received from server 3301
+2024-06-27T15:49:17.892Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:17.893Z [ERROR] No response received from server 3302
+2024-06-27T15:49:17.893Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:18.090Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:18.090Z [ERROR] No response received from server 3301
+2024-06-27T15:49:18.092Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:18.092Z [ERROR] No response received from server 3302
+2024-06-27T15:49:18.093Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:18.389Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:18.389Z [ERROR] No response received from server 3301
+2024-06-27T15:49:18.390Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:18.391Z [ERROR] No response received from server 3302
+2024-06-27T15:49:18.391Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:18.622Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:18.623Z [ERROR] No response received from server 3301
+2024-06-27T15:49:18.625Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:18.626Z [ERROR] No response received from server 3302
+2024-06-27T15:49:18.626Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:18.794Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:18.795Z [ERROR] No response received from server 3301
+2024-06-27T15:49:18.797Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:18.797Z [ERROR] No response received from server 3302
+2024-06-27T15:49:18.798Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:18.971Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:18.972Z [ERROR] No response received from server 3301
+2024-06-27T15:49:18.974Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:18.974Z [ERROR] No response received from server 3302
+2024-06-27T15:49:18.975Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:19.142Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:19.143Z [ERROR] No response received from server 3301
+2024-06-27T15:49:19.145Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:19.146Z [ERROR] No response received from server 3302
+2024-06-27T15:49:19.146Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:19.361Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:19.362Z [ERROR] No response received from server 3301
+2024-06-27T15:49:19.363Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:19.365Z [ERROR] No response received from server 3302
+2024-06-27T15:49:19.366Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:19.628Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:19.629Z [ERROR] No response received from server 3301
+2024-06-27T15:49:19.630Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:19.631Z [ERROR] No response received from server 3302
+2024-06-27T15:49:19.631Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:19.815Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:19.817Z [ERROR] No response received from server 3301
+2024-06-27T15:49:19.820Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:19.820Z [ERROR] No response received from server 3302
+2024-06-27T15:49:19.821Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:20.003Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:20.004Z [ERROR] No response received from server 3301
+2024-06-27T15:49:20.005Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:20.006Z [ERROR] No response received from server 3302
+2024-06-27T15:49:20.007Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:20.207Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:20.209Z [ERROR] No response received from server 3301
+2024-06-27T15:49:20.211Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:20.212Z [ERROR] No response received from server 3302
+2024-06-27T15:49:20.213Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:20.516Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:20.518Z [ERROR] No response received from server 3301
+2024-06-27T15:49:20.520Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:20.520Z [ERROR] No response received from server 3302
+2024-06-27T15:49:20.521Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:20.736Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:20.738Z [ERROR] No response received from server 3301
+2024-06-27T15:49:20.739Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:20.740Z [ERROR] No response received from server 3302
+2024-06-27T15:49:20.741Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:20.941Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:20.942Z [ERROR] No response received from server 3301
+2024-06-27T15:49:20.943Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:20.945Z [ERROR] No response received from server 3302
+2024-06-27T15:49:20.945Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:21.193Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:21.194Z [ERROR] No response received from server 3301
+2024-06-27T15:49:21.196Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:21.196Z [ERROR] No response received from server 3302
+2024-06-27T15:49:21.197Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:21.507Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:21.508Z [ERROR] No response received from server 3301
+2024-06-27T15:49:21.509Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:21.510Z [ERROR] No response received from server 3302
+2024-06-27T15:49:21.511Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:21.714Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:21.715Z [ERROR] No response received from server 3301
+2024-06-27T15:49:21.716Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:21.718Z [ERROR] No response received from server 3302
+2024-06-27T15:49:21.719Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:21.961Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:21.962Z [ERROR] No response received from server 3301
+2024-06-27T15:49:21.964Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:21.965Z [ERROR] No response received from server 3302
+2024-06-27T15:49:21.965Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:22.198Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:22.199Z [ERROR] No response received from server 3301
+2024-06-27T15:49:22.200Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:22.201Z [ERROR] No response received from server 3302
+2024-06-27T15:49:22.202Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:22.369Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:22.370Z [ERROR] No response received from server 3301
+2024-06-27T15:49:22.371Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:22.372Z [ERROR] No response received from server 3302
+2024-06-27T15:49:22.373Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:22.588Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:22.589Z [ERROR] No response received from server 3301
+2024-06-27T15:49:22.591Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:22.591Z [ERROR] No response received from server 3302
+2024-06-27T15:49:22.592Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:22.901Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:22.903Z [ERROR] No response received from server 3301
+2024-06-27T15:49:22.905Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:22.906Z [ERROR] No response received from server 3302
+2024-06-27T15:49:22.907Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:23.180Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:23.181Z [ERROR] No response received from server 3301
+2024-06-27T15:49:23.184Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:23.185Z [ERROR] No response received from server 3302
+2024-06-27T15:49:23.187Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:23.451Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:23.452Z [ERROR] No response received from server 3301
+2024-06-27T15:49:23.454Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:23.455Z [ERROR] No response received from server 3302
+2024-06-27T15:49:23.455Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:23.717Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:23.719Z [ERROR] No response received from server 3301
+2024-06-27T15:49:23.721Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:23.721Z [ERROR] No response received from server 3302
+2024-06-27T15:49:23.722Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:23.964Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:23.965Z [ERROR] No response received from server 3301
+2024-06-27T15:49:23.967Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:23.967Z [ERROR] No response received from server 3302
+2024-06-27T15:49:23.968Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:24.137Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:24.138Z [ERROR] No response received from server 3301
+2024-06-27T15:49:24.140Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:24.140Z [ERROR] No response received from server 3302
+2024-06-27T15:49:24.141Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:24.377Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:24.378Z [ERROR] No response received from server 3301
+2024-06-27T15:49:24.379Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:24.380Z [ERROR] No response received from server 3302
+2024-06-27T15:49:24.380Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:24.576Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:24.577Z [ERROR] No response received from server 3301
+2024-06-27T15:49:24.578Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:24.579Z [ERROR] No response received from server 3302
+2024-06-27T15:49:24.580Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:24.796Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:24.797Z [ERROR] No response received from server 3301
+2024-06-27T15:49:24.798Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:24.799Z [ERROR] No response received from server 3302
+2024-06-27T15:49:24.800Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:24.984Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:24.985Z [ERROR] No response received from server 3301
+2024-06-27T15:49:24.987Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:24.988Z [ERROR] No response received from server 3302
+2024-06-27T15:49:24.989Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:25.219Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:25.220Z [ERROR] No response received from server 3301
+2024-06-27T15:49:25.221Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:25.222Z [ERROR] No response received from server 3302
+2024-06-27T15:49:25.222Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:25.438Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:25.439Z [ERROR] No response received from server 3301
+2024-06-27T15:49:25.440Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:25.440Z [ERROR] No response received from server 3302
+2024-06-27T15:49:25.441Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:25.608Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:25.609Z [ERROR] No response received from server 3301
+2024-06-27T15:49:25.610Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:25.611Z [ERROR] No response received from server 3302
+2024-06-27T15:49:25.611Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:25.856Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:25.857Z [ERROR] No response received from server 3301
+2024-06-27T15:49:25.858Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:25.859Z [ERROR] No response received from server 3302
+2024-06-27T15:49:25.859Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:26.141Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:26.143Z [ERROR] No response received from server 3301
+2024-06-27T15:49:26.144Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:26.144Z [ERROR] No response received from server 3302
+2024-06-27T15:49:26.145Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:26.409Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:26.410Z [ERROR] No response received from server 3301
+2024-06-27T15:49:26.411Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:26.412Z [ERROR] No response received from server 3302
+2024-06-27T15:49:26.413Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:26.723Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:26.723Z [ERROR] No response received from server 3301
+2024-06-27T15:49:26.725Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:26.725Z [ERROR] No response received from server 3302
+2024-06-27T15:49:26.726Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:27.003Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:27.003Z [ERROR] No response received from server 3301
+2024-06-27T15:49:27.004Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:27.005Z [ERROR] No response received from server 3302
+2024-06-27T15:49:27.006Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:27.254Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:27.255Z [ERROR] No response received from server 3301
+2024-06-27T15:49:27.257Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:27.258Z [ERROR] No response received from server 3302
+2024-06-27T15:49:27.258Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:27.564Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:27.565Z [ERROR] No response received from server 3301
+2024-06-27T15:49:27.566Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:27.567Z [ERROR] No response received from server 3302
+2024-06-27T15:49:27.568Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:27.861Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:27.861Z [ERROR] No response received from server 3301
+2024-06-27T15:49:27.862Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:27.863Z [ERROR] No response received from server 3302
+2024-06-27T15:49:27.864Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:28.153Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:28.154Z [ERROR] No response received from server 3301
+2024-06-27T15:49:28.157Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:28.158Z [ERROR] No response received from server 3302
+2024-06-27T15:49:28.159Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:28.459Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:28.459Z [ERROR] No response received from server 3301
+2024-06-27T15:49:28.460Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:28.461Z [ERROR] No response received from server 3302
+2024-06-27T15:49:28.461Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:28.740Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:28.740Z [ERROR] No response received from server 3301
+2024-06-27T15:49:28.741Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:28.742Z [ERROR] No response received from server 3302
+2024-06-27T15:49:28.742Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:28.929Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:28.930Z [ERROR] No response received from server 3301
+2024-06-27T15:49:28.931Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:28.932Z [ERROR] No response received from server 3302
+2024-06-27T15:49:28.933Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:29.165Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:29.166Z [ERROR] No response received from server 3301
+2024-06-27T15:49:29.169Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:29.170Z [ERROR] No response received from server 3302
+2024-06-27T15:49:29.170Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:29.459Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:29.460Z [ERROR] No response received from server 3301
+2024-06-27T15:49:29.461Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:29.462Z [ERROR] No response received from server 3302
+2024-06-27T15:49:29.463Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:29.662Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:29.663Z [ERROR] No response received from server 3301
+2024-06-27T15:49:29.665Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:29.665Z [ERROR] No response received from server 3302
+2024-06-27T15:49:29.666Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:29.886Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:29.887Z [ERROR] No response received from server 3301
+2024-06-27T15:49:29.889Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:29.890Z [ERROR] No response received from server 3302
+2024-06-27T15:49:29.890Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:30.173Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:30.174Z [ERROR] No response received from server 3301
+2024-06-27T15:49:30.175Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:30.176Z [ERROR] No response received from server 3302
+2024-06-27T15:49:30.176Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:30.373Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:30.374Z [ERROR] No response received from server 3301
+2024-06-27T15:49:30.375Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:30.375Z [ERROR] No response received from server 3302
+2024-06-27T15:49:30.376Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:30.655Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:30.656Z [ERROR] No response received from server 3301
+2024-06-27T15:49:30.657Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:30.658Z [ERROR] No response received from server 3302
+2024-06-27T15:49:30.658Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:30.839Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:30.840Z [ERROR] No response received from server 3301
+2024-06-27T15:49:30.842Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:30.842Z [ERROR] No response received from server 3302
+2024-06-27T15:49:30.843Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:31.027Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:31.028Z [ERROR] No response received from server 3301
+2024-06-27T15:49:31.029Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:31.030Z [ERROR] No response received from server 3302
+2024-06-27T15:49:31.031Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:31.339Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:31.340Z [ERROR] No response received from server 3301
+2024-06-27T15:49:31.342Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:31.342Z [ERROR] No response received from server 3302
+2024-06-27T15:49:31.343Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:31.559Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:31.560Z [ERROR] No response received from server 3301
+2024-06-27T15:49:31.561Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:31.561Z [ERROR] No response received from server 3302
+2024-06-27T15:49:31.562Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:31.822Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:31.823Z [ERROR] No response received from server 3301
+2024-06-27T15:49:31.823Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:31.824Z [ERROR] No response received from server 3302
+2024-06-27T15:49:31.824Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:31.993Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:31.993Z [ERROR] No response received from server 3301
+2024-06-27T15:49:31.994Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:31.994Z [ERROR] No response received from server 3302
+2024-06-27T15:49:31.994Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:32.263Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:32.264Z [ERROR] No response received from server 3301
+2024-06-27T15:49:32.266Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:32.267Z [ERROR] No response received from server 3302
+2024-06-27T15:49:32.268Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:32.530Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:32.531Z [ERROR] No response received from server 3301
+2024-06-27T15:49:32.532Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:32.533Z [ERROR] No response received from server 3302
+2024-06-27T15:49:32.534Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:32.828Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:32.828Z [ERROR] No response received from server 3301
+2024-06-27T15:49:32.830Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:32.830Z [ERROR] No response received from server 3302
+2024-06-27T15:49:32.831Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:33.030Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:33.031Z [ERROR] No response received from server 3301
+2024-06-27T15:49:33.032Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:33.032Z [ERROR] No response received from server 3302
+2024-06-27T15:49:33.033Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:33.312Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:33.313Z [ERROR] No response received from server 3301
+2024-06-27T15:49:33.314Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:33.315Z [ERROR] No response received from server 3302
+2024-06-27T15:49:33.316Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:33.594Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:33.594Z [ERROR] No response received from server 3302
+2024-06-27T15:49:33.595Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:33.595Z [ERROR] No response received from server 3301
+2024-06-27T15:49:33.595Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:33.769Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:33.769Z [ERROR] No response received from server 3301
+2024-06-27T15:49:33.771Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:33.771Z [ERROR] No response received from server 3302
+2024-06-27T15:49:33.772Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:34.050Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:34.051Z [ERROR] No response received from server 3301
+2024-06-27T15:49:34.052Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:34.053Z [ERROR] No response received from server 3302
+2024-06-27T15:49:34.053Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:34.297Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:34.298Z [ERROR] No response received from server 3301
+2024-06-27T15:49:34.300Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:34.301Z [ERROR] No response received from server 3302
+2024-06-27T15:49:34.301Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:34.608Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:34.609Z [ERROR] No response received from server 3301
+2024-06-27T15:49:34.611Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:34.611Z [ERROR] No response received from server 3302
+2024-06-27T15:49:34.612Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:34.923Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:34.924Z [ERROR] No response received from server 3301
+2024-06-27T15:49:34.925Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:34.926Z [ERROR] No response received from server 3302
+2024-06-27T15:49:34.927Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:35.108Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:35.108Z [ERROR] No response received from server 3301
+2024-06-27T15:49:35.110Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:35.110Z [ERROR] No response received from server 3302
+2024-06-27T15:49:35.111Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:35.389Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:35.390Z [ERROR] No response received from server 3301
+2024-06-27T15:49:35.390Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:35.391Z [ERROR] No response received from server 3302
+2024-06-27T15:49:35.391Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:35.614Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:35.615Z [ERROR] No response received from server 3301
+2024-06-27T15:49:35.616Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:35.617Z [ERROR] No response received from server 3302
+2024-06-27T15:49:35.617Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:35.908Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:35.909Z [ERROR] No response received from server 3301
+2024-06-27T15:49:35.911Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:35.911Z [ERROR] No response received from server 3302
+2024-06-27T15:49:35.912Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:36.097Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:36.098Z [ERROR] No response received from server 3301
+2024-06-27T15:49:36.099Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:36.100Z [ERROR] No response received from server 3302
+2024-06-27T15:49:36.101Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:36.272Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:36.272Z [ERROR] No response received from server 3301
+2024-06-27T15:49:36.274Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:36.275Z [ERROR] No response received from server 3302
+2024-06-27T15:49:36.276Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:36.488Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:36.489Z [ERROR] No response received from server 3301
+2024-06-27T15:49:36.490Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:36.490Z [ERROR] No response received from server 3302
+2024-06-27T15:49:36.491Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:36.724Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:36.725Z [ERROR] No response received from server 3301
+2024-06-27T15:49:36.726Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:36.727Z [ERROR] No response received from server 3302
+2024-06-27T15:49:36.727Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:36.946Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:36.947Z [ERROR] No response received from server 3301
+2024-06-27T15:49:36.948Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:36.949Z [ERROR] No response received from server 3302
+2024-06-27T15:49:36.950Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:37.212Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:37.213Z [ERROR] No response received from server 3301
+2024-06-27T15:49:37.214Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:37.214Z [ERROR] No response received from server 3302
+2024-06-27T15:49:37.214Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:37.386Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:37.387Z [ERROR] No response received from server 3301
+2024-06-27T15:49:37.389Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:37.390Z [ERROR] No response received from server 3302
+2024-06-27T15:49:37.390Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:37.636Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:37.637Z [ERROR] No response received from server 3301
+2024-06-27T15:49:37.639Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:37.639Z [ERROR] No response received from server 3302
+2024-06-27T15:49:37.640Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:37.872Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:37.873Z [ERROR] No response received from server 3301
+2024-06-27T15:49:37.875Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:37.875Z [ERROR] No response received from server 3302
+2024-06-27T15:49:37.876Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:38.123Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:38.124Z [ERROR] No response received from server 3301
+2024-06-27T15:49:38.126Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:38.127Z [ERROR] No response received from server 3302
+2024-06-27T15:49:38.127Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:38.358Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:38.359Z [ERROR] No response received from server 3301
+2024-06-27T15:49:38.360Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:38.361Z [ERROR] No response received from server 3302
+2024-06-27T15:49:38.362Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:38.547Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:38.548Z [ERROR] No response received from server 3301
+2024-06-27T15:49:38.550Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:38.550Z [ERROR] No response received from server 3302
+2024-06-27T15:49:38.551Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:38.845Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:38.846Z [ERROR] No response received from server 3301
+2024-06-27T15:49:38.848Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:38.849Z [ERROR] No response received from server 3302
+2024-06-27T15:49:38.850Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:39.034Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:39.035Z [ERROR] No response received from server 3301
+2024-06-27T15:49:39.037Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:39.038Z [ERROR] No response received from server 3302
+2024-06-27T15:49:39.038Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:39.254Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:39.255Z [ERROR] No response received from server 3301
+2024-06-27T15:49:39.256Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:39.256Z [ERROR] No response received from server 3302
+2024-06-27T15:49:39.257Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:39.427Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:39.428Z [ERROR] No response received from server 3301
+2024-06-27T15:49:39.429Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:39.429Z [ERROR] No response received from server 3302
+2024-06-27T15:49:39.430Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:39.660Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:39.661Z [ERROR] No response received from server 3301
+2024-06-27T15:49:39.662Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:39.663Z [ERROR] No response received from server 3302
+2024-06-27T15:49:39.663Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:39.895Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:39.896Z [ERROR] No response received from server 3301
+2024-06-27T15:49:39.898Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:39.898Z [ERROR] No response received from server 3302
+2024-06-27T15:49:39.899Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:40.177Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:40.178Z [ERROR] No response received from server 3301
+2024-06-27T15:49:40.179Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:40.180Z [ERROR] No response received from server 3302
+2024-06-27T15:49:40.180Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:40.476Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:40.477Z [ERROR] No response received from server 3301
+2024-06-27T15:49:40.478Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:40.479Z [ERROR] No response received from server 3302
+2024-06-27T15:49:40.479Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:40.662Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:40.663Z [ERROR] No response received from server 3301
+2024-06-27T15:49:40.665Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:40.666Z [ERROR] No response received from server 3302
+2024-06-27T15:49:40.667Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:40.946Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:40.947Z [ERROR] No response received from server 3301
+2024-06-27T15:49:40.948Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:40.949Z [ERROR] No response received from server 3302
+2024-06-27T15:49:40.949Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:41.262Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:41.264Z [ERROR] No response received from server 3301
+2024-06-27T15:49:41.265Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:41.267Z [ERROR] No response received from server 3302
+2024-06-27T15:49:41.267Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:41.448Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:41.449Z [ERROR] No response received from server 3301
+2024-06-27T15:49:41.451Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:41.453Z [ERROR] No response received from server 3302
+2024-06-27T15:49:41.453Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:41.698Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:41.699Z [ERROR] No response received from server 3301
+2024-06-27T15:49:41.702Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:41.703Z [ERROR] No response received from server 3302
+2024-06-27T15:49:41.704Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:41.931Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:41.932Z [ERROR] No response received from server 3301
+2024-06-27T15:49:41.934Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:41.935Z [ERROR] No response received from server 3302
+2024-06-27T15:49:41.935Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:42.117Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:42.117Z [ERROR] No response received from server 3301
+2024-06-27T15:49:42.118Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:42.119Z [ERROR] No response received from server 3302
+2024-06-27T15:49:42.120Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:42.417Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:42.418Z [ERROR] No response received from server 3301
+2024-06-27T15:49:42.419Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:42.419Z [ERROR] No response received from server 3302
+2024-06-27T15:49:42.420Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:42.668Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:42.669Z [ERROR] No response received from server 3301
+2024-06-27T15:49:42.670Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:42.671Z [ERROR] No response received from server 3302
+2024-06-27T15:49:42.672Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:42.965Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:42.967Z [ERROR] No response received from server 3301
+2024-06-27T15:49:42.969Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:42.969Z [ERROR] No response received from server 3302
+2024-06-27T15:49:42.970Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:43.277Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:43.278Z [ERROR] No response received from server 3301
+2024-06-27T15:49:43.280Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:43.281Z [ERROR] No response received from server 3302
+2024-06-27T15:49:43.281Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:43.591Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:43.592Z [ERROR] No response received from server 3301
+2024-06-27T15:49:43.594Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:43.594Z [ERROR] No response received from server 3302
+2024-06-27T15:49:43.595Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:43.763Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:43.764Z [ERROR] No response received from server 3301
+2024-06-27T15:49:43.766Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:43.767Z [ERROR] No response received from server 3302
+2024-06-27T15:49:43.767Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:43.950Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:43.951Z [ERROR] No response received from server 3301
+2024-06-27T15:49:43.954Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:43.954Z [ERROR] No response received from server 3302
+2024-06-27T15:49:43.955Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:44.171Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:44.172Z [ERROR] No response received from server 3301
+2024-06-27T15:49:44.174Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:44.174Z [ERROR] No response received from server 3302
+2024-06-27T15:49:44.175Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:44.408Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:44.408Z [ERROR] No response received from server 3301
+2024-06-27T15:49:44.410Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:44.410Z [ERROR] No response received from server 3302
+2024-06-27T15:49:44.411Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:44.643Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:44.644Z [ERROR] No response received from server 3301
+2024-06-27T15:49:44.646Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:44.646Z [ERROR] No response received from server 3302
+2024-06-27T15:49:44.647Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:44.912Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:44.913Z [ERROR] No response received from server 3301
+2024-06-27T15:49:44.915Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:44.917Z [ERROR] No response received from server 3302
+2024-06-27T15:49:44.918Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:45.195Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:45.196Z [ERROR] No response received from server 3301
+2024-06-27T15:49:45.198Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:45.199Z [ERROR] No response received from server 3302
+2024-06-27T15:49:45.200Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:45.479Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:45.480Z [ERROR] No response received from server 3301
+2024-06-27T15:49:45.482Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:45.483Z [ERROR] No response received from server 3302
+2024-06-27T15:49:45.484Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:45.791Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:45.792Z [ERROR] No response received from server 3301
+2024-06-27T15:49:45.793Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:45.794Z [ERROR] No response received from server 3302
+2024-06-27T15:49:45.795Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:45.996Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:45.997Z [ERROR] No response received from server 3301
+2024-06-27T15:49:45.998Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:45.998Z [ERROR] No response received from server 3302
+2024-06-27T15:49:45.999Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:46.230Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:46.231Z [ERROR] No response received from server 3301
+2024-06-27T15:49:46.234Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:46.235Z [ERROR] No response received from server 3302
+2024-06-27T15:49:46.237Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:46.543Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:46.544Z [ERROR] No response received from server 3301
+2024-06-27T15:49:46.546Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:46.547Z [ERROR] No response received from server 3302
+2024-06-27T15:49:46.547Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:46.793Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:46.794Z [ERROR] No response received from server 3301
+2024-06-27T15:49:46.795Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:46.796Z [ERROR] No response received from server 3302
+2024-06-27T15:49:46.796Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:46.997Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:46.998Z [ERROR] No response received from server 3301
+2024-06-27T15:49:47.000Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:47.000Z [ERROR] No response received from server 3302
+2024-06-27T15:49:47.001Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:47.253Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:47.253Z [ERROR] No response received from server 3301
+2024-06-27T15:49:47.255Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:47.255Z [ERROR] No response received from server 3302
+2024-06-27T15:49:47.256Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:47.565Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:47.566Z [ERROR] No response received from server 3301
+2024-06-27T15:49:47.568Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:47.569Z [ERROR] No response received from server 3302
+2024-06-27T15:49:47.569Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:47.849Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:47.850Z [ERROR] No response received from server 3301
+2024-06-27T15:49:47.852Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:47.852Z [ERROR] No response received from server 3302
+2024-06-27T15:49:47.853Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:48.023Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:48.023Z [ERROR] No response received from server 3301
+2024-06-27T15:49:48.025Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:48.025Z [ERROR] No response received from server 3302
+2024-06-27T15:49:48.026Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:48.305Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:48.305Z [ERROR] No response received from server 3301
+2024-06-27T15:49:48.307Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:48.307Z [ERROR] No response received from server 3302
+2024-06-27T15:49:48.307Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:48.616Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:48.617Z [ERROR] No response received from server 3301
+2024-06-27T15:49:48.618Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:48.618Z [ERROR] No response received from server 3302
+2024-06-27T15:49:48.619Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:48.869Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:48.870Z [ERROR] No response received from server 3301
+2024-06-27T15:49:48.871Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:48.872Z [ERROR] No response received from server 3302
+2024-06-27T15:49:48.872Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:49.164Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:49.165Z [ERROR] No response received from server 3301
+2024-06-27T15:49:49.167Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:49.168Z [ERROR] No response received from server 3302
+2024-06-27T15:49:49.168Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:49.429Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:49.430Z [ERROR] No response received from server 3301
+2024-06-27T15:49:49.431Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:49.432Z [ERROR] No response received from server 3302
+2024-06-27T15:49:49.433Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:49.632Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:49.633Z [ERROR] No response received from server 3301
+2024-06-27T15:49:49.635Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:49.635Z [ERROR] No response received from server 3302
+2024-06-27T15:49:49.636Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:49.918Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:49.919Z [ERROR] No response received from server 3301
+2024-06-27T15:49:49.921Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:49.921Z [ERROR] No response received from server 3302
+2024-06-27T15:49:49.922Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:50.150Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:50.151Z [ERROR] No response received from server 3301
+2024-06-27T15:49:50.153Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:50.154Z [ERROR] No response received from server 3302
+2024-06-27T15:49:50.154Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:50.370Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:50.371Z [ERROR] No response received from server 3301
+2024-06-27T15:49:50.372Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:50.373Z [ERROR] No response received from server 3302
+2024-06-27T15:49:50.373Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:50.596Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:50.597Z [ERROR] No response received from server 3301
+2024-06-27T15:49:50.599Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:50.600Z [ERROR] No response received from server 3302
+2024-06-27T15:49:50.601Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:50.909Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:50.910Z [ERROR] No response received from server 3301
+2024-06-27T15:49:50.911Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:50.912Z [ERROR] No response received from server 3302
+2024-06-27T15:49:50.912Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:51.205Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:51.206Z [ERROR] No response received from server 3301
+2024-06-27T15:49:51.207Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:51.207Z [ERROR] No response received from server 3302
+2024-06-27T15:49:51.208Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:51.487Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:51.488Z [ERROR] No response received from server 3301
+2024-06-27T15:49:51.489Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:51.490Z [ERROR] No response received from server 3302
+2024-06-27T15:49:51.490Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:51.802Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:51.802Z [ERROR] No response received from server 3301
+2024-06-27T15:49:51.804Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:51.804Z [ERROR] No response received from server 3302
+2024-06-27T15:49:51.805Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:52.054Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:52.055Z [ERROR] No response received from server 3301
+2024-06-27T15:49:52.057Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:52.058Z [ERROR] No response received from server 3302
+2024-06-27T15:49:52.058Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:52.337Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:52.338Z [ERROR] No response received from server 3301
+2024-06-27T15:49:52.339Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:52.340Z [ERROR] No response received from server 3302
+2024-06-27T15:49:52.340Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:52.603Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:52.604Z [ERROR] No response received from server 3301
+2024-06-27T15:49:52.605Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:52.606Z [ERROR] No response received from server 3302
+2024-06-27T15:49:52.606Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:52.900Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:52.901Z [ERROR] No response received from server 3301
+2024-06-27T15:49:52.903Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:52.903Z [ERROR] No response received from server 3302
+2024-06-27T15:49:52.904Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:53.194Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:53.194Z [ERROR] No response received from server 3301
+2024-06-27T15:49:53.195Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:53.196Z [ERROR] No response received from server 3302
+2024-06-27T15:49:53.196Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:53.460Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:53.461Z [ERROR] No response received from server 3301
+2024-06-27T15:49:53.462Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:53.462Z [ERROR] No response received from server 3302
+2024-06-27T15:49:53.463Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:53.757Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:53.757Z [ERROR] No response received from server 3301
+2024-06-27T15:49:53.760Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:53.760Z [ERROR] No response received from server 3302
+2024-06-27T15:49:53.761Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:53.933Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:53.934Z [ERROR] No response received from server 3301
+2024-06-27T15:49:53.936Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:53.937Z [ERROR] No response received from server 3302
+2024-06-27T15:49:53.937Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:54.104Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:54.105Z [ERROR] No response received from server 3301
+2024-06-27T15:49:54.106Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:54.106Z [ERROR] No response received from server 3302
+2024-06-27T15:49:54.107Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:54.321Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:54.322Z [ERROR] No response received from server 3301
+2024-06-27T15:49:54.323Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:54.323Z [ERROR] No response received from server 3302
+2024-06-27T15:49:54.324Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:54.630Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:54.631Z [ERROR] No response received from server 3301
+2024-06-27T15:49:54.634Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:54.635Z [ERROR] No response received from server 3302
+2024-06-27T15:49:54.636Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:54.803Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:54.803Z [ERROR] No response received from server 3301
+2024-06-27T15:49:54.804Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:54.806Z [ERROR] No response received from server 3302
+2024-06-27T15:49:54.806Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:54.990Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:54.991Z [ERROR] No response received from server 3301
+2024-06-27T15:49:54.992Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:54.992Z [ERROR] No response received from server 3302
+2024-06-27T15:49:54.993Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:55.161Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:55.162Z [ERROR] No response received from server 3301
+2024-06-27T15:49:55.164Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:55.165Z [ERROR] No response received from server 3302
+2024-06-27T15:49:55.166Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:55.461Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:55.462Z [ERROR] No response received from server 3301
+2024-06-27T15:49:55.463Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:55.463Z [ERROR] No response received from server 3302
+2024-06-27T15:49:55.464Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:55.745Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:55.746Z [ERROR] No response received from server 3301
+2024-06-27T15:49:55.747Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:55.748Z [ERROR] No response received from server 3302
+2024-06-27T15:49:55.749Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:55.979Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:55.980Z [ERROR] No response received from server 3301
+2024-06-27T15:49:55.982Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:55.983Z [ERROR] No response received from server 3302
+2024-06-27T15:49:55.983Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:56.260Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:56.261Z [ERROR] No response received from server 3301
+2024-06-27T15:49:56.264Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:56.265Z [ERROR] No response received from server 3302
+2024-06-27T15:49:56.265Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:56.485Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:56.486Z [ERROR] No response received from server 3301
+2024-06-27T15:49:56.488Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:56.488Z [ERROR] No response received from server 3302
+2024-06-27T15:49:56.489Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:56.766Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:56.767Z [ERROR] No response received from server 3301
+2024-06-27T15:49:56.769Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:56.770Z [ERROR] No response received from server 3302
+2024-06-27T15:49:56.770Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:56.985Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:56.986Z [ERROR] No response received from server 3301
+2024-06-27T15:49:56.987Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:56.987Z [ERROR] No response received from server 3302
+2024-06-27T15:49:56.987Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:57.172Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:57.172Z [ERROR] No response received from server 3301
+2024-06-27T15:49:57.174Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:57.174Z [ERROR] No response received from server 3302
+2024-06-27T15:49:57.175Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:57.453Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:57.455Z [ERROR] No response received from server 3301
+2024-06-27T15:49:57.456Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:57.457Z [ERROR] No response received from server 3302
+2024-06-27T15:49:57.457Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:57.703Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:57.704Z [ERROR] No response received from server 3301
+2024-06-27T15:49:57.705Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:57.706Z [ERROR] No response received from server 3302
+2024-06-27T15:49:57.706Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:57.889Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:57.890Z [ERROR] No response received from server 3301
+2024-06-27T15:49:57.890Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:57.891Z [ERROR] No response received from server 3302
+2024-06-27T15:49:57.891Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:58.178Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:58.179Z [ERROR] No response received from server 3301
+2024-06-27T15:49:58.181Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:58.183Z [ERROR] No response received from server 3302
+2024-06-27T15:49:58.186Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:58.363Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:58.364Z [ERROR] No response received from server 3301
+2024-06-27T15:49:58.366Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:58.366Z [ERROR] No response received from server 3302
+2024-06-27T15:49:58.367Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:58.678Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:58.678Z [ERROR] No response received from server 3301
+2024-06-27T15:49:58.680Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:58.680Z [ERROR] No response received from server 3302
+2024-06-27T15:49:58.681Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:58.975Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:58.976Z [ERROR] No response received from server 3301
+2024-06-27T15:49:58.978Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:58.978Z [ERROR] No response received from server 3302
+2024-06-27T15:49:58.979Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:59.208Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:59.209Z [ERROR] No response received from server 3301
+2024-06-27T15:49:59.210Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:59.210Z [ERROR] No response received from server 3302
+2024-06-27T15:49:59.210Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:59.460Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:59.461Z [ERROR] No response received from server 3301
+2024-06-27T15:49:59.462Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:59.462Z [ERROR] No response received from server 3302
+2024-06-27T15:49:59.463Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:59.743Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:59.744Z [ERROR] No response received from server 3301
+2024-06-27T15:49:59.744Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:59.745Z [ERROR] No response received from server 3302
+2024-06-27T15:49:59.745Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:49:59.913Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:49:59.914Z [ERROR] No response received from server 3301
+2024-06-27T15:49:59.916Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:49:59.916Z [ERROR] No response received from server 3302
+2024-06-27T15:49:59.916Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:00.197Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:00.198Z [ERROR] No response received from server 3301
+2024-06-27T15:50:00.200Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:00.201Z [ERROR] No response received from server 3302
+2024-06-27T15:50:00.201Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:00.491Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:00.492Z [ERROR] No response received from server 3301
+2024-06-27T15:50:00.493Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:00.494Z [ERROR] No response received from server 3302
+2024-06-27T15:50:00.494Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:00.669Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:00.669Z [ERROR] No response received from server 3301
+2024-06-27T15:50:00.670Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:00.671Z [ERROR] No response received from server 3302
+2024-06-27T15:50:00.671Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:00.901Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:00.902Z [ERROR] No response received from server 3301
+2024-06-27T15:50:00.903Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:00.903Z [ERROR] No response received from server 3302
+2024-06-27T15:50:00.903Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:01.155Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:01.156Z [ERROR] No response received from server 3301
+2024-06-27T15:50:01.158Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:01.158Z [ERROR] No response received from server 3302
+2024-06-27T15:50:01.159Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:01.455Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:01.456Z [ERROR] No response received from server 3301
+2024-06-27T15:50:01.458Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:01.458Z [ERROR] No response received from server 3302
+2024-06-27T15:50:01.459Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:01.629Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:01.630Z [ERROR] No response received from server 3301
+2024-06-27T15:50:01.631Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:01.631Z [ERROR] No response received from server 3302
+2024-06-27T15:50:01.632Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:01.880Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:01.881Z [ERROR] No response received from server 3301
+2024-06-27T15:50:01.882Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:01.883Z [ERROR] No response received from server 3302
+2024-06-27T15:50:01.884Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:02.081Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:02.082Z [ERROR] No response received from server 3301
+2024-06-27T15:50:02.083Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:02.083Z [ERROR] No response received from server 3302
+2024-06-27T15:50:02.084Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:02.367Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:02.368Z [ERROR] No response received from server 3301
+2024-06-27T15:50:02.370Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:02.370Z [ERROR] No response received from server 3302
+2024-06-27T15:50:02.371Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:02.677Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:02.678Z [ERROR] No response received from server 3301
+2024-06-27T15:50:02.679Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:02.680Z [ERROR] No response received from server 3302
+2024-06-27T15:50:02.681Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:02.909Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:02.909Z [ERROR] No response received from server 3301
+2024-06-27T15:50:02.912Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:02.913Z [ERROR] No response received from server 3302
+2024-06-27T15:50:02.913Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:03.221Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:03.221Z [ERROR] No response received from server 3301
+2024-06-27T15:50:03.222Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:03.222Z [ERROR] No response received from server 3302
+2024-06-27T15:50:03.222Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:03.474Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:03.475Z [ERROR] No response received from server 3301
+2024-06-27T15:50:03.475Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:03.476Z [ERROR] No response received from server 3302
+2024-06-27T15:50:03.476Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:03.679Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:03.679Z [ERROR] No response received from server 3301
+2024-06-27T15:50:03.680Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:03.681Z [ERROR] No response received from server 3302
+2024-06-27T15:50:03.681Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:03.901Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:03.901Z [ERROR] No response received from server 3301
+2024-06-27T15:50:03.902Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:03.902Z [ERROR] No response received from server 3302
+2024-06-27T15:50:03.902Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:04.104Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:04.105Z [ERROR] No response received from server 3301
+2024-06-27T15:50:04.105Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:04.106Z [ERROR] No response received from server 3302
+2024-06-27T15:50:04.106Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:04.402Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:04.403Z [ERROR] No response received from server 3301
+2024-06-27T15:50:04.404Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:04.404Z [ERROR] No response received from server 3302
+2024-06-27T15:50:04.405Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:04.636Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:04.637Z [ERROR] No response received from server 3301
+2024-06-27T15:50:04.638Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:04.639Z [ERROR] No response received from server 3302
+2024-06-27T15:50:04.639Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:04.886Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:04.886Z [ERROR] No response received from server 3301
+2024-06-27T15:50:04.887Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:04.887Z [ERROR] No response received from server 3302
+2024-06-27T15:50:04.887Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:05.088Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:05.088Z [ERROR] No response received from server 3301
+2024-06-27T15:50:05.090Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:05.090Z [ERROR] No response received from server 3302
+2024-06-27T15:50:05.091Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:05.273Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:05.273Z [ERROR] No response received from server 3301
+2024-06-27T15:50:05.275Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:05.275Z [ERROR] No response received from server 3302
+2024-06-27T15:50:05.276Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:05.589Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:05.589Z [ERROR] No response received from server 3302
+2024-06-27T15:50:05.590Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:05.590Z [ERROR] No response received from server 3301
+2024-06-27T15:50:05.591Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:05.886Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:05.886Z [ERROR] No response received from server 3301
+2024-06-27T15:50:05.887Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:05.887Z [ERROR] No response received from server 3302
+2024-06-27T15:50:05.888Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:06.089Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:06.089Z [ERROR] No response received from server 3301
+2024-06-27T15:50:06.090Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:06.090Z [ERROR] No response received from server 3302
+2024-06-27T15:50:06.090Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:06.373Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:06.374Z [ERROR] No response received from server 3301
+2024-06-27T15:50:06.375Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:06.376Z [ERROR] No response received from server 3302
+2024-06-27T15:50:06.377Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:06.670Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:06.671Z [ERROR] No response received from server 3301
+2024-06-27T15:50:06.672Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:06.673Z [ERROR] No response received from server 3302
+2024-06-27T15:50:06.674Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:06.986Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:06.987Z [ERROR] No response received from server 3301
+2024-06-27T15:50:06.989Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:06.990Z [ERROR] No response received from server 3302
+2024-06-27T15:50:06.990Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:07.170Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:07.170Z [ERROR] No response received from server 3301
+2024-06-27T15:50:07.172Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:07.173Z [ERROR] No response received from server 3302
+2024-06-27T15:50:07.173Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:07.403Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:07.404Z [ERROR] No response received from server 3301
+2024-06-27T15:50:07.405Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:07.405Z [ERROR] No response received from server 3302
+2024-06-27T15:50:07.405Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:07.690Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:07.691Z [ERROR] No response received from server 3301
+2024-06-27T15:50:07.694Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:07.694Z [ERROR] No response received from server 3302
+2024-06-27T15:50:07.695Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:07.954Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:07.955Z [ERROR] No response received from server 3301
+2024-06-27T15:50:07.957Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:07.958Z [ERROR] No response received from server 3302
+2024-06-27T15:50:07.958Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:08.265Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:08.266Z [ERROR] No response received from server 3301
+2024-06-27T15:50:08.267Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:08.267Z [ERROR] No response received from server 3302
+2024-06-27T15:50:08.268Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:08.424Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:08.425Z [ERROR] No response received from server 3301
+2024-06-27T15:50:08.426Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:08.427Z [ERROR] No response received from server 3302
+2024-06-27T15:50:08.427Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:08.656Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:08.657Z [ERROR] No response received from server 3301
+2024-06-27T15:50:08.660Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:08.661Z [ERROR] No response received from server 3302
+2024-06-27T15:50:08.662Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:08.956Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:08.957Z [ERROR] No response received from server 3301
+2024-06-27T15:50:08.958Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:08.959Z [ERROR] No response received from server 3302
+2024-06-27T15:50:08.959Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:09.173Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:09.174Z [ERROR] No response received from server 3301
+2024-06-27T15:50:09.175Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:09.176Z [ERROR] No response received from server 3302
+2024-06-27T15:50:09.177Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:09.408Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:09.409Z [ERROR] No response received from server 3301
+2024-06-27T15:50:09.410Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:09.411Z [ERROR] No response received from server 3302
+2024-06-27T15:50:09.412Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:09.583Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:09.584Z [ERROR] No response received from server 3301
+2024-06-27T15:50:09.585Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:09.586Z [ERROR] No response received from server 3302
+2024-06-27T15:50:09.586Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:09.771Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:09.772Z [ERROR] No response received from server 3301
+2024-06-27T15:50:09.773Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:09.774Z [ERROR] No response received from server 3302
+2024-06-27T15:50:09.775Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:10.005Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:10.006Z [ERROR] No response received from server 3301
+2024-06-27T15:50:10.007Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:10.008Z [ERROR] No response received from server 3302
+2024-06-27T15:50:10.008Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:10.225Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:10.226Z [ERROR] No response received from server 3301
+2024-06-27T15:50:10.227Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:10.227Z [ERROR] No response received from server 3302
+2024-06-27T15:50:10.228Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:10.491Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:10.492Z [ERROR] No response received from server 3301
+2024-06-27T15:50:10.493Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:10.494Z [ERROR] No response received from server 3302
+2024-06-27T15:50:10.495Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:10.694Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:10.695Z [ERROR] No response received from server 3301
+2024-06-27T15:50:10.699Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:10.699Z [ERROR] No response received from server 3302
+2024-06-27T15:50:10.700Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:10.911Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:10.912Z [ERROR] No response received from server 3301
+2024-06-27T15:50:10.913Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:10.914Z [ERROR] No response received from server 3302
+2024-06-27T15:50:10.915Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:11.086Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:11.087Z [ERROR] No response received from server 3301
+2024-06-27T15:50:11.088Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:11.088Z [ERROR] No response received from server 3302
+2024-06-27T15:50:11.089Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:11.367Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:11.368Z [ERROR] No response received from server 3301
+2024-06-27T15:50:11.370Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:11.370Z [ERROR] No response received from server 3302
+2024-06-27T15:50:11.371Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:11.602Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:11.603Z [ERROR] No response received from server 3301
+2024-06-27T15:50:11.604Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:11.604Z [ERROR] No response received from server 3302
+2024-06-27T15:50:11.604Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:11.886Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:11.887Z [ERROR] No response received from server 3301
+2024-06-27T15:50:11.888Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:11.889Z [ERROR] No response received from server 3302
+2024-06-27T15:50:11.889Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:12.108Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:12.109Z [ERROR] No response received from server 3301
+2024-06-27T15:50:12.110Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:12.111Z [ERROR] No response received from server 3302
+2024-06-27T15:50:12.112Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:12.339Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:12.340Z [ERROR] No response received from server 3301
+2024-06-27T15:50:12.341Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:12.341Z [ERROR] No response received from server 3302
+2024-06-27T15:50:12.342Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:12.635Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:12.636Z [ERROR] No response received from server 3301
+2024-06-27T15:50:12.637Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:12.638Z [ERROR] No response received from server 3302
+2024-06-27T15:50:12.638Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:12.810Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:12.811Z [ERROR] No response received from server 3301
+2024-06-27T15:50:12.813Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:12.814Z [ERROR] No response received from server 3302
+2024-06-27T15:50:12.816Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:12.979Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:12.979Z [ERROR] No response received from server 3301
+2024-06-27T15:50:12.981Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:12.982Z [ERROR] No response received from server 3302
+2024-06-27T15:50:12.983Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:13.154Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:13.155Z [ERROR] No response received from server 3301
+2024-06-27T15:50:13.158Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:13.158Z [ERROR] No response received from server 3302
+2024-06-27T15:50:13.159Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:13.451Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:13.451Z [ERROR] No response received from server 3301
+2024-06-27T15:50:13.452Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:13.453Z [ERROR] No response received from server 3302
+2024-06-27T15:50:13.454Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:13.655Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:13.656Z [ERROR] No response received from server 3301
+2024-06-27T15:50:13.657Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:13.657Z [ERROR] No response received from server 3302
+2024-06-27T15:50:13.658Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:13.919Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:13.919Z [ERROR] No response received from server 3301
+2024-06-27T15:50:13.922Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:13.922Z [ERROR] No response received from server 3302
+2024-06-27T15:50:13.924Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:14.107Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:14.108Z [ERROR] No response received from server 3301
+2024-06-27T15:50:14.110Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:14.110Z [ERROR] No response received from server 3302
+2024-06-27T15:50:14.111Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:14.373Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:14.374Z [ERROR] No response received from server 3301
+2024-06-27T15:50:14.375Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:14.376Z [ERROR] No response received from server 3302
+2024-06-27T15:50:14.377Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:14.635Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:14.635Z [ERROR] No response received from server 3301
+2024-06-27T15:50:14.636Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:14.636Z [ERROR] No response received from server 3302
+2024-06-27T15:50:14.636Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:14.809Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:14.809Z [ERROR] No response received from server 3301
+2024-06-27T15:50:14.811Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:14.811Z [ERROR] No response received from server 3302
+2024-06-27T15:50:14.812Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:14.996Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:14.997Z [ERROR] No response received from server 3301
+2024-06-27T15:50:14.998Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:14.998Z [ERROR] No response received from server 3302
+2024-06-27T15:50:14.999Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:15.171Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:15.172Z [ERROR] No response received from server 3301
+2024-06-27T15:50:15.174Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:15.174Z [ERROR] No response received from server 3302
+2024-06-27T15:50:15.174Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:15.477Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:15.478Z [ERROR] No response received from server 3301
+2024-06-27T15:50:15.478Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:15.479Z [ERROR] No response received from server 3302
+2024-06-27T15:50:15.479Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:15.700Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:15.701Z [ERROR] No response received from server 3301
+2024-06-27T15:50:15.702Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:15.703Z [ERROR] No response received from server 3302
+2024-06-27T15:50:15.703Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:15.935Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:15.936Z [ERROR] No response received from server 3301
+2024-06-27T15:50:15.938Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:15.938Z [ERROR] No response received from server 3302
+2024-06-27T15:50:15.939Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:16.139Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:16.140Z [ERROR] No response received from server 3301
+2024-06-27T15:50:16.142Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:16.142Z [ERROR] No response received from server 3302
+2024-06-27T15:50:16.143Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:16.359Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:16.359Z [ERROR] No response received from server 3301
+2024-06-27T15:50:16.360Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:16.360Z [ERROR] No response received from server 3302
+2024-06-27T15:50:16.360Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:16.593Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:16.593Z [ERROR] No response received from server 3301
+2024-06-27T15:50:16.594Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:16.594Z [ERROR] No response received from server 3302
+2024-06-27T15:50:16.594Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:16.887Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:16.888Z [ERROR] No response received from server 3302
+2024-06-27T15:50:16.888Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:16.889Z [ERROR] No response received from server 3301
+2024-06-27T15:50:16.889Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:17.076Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:17.077Z [ERROR] No response received from server 3301
+2024-06-27T15:50:17.078Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:17.078Z [ERROR] No response received from server 3302
+2024-06-27T15:50:17.078Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:17.282Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:17.283Z [ERROR] No response received from server 3301
+2024-06-27T15:50:17.285Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:17.285Z [ERROR] No response received from server 3302
+2024-06-27T15:50:17.286Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:17.564Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:17.565Z [ERROR] No response received from server 3301
+2024-06-27T15:50:17.568Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:17.568Z [ERROR] No response received from server 3302
+2024-06-27T15:50:17.569Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:17.766Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:17.767Z [ERROR] No response received from server 3301
+2024-06-27T15:50:17.768Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:17.768Z [ERROR] No response received from server 3302
+2024-06-27T15:50:17.769Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:18.018Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:18.019Z [ERROR] No response received from server 3301
+2024-06-27T15:50:18.020Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:18.020Z [ERROR] No response received from server 3302
+2024-06-27T15:50:18.021Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:18.204Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:18.204Z [ERROR] No response received from server 3301
+2024-06-27T15:50:18.206Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:18.206Z [ERROR] No response received from server 3302
+2024-06-27T15:50:18.207Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:18.486Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:18.486Z [ERROR] No response received from server 3301
+2024-06-27T15:50:18.487Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:18.487Z [ERROR] No response received from server 3302
+2024-06-27T15:50:18.488Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:18.721Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:18.721Z [ERROR] No response received from server 3301
+2024-06-27T15:50:18.722Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:18.723Z [ERROR] No response received from server 3302
+2024-06-27T15:50:18.723Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:18.928Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:18.929Z [ERROR] No response received from server 3301
+2024-06-27T15:50:18.930Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:18.931Z [ERROR] No response received from server 3302
+2024-06-27T15:50:18.931Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:19.115Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:19.116Z [ERROR] No response received from server 3301
+2024-06-27T15:50:19.117Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:19.117Z [ERROR] No response received from server 3302
+2024-06-27T15:50:19.117Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:19.319Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:19.320Z [ERROR] No response received from server 3301
+2024-06-27T15:50:19.321Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:19.322Z [ERROR] No response received from server 3302
+2024-06-27T15:50:19.323Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:19.554Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:19.555Z [ERROR] No response received from server 3301
+2024-06-27T15:50:19.557Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:19.558Z [ERROR] No response received from server 3302
+2024-06-27T15:50:19.559Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:19.837Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:19.838Z [ERROR] No response received from server 3301
+2024-06-27T15:50:19.840Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:19.840Z [ERROR] No response received from server 3302
+2024-06-27T15:50:19.841Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:20.137Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:20.138Z [ERROR] No response received from server 3301
+2024-06-27T15:50:20.139Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:20.140Z [ERROR] No response received from server 3302
+2024-06-27T15:50:20.140Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:20.452Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:20.453Z [ERROR] No response received from server 3301
+2024-06-27T15:50:20.454Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:20.455Z [ERROR] No response received from server 3302
+2024-06-27T15:50:20.455Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:20.737Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:20.738Z [ERROR] No response received from server 3301
+2024-06-27T15:50:20.739Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:20.739Z [ERROR] No response received from server 3302
+2024-06-27T15:50:20.740Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:20.990Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:20.991Z [ERROR] No response received from server 3301
+2024-06-27T15:50:20.993Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:20.993Z [ERROR] No response received from server 3302
+2024-06-27T15:50:20.994Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:21.224Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:21.225Z [ERROR] No response received from server 3301
+2024-06-27T15:50:21.226Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:21.226Z [ERROR] No response received from server 3302
+2024-06-27T15:50:21.227Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:21.509Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:21.510Z [ERROR] No response received from server 3301
+2024-06-27T15:50:21.512Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:21.512Z [ERROR] No response received from server 3302
+2024-06-27T15:50:21.513Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:21.759Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:21.760Z [ERROR] No response received from server 3301
+2024-06-27T15:50:21.761Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:21.761Z [ERROR] No response received from server 3302
+2024-06-27T15:50:21.762Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:21.944Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:21.945Z [ERROR] No response received from server 3301
+2024-06-27T15:50:21.947Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:21.948Z [ERROR] No response received from server 3302
+2024-06-27T15:50:21.948Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:22.150Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:22.151Z [ERROR] No response received from server 3301
+2024-06-27T15:50:22.153Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:22.153Z [ERROR] No response received from server 3302
+2024-06-27T15:50:22.154Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:22.460Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:22.461Z [ERROR] No response received from server 3301
+2024-06-27T15:50:22.463Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:22.463Z [ERROR] No response received from server 3302
+2024-06-27T15:50:22.464Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:22.701Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:22.703Z [ERROR] No response received from server 3301
+2024-06-27T15:50:22.706Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:22.708Z [ERROR] No response received from server 3302
+2024-06-27T15:50:22.709Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:22.976Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:22.977Z [ERROR] No response received from server 3301
+2024-06-27T15:50:22.979Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:22.979Z [ERROR] No response received from server 3302
+2024-06-27T15:50:22.980Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:23.272Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:23.273Z [ERROR] No response received from server 3301
+2024-06-27T15:50:23.274Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:23.275Z [ERROR] No response received from server 3302
+2024-06-27T15:50:23.276Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:23.493Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:23.494Z [ERROR] No response received from server 3301
+2024-06-27T15:50:23.495Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:23.496Z [ERROR] No response received from server 3302
+2024-06-27T15:50:23.497Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:23.664Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:23.666Z [ERROR] No response received from server 3301
+2024-06-27T15:50:23.668Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:23.669Z [ERROR] No response received from server 3302
+2024-06-27T15:50:23.670Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:23.929Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:23.930Z [ERROR] No response received from server 3301
+2024-06-27T15:50:23.933Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:23.933Z [ERROR] No response received from server 3302
+2024-06-27T15:50:23.934Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:24.195Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:24.195Z [ERROR] No response received from server 3301
+2024-06-27T15:50:24.197Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:24.198Z [ERROR] No response received from server 3302
+2024-06-27T15:50:24.199Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:24.417Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:24.418Z [ERROR] No response received from server 3301
+2024-06-27T15:50:24.422Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:24.422Z [ERROR] No response received from server 3302
+2024-06-27T15:50:24.423Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:24.663Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:24.664Z [ERROR] No response received from server 3301
+2024-06-27T15:50:24.666Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:24.666Z [ERROR] No response received from server 3302
+2024-06-27T15:50:24.667Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:24.870Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:24.871Z [ERROR] No response received from server 3301
+2024-06-27T15:50:24.873Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:24.874Z [ERROR] No response received from server 3302
+2024-06-27T15:50:24.874Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:25.089Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:25.090Z [ERROR] No response received from server 3301
+2024-06-27T15:50:25.092Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:25.093Z [ERROR] No response received from server 3302
+2024-06-27T15:50:25.094Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:25.359Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:25.360Z [ERROR] No response received from server 3301
+2024-06-27T15:50:25.363Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:25.365Z [ERROR] No response received from server 3302
+2024-06-27T15:50:25.365Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:25.659Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:25.660Z [ERROR] No response received from server 3301
+2024-06-27T15:50:25.661Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:25.662Z [ERROR] No response received from server 3302
+2024-06-27T15:50:25.662Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:25.831Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:25.832Z [ERROR] No response received from server 3301
+2024-06-27T15:50:25.834Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:25.835Z [ERROR] No response received from server 3302
+2024-06-27T15:50:25.836Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:26.142Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:26.143Z [ERROR] No response received from server 3301
+2024-06-27T15:50:26.145Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:26.145Z [ERROR] No response received from server 3302
+2024-06-27T15:50:26.146Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:26.349Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:26.350Z [ERROR] No response received from server 3301
+2024-06-27T15:50:26.352Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:26.353Z [ERROR] No response received from server 3302
+2024-06-27T15:50:26.354Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:26.615Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:26.616Z [ERROR] No response received from server 3301
+2024-06-27T15:50:26.618Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:26.619Z [ERROR] No response received from server 3302
+2024-06-27T15:50:26.619Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:26.829Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:26.830Z [ERROR] No response received from server 3301
+2024-06-27T15:50:26.831Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:26.832Z [ERROR] No response received from server 3302
+2024-06-27T15:50:26.832Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:27.083Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:27.084Z [ERROR] No response received from server 3301
+2024-06-27T15:50:27.086Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:27.086Z [ERROR] No response received from server 3302
+2024-06-27T15:50:27.087Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:27.394Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:27.395Z [ERROR] No response received from server 3301
+2024-06-27T15:50:27.397Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:27.397Z [ERROR] No response received from server 3302
+2024-06-27T15:50:27.398Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:27.691Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:27.692Z [ERROR] No response received from server 3302
+2024-06-27T15:50:27.693Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:27.694Z [ERROR] No response received from server 3301
+2024-06-27T15:50:27.695Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:27.928Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:27.929Z [ERROR] No response received from server 3301
+2024-06-27T15:50:27.931Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:27.932Z [ERROR] No response received from server 3302
+2024-06-27T15:50:27.932Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:28.097Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:28.099Z [ERROR] No response received from server 3301
+2024-06-27T15:50:28.102Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:28.103Z [ERROR] No response received from server 3302
+2024-06-27T15:50:28.104Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:28.392Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:28.393Z [ERROR] No response received from server 3301
+2024-06-27T15:50:28.395Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:28.395Z [ERROR] No response received from server 3302
+2024-06-27T15:50:28.396Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:28.660Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:28.661Z [ERROR] No response received from server 3301
+2024-06-27T15:50:28.663Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:28.664Z [ERROR] No response received from server 3302
+2024-06-27T15:50:28.665Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:28.925Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:28.926Z [ERROR] No response received from server 3301
+2024-06-27T15:50:28.928Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:28.929Z [ERROR] No response received from server 3302
+2024-06-27T15:50:28.930Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:29.157Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:29.158Z [ERROR] No response received from server 3301
+2024-06-27T15:50:29.160Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:29.161Z [ERROR] No response received from server 3302
+2024-06-27T15:50:29.162Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:29.456Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:29.457Z [ERROR] No response received from server 3301
+2024-06-27T15:50:29.459Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:29.460Z [ERROR] No response received from server 3302
+2024-06-27T15:50:29.461Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:29.692Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:29.693Z [ERROR] No response received from server 3301
+2024-06-27T15:50:29.695Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:29.696Z [ERROR] No response received from server 3302
+2024-06-27T15:50:29.697Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:29.943Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:29.944Z [ERROR] No response received from server 3301
+2024-06-27T15:50:29.947Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:29.947Z [ERROR] No response received from server 3302
+2024-06-27T15:50:29.948Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:30.241Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:30.242Z [ERROR] No response received from server 3301
+2024-06-27T15:50:30.244Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:30.244Z [ERROR] No response received from server 3302
+2024-06-27T15:50:30.244Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:30.538Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:30.538Z [ERROR] No response received from server 3301
+2024-06-27T15:50:30.539Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:30.540Z [ERROR] No response received from server 3302
+2024-06-27T15:50:30.540Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:30.777Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:30.777Z [ERROR] No response received from server 3302
+2024-06-27T15:50:30.780Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:30.780Z [ERROR] No response received from server 3301
+2024-06-27T15:50:30.781Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:31.045Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:31.046Z [ERROR] No response received from server 3301
+2024-06-27T15:50:31.047Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:31.048Z [ERROR] No response received from server 3302
+2024-06-27T15:50:31.048Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:31.246Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:31.247Z [ERROR] No response received from server 3301
+2024-06-27T15:50:31.250Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:31.251Z [ERROR] No response received from server 3302
+2024-06-27T15:50:31.252Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:31.544Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:31.546Z [ERROR] No response received from server 3301
+2024-06-27T15:50:31.548Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:31.549Z [ERROR] No response received from server 3302
+2024-06-27T15:50:31.549Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:31.794Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:31.795Z [ERROR] No response received from server 3301
+2024-06-27T15:50:31.798Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:31.798Z [ERROR] No response received from server 3302
+2024-06-27T15:50:31.799Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:31.995Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:31.996Z [ERROR] No response received from server 3301
+2024-06-27T15:50:31.998Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:31.999Z [ERROR] No response received from server 3302
+2024-06-27T15:50:32.000Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:32.166Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:32.167Z [ERROR] No response received from server 3301
+2024-06-27T15:50:32.169Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:32.170Z [ERROR] No response received from server 3302
+2024-06-27T15:50:32.171Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:32.416Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:32.417Z [ERROR] No response received from server 3301
+2024-06-27T15:50:32.420Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:32.420Z [ERROR] No response received from server 3302
+2024-06-27T15:50:32.421Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:32.713Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:32.715Z [ERROR] No response received from server 3301
+2024-06-27T15:50:32.718Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:32.719Z [ERROR] No response received from server 3302
+2024-06-27T15:50:32.721Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:32.891Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:32.892Z [ERROR] No response received from server 3301
+2024-06-27T15:50:32.894Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:32.895Z [ERROR] No response received from server 3302
+2024-06-27T15:50:32.895Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:33.126Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:33.128Z [ERROR] No response received from server 3301
+2024-06-27T15:50:33.131Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:33.132Z [ERROR] No response received from server 3302
+2024-06-27T15:50:33.134Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:33.433Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:33.434Z [ERROR] No response received from server 3301
+2024-06-27T15:50:33.437Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:33.438Z [ERROR] No response received from server 3302
+2024-06-27T15:50:33.438Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:33.731Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:33.732Z [ERROR] No response received from server 3301
+2024-06-27T15:50:33.734Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:33.734Z [ERROR] No response received from server 3302
+2024-06-27T15:50:33.735Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:33.952Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:33.953Z [ERROR] No response received from server 3301
+2024-06-27T15:50:33.955Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:33.956Z [ERROR] No response received from server 3302
+2024-06-27T15:50:33.957Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:34.140Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:34.141Z [ERROR] No response received from server 3301
+2024-06-27T15:50:34.143Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:34.143Z [ERROR] No response received from server 3302
+2024-06-27T15:50:34.144Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:34.455Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:34.457Z [ERROR] No response received from server 3301
+2024-06-27T15:50:34.460Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:34.461Z [ERROR] No response received from server 3302
+2024-06-27T15:50:34.462Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:34.651Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:34.652Z [ERROR] No response received from server 3301
+2024-06-27T15:50:34.653Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:34.653Z [ERROR] No response received from server 3302
+2024-06-27T15:50:34.654Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:34.871Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:34.872Z [ERROR] No response received from server 3301
+2024-06-27T15:50:34.874Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:34.875Z [ERROR] No response received from server 3302
+2024-06-27T15:50:34.876Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:35.188Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:35.190Z [ERROR] No response received from server 3301
+2024-06-27T15:50:35.192Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:35.193Z [ERROR] No response received from server 3302
+2024-06-27T15:50:35.194Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:35.395Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:35.397Z [ERROR] No response received from server 3301
+2024-06-27T15:50:35.399Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:35.400Z [ERROR] No response received from server 3302
+2024-06-27T15:50:35.400Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:35.636Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:35.636Z [ERROR] No response received from server 3301
+2024-06-27T15:50:35.637Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:35.638Z [ERROR] No response received from server 3302
+2024-06-27T15:50:35.638Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:35.839Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:35.840Z [ERROR] No response received from server 3301
+2024-06-27T15:50:35.841Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:35.842Z [ERROR] No response received from server 3302
+2024-06-27T15:50:35.842Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:36.139Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:36.141Z [ERROR] No response received from server 3301
+2024-06-27T15:50:36.144Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:36.145Z [ERROR] No response received from server 3302
+2024-06-27T15:50:36.147Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:36.440Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:36.442Z [ERROR] No response received from server 3301
+2024-06-27T15:50:36.444Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:36.444Z [ERROR] No response received from server 3302
+2024-06-27T15:50:36.445Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:36.652Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:36.653Z [ERROR] No response received from server 3301
+2024-06-27T15:50:36.655Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:36.655Z [ERROR] No response received from server 3302
+2024-06-27T15:50:36.656Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:36.826Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:36.826Z [ERROR] No response received from server 3301
+2024-06-27T15:50:36.829Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:36.831Z [ERROR] No response received from server 3302
+2024-06-27T15:50:36.831Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:37.092Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:37.093Z [ERROR] No response received from server 3301
+2024-06-27T15:50:37.094Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:37.095Z [ERROR] No response received from server 3302
+2024-06-27T15:50:37.096Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:37.295Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:37.297Z [ERROR] No response received from server 3301
+2024-06-27T15:50:37.299Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:37.299Z [ERROR] No response received from server 3302
+2024-06-27T15:50:37.300Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:37.498Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:37.499Z [ERROR] No response received from server 3301
+2024-06-27T15:50:37.499Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:37.500Z [ERROR] No response received from server 3302
+2024-06-27T15:50:37.500Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:37.686Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:37.687Z [ERROR] No response received from server 3301
+2024-06-27T15:50:37.688Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:37.689Z [ERROR] No response received from server 3302
+2024-06-27T15:50:37.689Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:37.969Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:37.970Z [ERROR] No response received from server 3301
+2024-06-27T15:50:37.972Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:37.972Z [ERROR] No response received from server 3302
+2024-06-27T15:50:37.973Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:38.144Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:38.145Z [ERROR] No response received from server 3301
+2024-06-27T15:50:38.147Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:38.148Z [ERROR] No response received from server 3302
+2024-06-27T15:50:38.149Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:38.393Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:38.394Z [ERROR] No response received from server 3301
+2024-06-27T15:50:38.395Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:38.396Z [ERROR] No response received from server 3302
+2024-06-27T15:50:38.397Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:38.599Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:38.600Z [ERROR] No response received from server 3301
+2024-06-27T15:50:38.602Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:38.603Z [ERROR] No response received from server 3302
+2024-06-27T15:50:38.603Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:38.817Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:38.818Z [ERROR] No response received from server 3301
+2024-06-27T15:50:38.820Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:38.822Z [ERROR] No response received from server 3302
+2024-06-27T15:50:38.823Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:39.067Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:39.068Z [ERROR] No response received from server 3301
+2024-06-27T15:50:39.070Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:39.070Z [ERROR] No response received from server 3302
+2024-06-27T15:50:39.071Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:39.286Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:39.287Z [ERROR] No response received from server 3301
+2024-06-27T15:50:39.288Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:39.289Z [ERROR] No response received from server 3302
+2024-06-27T15:50:39.290Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:39.571Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:39.572Z [ERROR] No response received from server 3301
+2024-06-27T15:50:39.573Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:39.575Z [ERROR] No response received from server 3302
+2024-06-27T15:50:39.576Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:39.833Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:39.834Z [ERROR] No response received from server 3301
+2024-06-27T15:50:39.835Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:39.836Z [ERROR] No response received from server 3302
+2024-06-27T15:50:39.837Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:40.116Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:40.117Z [ERROR] No response received from server 3301
+2024-06-27T15:50:40.119Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:40.119Z [ERROR] No response received from server 3302
+2024-06-27T15:50:40.120Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:40.382Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:40.384Z [ERROR] No response received from server 3301
+2024-06-27T15:50:40.386Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:40.386Z [ERROR] No response received from server 3302
+2024-06-27T15:50:40.387Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:40.697Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:40.698Z [ERROR] No response received from server 3301
+2024-06-27T15:50:40.702Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:40.703Z [ERROR] No response received from server 3302
+2024-06-27T15:50:40.703Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:41.010Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:41.011Z [ERROR] No response received from server 3301
+2024-06-27T15:50:41.013Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:41.014Z [ERROR] No response received from server 3302
+2024-06-27T15:50:41.015Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:41.200Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:41.201Z [ERROR] No response received from server 3301
+2024-06-27T15:50:41.203Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:41.204Z [ERROR] No response received from server 3302
+2024-06-27T15:50:41.205Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:41.418Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:41.420Z [ERROR] No response received from server 3301
+2024-06-27T15:50:41.422Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:41.423Z [ERROR] No response received from server 3302
+2024-06-27T15:50:41.423Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:41.593Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:41.594Z [ERROR] No response received from server 3301
+2024-06-27T15:50:41.597Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:41.598Z [ERROR] No response received from server 3302
+2024-06-27T15:50:41.599Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:41.862Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:41.864Z [ERROR] No response received from server 3301
+2024-06-27T15:50:41.867Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:41.868Z [ERROR] No response received from server 3302
+2024-06-27T15:50:41.868Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:42.051Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:42.052Z [ERROR] No response received from server 3301
+2024-06-27T15:50:42.054Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:42.054Z [ERROR] No response received from server 3302
+2024-06-27T15:50:42.055Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:42.225Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:42.226Z [ERROR] No response received from server 3301
+2024-06-27T15:50:42.228Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:42.228Z [ERROR] No response received from server 3302
+2024-06-27T15:50:42.229Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:42.445Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:42.446Z [ERROR] No response received from server 3301
+2024-06-27T15:50:42.449Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:42.450Z [ERROR] No response received from server 3302
+2024-06-27T15:50:42.451Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:42.710Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:42.711Z [ERROR] No response received from server 3301
+2024-06-27T15:50:42.712Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:42.713Z [ERROR] No response received from server 3302
+2024-06-27T15:50:42.714Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:42.911Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:42.913Z [ERROR] No response received from server 3301
+2024-06-27T15:50:42.916Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:42.918Z [ERROR] No response received from server 3302
+2024-06-27T15:50:42.919Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:43.224Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:43.226Z [ERROR] No response received from server 3301
+2024-06-27T15:50:43.229Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:43.230Z [ERROR] No response received from server 3302
+2024-06-27T15:50:43.231Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:43.502Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:43.503Z [ERROR] No response received from server 3301
+2024-06-27T15:50:43.505Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:43.505Z [ERROR] No response received from server 3302
+2024-06-27T15:50:43.506Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:43.739Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:43.740Z [ERROR] No response received from server 3301
+2024-06-27T15:50:43.741Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:43.741Z [ERROR] No response received from server 3302
+2024-06-27T15:50:43.742Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:43.944Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:43.946Z [ERROR] No response received from server 3301
+2024-06-27T15:50:43.948Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:43.949Z [ERROR] No response received from server 3302
+2024-06-27T15:50:43.949Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:44.240Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:44.240Z [ERROR] No response received from server 3301
+2024-06-27T15:50:44.241Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:44.242Z [ERROR] No response received from server 3302
+2024-06-27T15:50:44.243Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:44.511Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:44.513Z [ERROR] No response received from server 3301
+2024-06-27T15:50:44.517Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:44.519Z [ERROR] No response received from server 3302
+2024-06-27T15:50:44.520Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:44.756Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:44.757Z [ERROR] No response received from server 3301
+2024-06-27T15:50:44.758Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:44.759Z [ERROR] No response received from server 3302
+2024-06-27T15:50:44.760Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:45.009Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:45.010Z [ERROR] No response received from server 3301
+2024-06-27T15:50:45.012Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:45.013Z [ERROR] No response received from server 3302
+2024-06-27T15:50:45.014Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:45.275Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:45.276Z [ERROR] No response received from server 3301
+2024-06-27T15:50:45.278Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:45.278Z [ERROR] No response received from server 3302
+2024-06-27T15:50:45.279Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:45.498Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:45.499Z [ERROR] No response received from server 3301
+2024-06-27T15:50:45.500Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:45.501Z [ERROR] No response received from server 3302
+2024-06-27T15:50:45.502Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:45.766Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:45.767Z [ERROR] No response received from server 3301
+2024-06-27T15:50:45.768Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:45.769Z [ERROR] No response received from server 3302
+2024-06-27T15:50:45.770Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:46.060Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:46.061Z [ERROR] No response received from server 3301
+2024-06-27T15:50:46.063Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:46.063Z [ERROR] No response received from server 3302
+2024-06-27T15:50:46.063Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:46.234Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:46.234Z [ERROR] No response received from server 3301
+2024-06-27T15:50:46.236Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:46.236Z [ERROR] No response received from server 3302
+2024-06-27T15:50:46.237Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:46.453Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:46.454Z [ERROR] No response received from server 3301
+2024-06-27T15:50:46.456Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:46.457Z [ERROR] No response received from server 3302
+2024-06-27T15:50:46.458Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:46.720Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:46.721Z [ERROR] No response received from server 3301
+2024-06-27T15:50:46.722Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:46.723Z [ERROR] No response received from server 3302
+2024-06-27T15:50:46.723Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:46.955Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:46.956Z [ERROR] No response received from server 3301
+2024-06-27T15:50:46.958Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:46.959Z [ERROR] No response received from server 3302
+2024-06-27T15:50:46.959Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:47.127Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:47.128Z [ERROR] No response received from server 3301
+2024-06-27T15:50:47.130Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:47.131Z [ERROR] No response received from server 3302
+2024-06-27T15:50:47.132Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:47.368Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:47.369Z [ERROR] No response received from server 3301
+2024-06-27T15:50:47.372Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:47.374Z [ERROR] No response received from server 3302
+2024-06-27T15:50:47.376Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:47.582Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:47.583Z [ERROR] No response received from server 3301
+2024-06-27T15:50:47.585Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:47.585Z [ERROR] No response received from server 3302
+2024-06-27T15:50:47.586Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:47.817Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:47.818Z [ERROR] No response received from server 3301
+2024-06-27T15:50:47.819Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:47.819Z [ERROR] No response received from server 3302
+2024-06-27T15:50:47.820Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:48.051Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:48.052Z [ERROR] No response received from server 3301
+2024-06-27T15:50:48.053Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:48.053Z [ERROR] No response received from server 3302
+2024-06-27T15:50:48.053Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:48.284Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:48.285Z [ERROR] No response received from server 3301
+2024-06-27T15:50:48.286Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:48.286Z [ERROR] No response received from server 3302
+2024-06-27T15:50:48.287Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:48.538Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:48.540Z [ERROR] No response received from server 3301
+2024-06-27T15:50:48.543Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:48.544Z [ERROR] No response received from server 3302
+2024-06-27T15:50:48.545Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:48.793Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:48.794Z [ERROR] No response received from server 3301
+2024-06-27T15:50:48.797Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:48.798Z [ERROR] No response received from server 3302
+2024-06-27T15:50:48.800Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:49.039Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:49.040Z [ERROR] No response received from server 3301
+2024-06-27T15:50:49.042Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:49.044Z [ERROR] No response received from server 3302
+2024-06-27T15:50:49.045Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:49.303Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:49.304Z [ERROR] No response received from server 3301
+2024-06-27T15:50:49.306Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:49.306Z [ERROR] No response received from server 3302
+2024-06-27T15:50:49.307Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:49.557Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:49.558Z [ERROR] No response received from server 3301
+2024-06-27T15:50:49.561Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:49.563Z [ERROR] No response received from server 3302
+2024-06-27T15:50:49.565Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:49.744Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:49.746Z [ERROR] No response received from server 3301
+2024-06-27T15:50:49.749Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:49.750Z [ERROR] No response received from server 3302
+2024-06-27T15:50:49.751Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:49.994Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:49.996Z [ERROR] No response received from server 3301
+2024-06-27T15:50:49.999Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:50.000Z [ERROR] No response received from server 3302
+2024-06-27T15:50:50.003Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:50.288Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:50.289Z [ERROR] No response received from server 3301
+2024-06-27T15:50:50.290Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:50.290Z [ERROR] No response received from server 3302
+2024-06-27T15:50:50.291Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:50.592Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:50.594Z [ERROR] No response received from server 3301
+2024-06-27T15:50:50.598Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:50.599Z [ERROR] No response received from server 3302
+2024-06-27T15:50:50.599Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:50.779Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:50.780Z [ERROR] No response received from server 3301
+2024-06-27T15:50:50.782Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:50.782Z [ERROR] No response received from server 3302
+2024-06-27T15:50:50.784Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:51.028Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:51.029Z [ERROR] No response received from server 3301
+2024-06-27T15:50:51.032Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:51.033Z [ERROR] No response received from server 3302
+2024-06-27T15:50:51.034Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:51.307Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:51.308Z [ERROR] No response received from server 3301
+2024-06-27T15:50:51.310Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:51.311Z [ERROR] No response received from server 3302
+2024-06-27T15:50:51.312Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:51.479Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:51.480Z [ERROR] No response received from server 3301
+2024-06-27T15:50:51.482Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:51.483Z [ERROR] No response received from server 3302
+2024-06-27T15:50:51.484Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:51.772Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:51.772Z [ERROR] No response received from server 3301
+2024-06-27T15:50:51.774Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:51.775Z [ERROR] No response received from server 3302
+2024-06-27T15:50:51.775Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:51.960Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:51.962Z [ERROR] No response received from server 3301
+2024-06-27T15:50:51.966Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:51.967Z [ERROR] No response received from server 3302
+2024-06-27T15:50:51.969Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:52.167Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:52.169Z [ERROR] No response received from server 3301
+2024-06-27T15:50:52.172Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:52.173Z [ERROR] No response received from server 3302
+2024-06-27T15:50:52.174Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:52.493Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:52.494Z [ERROR] No response received from server 3301
+2024-06-27T15:50:52.495Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:52.495Z [ERROR] No response received from server 3302
+2024-06-27T15:50:52.496Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:52.710Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:52.712Z [ERROR] No response received from server 3301
+2024-06-27T15:50:52.715Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:52.715Z [ERROR] No response received from server 3302
+2024-06-27T15:50:52.716Z [INFO] Server on port 3300 did not receive enough votes
+2024-06-27T15:50:52.886Z [ERROR] Error communicating with server 3301 during election: AggregateError
+2024-06-27T15:50:52.887Z [ERROR] No response received from server 3301
+2024-06-27T15:50:52.889Z [ERROR] Error communicating with server 3302 during election: AggregateError
+2024-06-27T15:50:52.890Z [ERROR] No response received from server 3302
+2024-06-27T15:50:52.890Z [INFO] Server on port 3300 did not receive enough votes

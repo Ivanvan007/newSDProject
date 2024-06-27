@@ -1,2 +1,2 @@
-2024-06-25T18:09:56.772Z [INFO] Reverse Proxy started on port 3000
-2024-06-25T18:09:56.798Z [INFO] Reverse Proxy on port 3000 set master for undefined to port 3300
+2024-06-27T15:48:58.981Z [INFO] Reverse Proxy started on port 3000
+2024-06-27T15:48:59.163Z [INFO] Reverse Proxy on port 3000 added master for dn00 to port 3101

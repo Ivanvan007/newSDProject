@@ -1,4 +1,86 @@
-2024-06-25T18:09:56.400Z [INFO] Server started on port 3200
-2024-06-25T18:09:56.678Z [INFO] Server on 3200 has received a vote from 3202
-2024-06-25T18:09:56.719Z [INFO] Server on port 3200 elected as leader
-2024-06-25T18:09:56.743Z [ERROR] Error notifying RP: AggregateError
+2024-06-27T15:48:58.869Z [INFO] Server started on port 3200
+2024-06-27T15:48:59.133Z [INFO] Server on port 3200 did not receive enough votes
+2024-06-27T15:49:04.529Z [ERROR] Error communicating with server 3201 during election: AggregateError
+2024-06-27T15:49:04.530Z [ERROR] No response received from server 3201
+2024-06-27T15:49:04.532Z [INFO] Server on 3200 has received a vote from 3202
+2024-06-27T15:49:04.533Z [INFO] Server on port 3200 elected as leader
+2024-06-27T15:49:04.562Z [ERROR] Error notifying RP: AggregateError
+2024-06-27T15:49:04.606Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:04.669Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:04.731Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:04.794Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:04.857Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:04.918Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:04.983Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:05.044Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:05.108Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:05.170Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:05.231Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:05.295Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:05.357Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:05.420Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:05.482Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:05.545Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:05.609Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:05.671Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:05.733Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:05.795Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:05.857Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:05.921Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:05.982Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:06.045Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:06.111Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:06.174Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:06.236Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:06.297Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:06.360Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:06.423Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:06.486Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:06.548Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:06.611Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:06.676Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:06.739Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:06.799Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:06.862Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:06.929Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:06.989Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:07.051Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:07.113Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:07.178Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:07.241Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:07.305Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:07.370Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:07.428Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:07.491Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:07.555Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:07.615Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:07.677Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:07.740Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:07.804Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:07.869Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:07.929Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:07.993Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:08.061Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:08.123Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:08.185Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:08.246Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:08.308Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:08.373Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:08.435Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:08.496Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:08.562Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:08.623Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:08.686Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:08.746Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:08.809Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:08.873Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:08.936Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:08.997Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:09.058Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:09.123Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:09.186Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:09.248Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:09.308Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:09.369Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:09.431Z [ERROR] Error sending heartbeat to 3201: 
+2024-06-27T15:49:09.493Z [ERROR] Error sending heartbeat to 3201: 

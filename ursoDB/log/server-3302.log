@@ -1,1 +1,4 @@
-2024-06-25T18:09:56.594Z [INFO] Server started on port 3302
+2024-06-27T15:48:58.903Z [INFO] Server started on port 3302
+2024-06-27T15:48:59.188Z [INFO] Server on 3302 has received a vote from 3300
+2024-06-27T15:48:59.195Z [INFO] Server on port 3302 elected as leader
+2024-06-27T15:48:59.221Z [ERROR] Error notifying RP: AggregateError

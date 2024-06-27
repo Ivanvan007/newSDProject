@@ -13,6 +13,7 @@ class ReverseProxy {
     this.logger = new loggerTemp(port);
     this.startAt = new Date();
     this.setupRoutes();
+    this.notificationLock;
     this.leaders = {}; // Store leaders for each datanode
   }
 
@@ -28,7 +29,7 @@ class ReverseProxy {
     this.app.get('/stop', this.stopHandler.bind(this));
 
     // RP SPECIFIC
-    this.app.get('/set_master', this.set_masterHandler.bind(this));
+    this.app.post('/set_master', this.set_masterHandler.bind(this));
   }
 
   statusHandler(req, res) {
@@ -137,15 +138,37 @@ class ReverseProxy {
   }
 
   set_masterHandler(req, res) {
-    try {
-      const { leader, dnName } = req.query;
-      this.leaders[dnName] = leader;
-      res.json({ data: { message: `New master for ${dnName} set to port ${leader}` }, error: 0 });
-      this.logger.info(`Reverse Proxy on port ${this.port} set master for ${dnName} to port ${leader}`);
-    } catch (error) {
-      res.status(500).send({ error: `${error.message || error}` });
-      this.logger.error(`Reverse Proxy on port ${this.port} cannot set master, error: ${error.message || error}`);
+    if(!this.notificationLock)
+    {
+      this.notificationLock = true;
+      try {
+        const { leader, dnName } = req.body.data;
+        // If no leader for this DN yet, initialize an empty array
+        if (!this.leaders[dnName]) {
+          this.leaders[dnName] = [];
+        }
+        // Add the new leader to the array for this DN
+        this.leaders[dnName].push(leader);      
+        res.json({
+          data: { message: `New master for ${dnName} set to port ${leader}` },
+          error: 0,
+        });
+        this.logger.info(
+          `Reverse Proxy on port ${this.port} added master for ${dnName} to port ${leader}`
+        );
+      } catch (error) {
+        res.status(500).send({ error: `${error.message || error}` });
+        this.logger.error(
+          `Reverse Proxy on port ${this.port} cannot set master, error: ${error.message || error}`
+        );
+      }finally {
+        this.notificationLock = false; // Release the lock
+      }
+    }else
+    {
+      res.status(503).send({ error: 'Server Busy' });
     }
+
   }
 
   start() {

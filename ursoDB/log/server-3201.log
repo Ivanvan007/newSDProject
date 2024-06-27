@@ -1,2 +1,6 @@
-2024-06-25T18:09:56.403Z [INFO] Server started on port 3201
-2024-06-25T18:09:56.736Z [INFO] Server on port 3201 did not receive enough votes
+2024-06-27T15:48:58.868Z [INFO] Server started on port 3201
+2024-06-27T15:48:59.138Z [INFO] Server on port 3201 did not receive enough votes
+2024-06-27T15:48:59.330Z [INFO] Server on 3201 has received a vote from 3200
+2024-06-27T15:48:59.331Z [INFO] Server on 3201 has received a vote from 3202
+2024-06-27T15:48:59.332Z [INFO] Server on port 3201 elected as leader
+2024-06-27T15:48:59.363Z [ERROR] Error notifying RP: AggregateError

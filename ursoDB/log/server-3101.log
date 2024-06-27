@@ -1,1 +1,28 @@
-2024-06-25T18:09:56.375Z [INFO] Server started on port 3101
+2024-06-27T15:48:58.849Z [INFO] Server started on port 3101
+2024-06-27T15:48:59.110Z [INFO] Server on 3101 has received a vote from 3100
+2024-06-27T15:48:59.112Z [INFO] Server on port 3101 elected as leader
+2024-06-27T15:48:59.163Z [INFO] RP notified of new leader on port 3101 for dn00
+2024-06-27T15:50:56.285Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:56.338Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:56.402Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:56.463Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:56.523Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:56.586Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:56.651Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:56.711Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:56.775Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:56.837Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:56.898Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:56.960Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:57.022Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:57.085Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:57.147Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:57.209Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:57.272Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:57.335Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:57.398Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:57.463Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:57.525Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:57.589Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:57.651Z [ERROR] Error sending heartbeat to 3102: 
+2024-06-27T15:50:57.713Z [ERROR] Error sending heartbeat to 3102: 

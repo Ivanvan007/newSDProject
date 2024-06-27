@@ -129,8 +129,8 @@ class Raft {
       this.currentTerm++;
       this.votedFor = this.port; // Vote for self
 
-      await Promise.all(this.temp_DN.servers.map(async (server) => {
-        if (server.port != this.port) {
+      await Promise.allSettled(this.temp_DN.servers.map(async (server) => {
+        if (server.port !== this.port) {
           try {
             const response = await axios.get(`http://${server.host}:${server.port}/election`, {
               params: { term: this.currentTerm, candidateId: this.port }
@@ -146,10 +146,28 @@ class Raft {
               return;
             }
           } catch (error) {
-            this.logger.error(`Server on port ${server.port} election error: ${error.message || error}`);
+            // Log individual errors for better debugging
+            this.logger.error(`Error communicating with server ${server.port} during election: ${error.message || error}`);
+            // Check for specific error types
+            if (error.response) 
+            {
+              this.logger.error(`Server ${server.port} responded with status ${error.response.status}: ${error.response.data}`);
+            } 
+            else if (error.request)
+            {
+              this.logger.error(`No response received from server ${server.port}`);
+            } else
+            {
+              this.logger.error(`Other error with server ${server.port}: ${error}`);
+            }
           }
         }
-      }));
+      })).then(results => {
+        results.forEach((result, index) => {
+          if (result.status === 'rejected') {
+            this.logger.error(`Error communicating with server ${this.temp_DN.servers[index].port} during election: ${result.reason.message || result.reason}`);
+          }
+        })});
 
       if (this.votesReceived > this.temp_DN.servers.length / 2) {
         this.stopHeartbeat();  // Force stop heartbeat first!!! 
@@ -177,17 +195,45 @@ class Raft {
   }
 
   async notifyRP(dn_Name) {
-    try {
-      const rpConfig = config.RP;
-      await axios.get(`http://${rpConfig.host}:${rpConfig.port}/set_master`, {
-        params: { leader: this.port, dn_Name }
-      });
-      this.logger.info(`RP notified of new leader on port ${this.port} for ${dn_Name}`);
-    } catch (error) {
-      this.logger.error(`Error notifying RP: ${error.message || error}`);
-    }
-  }
+    const rpConfig = config.RP;
+    const test = 69;
+    const MAX_RETRIES = 5; 
+    let retries = 0;
+    let retryDelay = 50;
+    const MAX_DELAY = 500; 
 
+    async function notifyRPWithRetry() {
+      try {
+        const timeout = setTimeout(() => {
+          throw new Error('RP notification timed out'); 
+        }, 5000);
+
+        // Send data in the 'data' property
+        await axios.post(`http://${rpConfig.host}:${rpConfig.port}/set_master`, {
+          data: { leader:""+this.port , dnName: ""+dn_Name }, //this.port , dn_Name
+        });
+
+        clearTimeout(timeout);
+        this.logger.info(`RP notified of new leader on port ${this.port} for ${dn_Name}`);
+      } catch (error) {
+        if (error.message === 'RP notification timed out' || (error.response
+         && error.response.status === 503 && retries < MAX_RETRIES)) 
+         {
+          retries++;
+          const backoffFactor = Math.pow(2, retries);
+          const jitter = Math.random() * 100; // Add some randomness
+          retryDelay = Math.min(retryDelay * backoffFactor + jitter, MAX_DELAY);
+          this.logger.warn(`RP busy or timed out, retrying notification in ${retryDelay}ms (attempt ${retries})`);
+          await new Promise(resolve => setTimeout(resolve, retryDelay));
+          await notifyRPWithRetry.call(this); 
+        } else {
+          this.logger.error(`Error notifying RP: ${error.message || error}`);
+        }
+      }
+    }
+  
+    await notifyRPWithRetry.call(this); 
+}
   updateCommitIndex() {
     // ... (Raft's commit index update logic)
     let N = this.commitIndex + 1;
