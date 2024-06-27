@@ -1,0 +1,16 @@
+/////////////////////
+/////IMPORTANTES/////
+////////////////////
+-Criar ou arranjar um método de eleição(fica o RAFT ta a 1/3)
+	(implementar: estados para cada servidor (candidato, seguidor e líder); timers para não entrar em loop de eleições e serem todos os servidores 	candidatos)/////////////////////// TALVEZ ESTA FEITO
+	
+-Arranjar o metodod notifyRP (mandara o servidor master de cada node para o RP)
+-(Modificar os métodos CRUD do RP para chamar ao método CRUD em questão do servidor master correspondente)
+-Arranjar a Replicação dos dados via HTTP query com axios
+
+
+///////////////////
+////SECUNDARIOS////
+///////////////////
+-Terminar de implementar os métodos nos servidores que dissem não implementados todavía e os que não funcionem
+-Fazer funcionar os métodos de stop do script manager.js(o start ja funciona)
